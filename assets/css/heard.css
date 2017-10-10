@@ -1,0 +1,145 @@
+/*主页导航*/
+#navbar-top {
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+}
+.dropmenu{
+    padding:0 5px 11px;
+}
+.user-dropmenu .user-photo{
+    width: 30px;
+    height: 30px;
+    border:1px solid #fff;
+    border-radius: 30px;
+    margin:10px 15px;
+}
+.dropitem,.dropitem-land{
+    display: none;
+    width: 240px;
+    background-color: #fff;
+    position: absolute;
+    right:0;
+    top:0px;
+    margin-top: 50px;
+    border:1px solid #d3d3d3;
+    border-radius: 6px;
+}
+.dropmenu:hover .dropitem{
+    display: block;
+}
+.dropmenu.land:hover .dropitem-land{
+    display: block;
+}
+.dropmenu.land .dropitem{
+    display: none;
+}
+.dropitem div,.dropitem-land div{
+    padding: 19px 20px;
+    border-bottom: 1px solid #dce0e0;
+}
+.dropitem div:hover,.dropitem-land div:hover{
+    background-color: #d3d3d3;
+}
+.nav>li>button {
+   margin:10px 15px;
+}
+.land-user {
+    display: none;
+}
+.user-dropmenu.land>button{
+    display: none;
+}
+.user-dropmenu.land .land-user{
+    display: block;
+}
+.dropitem:before,.dropitem-land:before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    right: 14px;
+    bottom: auto;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #d3d3d3;
+    border-top: 0;
+}
+.dropitem:after,.dropitem-land:after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: -9px;
+    right: 14px;
+    bottom: auto;
+     border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #fff;
+    border-top: 0;
+}
+i.address,i.phone,i.mail{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+i.address{
+    background-image: url("../img/address.png");
+}
+i.phone{
+    background-image: url("../img/phone.png");
+}
+i.mail{
+    background-image: url("../img/mail.png");
+}
+i.qq,i.wechat,i.weibo,i.fb{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+i.qq{
+    background-image: url("../img/qq.png");
+}
+i.qq:hover{
+    background-image: url("../img/qq_active.png");
+}
+i.wechat{
+    background-image: url("../img/wechat.png")
+}
+i.wechat:hover{
+    background-image: url("../img/wechat_active.png")
+}
+i.weibo{
+    background-image: url("../img/weibo.png");
+}
+i.weibo:hover{
+    background-image: url("../img/weibo_active.png")
+}
+i.fb{
+    background-image: url("../img/fb.png");
+}
+i.fb:hover{
+    background-image: url("../img/fb_active.png")
+}
+.col-sm-2,.col-sm-3{
+    margin-top: 20px;
+}
+form.search_area{
+    width: 774px;
+}
+.col-lg-4 select.nation{
+    margin-left: 30px;
+}
+.input-group .searchSchool{
+    width: 380px;
+    margin-left: 30px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+@media(max-width: 678px){
+    .input-group .searchSchool{
+        width: 300px;
+    }
+}

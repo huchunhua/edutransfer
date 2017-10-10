@@ -1,0 +1,63 @@
+/*订单信息页面单独样式*/
+.china_name{
+	margin-bottom: 20px;
+    display: block;
+}
+.china_name  label{
+	width: 140px;
+}
+.button{
+	height: 34px;
+    background-color: #496dbe;
+    border-radius: 4px;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    padding: 0 10px 0 10px;
+}
+.fleft{
+	float: left;
+}
+.text_left, .text_right{
+	width: 164px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+}
+.fujia{
+	padding-left: 250px;
+    margin-bottom: 15px;
+}
+.location01{
+	position: absolute;
+    right: 0;
+    top: 400px;
+}
+.location02{
+	position: absolute;
+    right: 0;
+    top: 90px;
+    padding-top: 30px;
+}
+.location04{
+	position: absolute;
+    right: 0;
+    top: 500px;
+}
+.location05{
+	position: absolute;
+    right: 0;
+    top: 860px;
+    padding-top: 20px
+}
+.submit{
+	width: 1170px;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+h3.remittance_info{
+	margin-top: 40px;
+}

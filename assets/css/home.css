@@ -1,0 +1,48 @@
+
+.homeStyle{
+	margin-top: 30px;
+}
+.homeStyle>select, .homeStyle>input{
+	width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    font: normal 16px/40px "Microsoft YaHei";
+    color: #666;
+    border: 1px solid #cecece;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.putNum_length{
+	display: block;
+    color: #999;
+    line-height: 30px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.facility_ul>li>input{
+	position: relative;
+    top: 2px;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.about_home>textarea{
+	width: 100%;
+    height: 200px;
+    border: 1px solid #cecece;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #666;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.continue_div{
+	width: 100%;
+}
+.continue_btn{
+	float: right;
+    color: #fff;
+    background: #CA025E;
+    margin-bottom: 20px;
+}

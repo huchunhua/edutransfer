@@ -1,0 +1,175 @@
+/*寄宿家庭顶部导航通用样式*/
+.fr{
+	float: right;
+}
+.navbar-default{
+	background-color: #fff;
+	color:#484848;
+	font-weight:normal;
+	border-bottom: 1px solid #c4c4c4;
+}
+.navbar-default .navbar-nav>li>a{
+	color: #484848;
+	font-weight: normal;
+}
+.dropmenu{
+	padding: 0 6px;
+}
+.search-bar{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 20px;
+	position: relative;
+}
+.search-icon{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-size: 100% 100%;
+	background-image: url('../imgs/search-icon.png');
+	position: absolute;
+	top: 18px;
+}
+.search-bar form{
+	position: absolute;
+	top:0;
+	left:48px;
+	width: auto;
+}
+form input{
+	border:none;
+	padding:0;
+}
+.hoster{
+	border:2px solid #c4c4c4;
+	padding:4px 12px;
+	border-radius: 4px;
+	float: right;
+	margin-top: 14px;
+}
+.longin-out{
+	display: none;
+}
+/*登录后*/
+.longin-show{
+	height: 70px;
+	margin-bottom: 0;
+	list-style: none;
+}
+.longin-show>li{
+    border-left: 1px solid #dce0e0;
+    position: relative;
+    float: left;
+}
+.icon-btn{
+	display: inline-block;
+	padding: 0 19px;
+}
+.hidden{
+	display: none;
+}
+.navbar-nav>li>.icon-btn{
+	padding: 21px 19px;
+}
+.icon{
+	display: inline-block;
+	width: 26px;
+	height: 24px;
+	background-repeat: no-repeat;
+}
+.phone-icon{
+	background-image: url('../imgs/phone-icon.png');
+}
+.trips-icon{
+	background-image: url('../imgs/trips-icon.png');
+}
+.longin-show .user-dropmenu{
+	padding:20px 19px;
+}
+.longin-show .user-photo{
+	border-color: #c4c4c4;
+	margin: 0;
+	background-image: url('../imgs/photo.jpg');
+}
+.longin-show>li.dropmenu{
+	padding: 5px 19px 6px;
+}
+.dropitem-land div{
+	transition: padding-left 0.5s;
+    -moz-transition: padding-left 0.5s;	/* Firefox 4 */
+    -webkit-transition: padding-left 0.5s;	/* Safari 和 Chrome */
+    -o-transition: padding-left 0.5s;	/* Opera */
+}
+.dropitem-land div:hover{
+	padding-left: 30px;
+}
+
+.strong{
+	font-weight: 700;
+}
+.space8{
+	margin-bottom: 48px;
+}
+.subnav{
+	position: relative;
+	background-color: #484848;
+	top:0;
+	color:#bbb;
+}
+.page-container{
+	padding-left: 24px;
+    padding-right: 24px;
+    margin:0 auto;
+}
+.subnav-list{
+	list-style: none;
+}
+.subnav-item{
+	float: left;
+	padding: 10px 14px;
+	color: #bbb;
+	position: relative;
+}
+.subnav-item:hover, .subnav-item:focus, .subnav-item[aria-selected="true"]{
+	text-decoration: none;
+    color: #fff;
+}
+.subnav-item[aria-selected="true"]:before{
+	position: absolute;
+    content: '';
+    bottom: 0;
+    left: 14px;
+    right: 14px;
+    height: 4px;
+    background: #bbb;
+}
+/*内容宽度*/
+.content{
+	margin:111px auto 30px;
+	padding: 50px 24px;
+}
+
+@media(min-width: 744px){
+	.page-container,.content{
+		width: 696px;
+	}
+}
+@media(min-width: 1128px){
+	.page-container,.content{
+		width: 1080px;
+	}
+}
+/*按钮样式*/
+.btn{
+	display: inline-block;
+	padding: 7px 21px;
+	border-radius: 4px;
+    border: 1px solid;
+    text-align: center;
+    vertical-align: middle;
+    font-size:14px;
+    font-weight: bold;
+    white-space: nowrap;
+    cursor: pointer;
+}

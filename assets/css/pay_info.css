@@ -1,0 +1,150 @@
+/*支付流程示意图通用样式*/
+body{
+    background-color: #f5f5f5;
+}
+.flow{
+	width: 1170px;
+    margin: auto;
+    margin-top: 70px;
+}
+.flow_center{
+	width: 994px;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.flow_center img{
+	padding-left: 9px;
+    padding-right: 9px;
+}
+.flow_words{
+	width: 920px;
+    margin: auto;
+    padding-top: 20px;
+}
+.flow_words p{
+	float: left;
+    font-size: 14px;
+    color: #999999;
+    margin-right: 230px;
+}
+.flow_words .no_right{
+	margin-right: 0px;
+}
+.flow_words_english{
+	margin-top: 20px;
+    display: block;
+    padding-left: 15px;
+}
+.flow_words_english p{
+	float: left;
+    font-size: 12px;
+    color: #999;
+    margin-right: 176px;
+}
+.flow_words_english .no_right_margin{
+	margin-right: 0;
+    margin-left: 10px;
+}
+.flow_words .flow_color01,.flow_words_english .flow_color01{
+    color: #faaf3b;
+}
+.line_yellow{
+    width: 1170px;
+    height: 20px;
+    margin: auto;
+    background-color: #f6f2e0;
+    margin-bottom: 30px;
+}
+.myself_news{
+    width: 1170px;
+    margin:100px auto 0;
+    position: relative;
+}
+.myself_news01{
+    width: 1170px;
+    margin: auto;
+    position: relative;
+}
+.line01{
+    width: 1170px;
+    height: 1px;
+    background-color: #333333;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.china_name  label{
+    text-align: right;
+}
+.myself_news label{
+    font-size: 16px;
+    margin-right: 20px;
+    float: left;
+    margin-top: 5px;
+    font-weight: normal;
+}
+.tubiao{
+    float:left;
+}
+.text{
+    width: 365px;
+    height: 34px;
+    margin: 0;
+    padding: 0;
+}
+.form-control{
+    border-radius: 0;
+}
+.order_box{
+    position: relative;
+    margin-left: -105px;
+    left: 50%;
+    width: 210px;
+    background-color: #c9302c;
+    color: #f5f5f5;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.order{
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.order_sub{
+    font-size: 14px;
+    padding: 0;
+    margin-top: -10px;
+    text-align: center;
+}
+.order_box01{
+    position: relative;
+    margin-left: -105px;
+    left: 50%;
+    width: 210px;
+    background-color: #c9302c;
+    color: #f5f5f5;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.order01{
+    font-size: 24px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 0;
+    padding-top: 0;
+}
+.order_sub01{
+    font-size: 14px;
+    padding: 0;
+    margin-top: -10px;
+    text-align: center;
+}
+.bankicon{
+    background-image: url("../img/ch.png");
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+}

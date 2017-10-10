@@ -1,0 +1,66 @@
+/*寄宿家庭通用样式*/
+.btn{
+    border-color: #c4c4c4;
+    background: white;
+    color: #484848;
+}
+.btn-b{
+	border-color: #007a87;
+    background-color: #007a87;
+    color: #fff;
+}
+.btn-r{
+	border-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+}
+.btn-r:hover,.btn-r:focus{
+	border-color: #ff7e82;
+    background-color: #ff7e82;
+    color: #fff;
+}
+.btn-b:hover,.btn-b:focus{
+	border-color: #009aab;
+    background-color: #009aab;
+    color: #fff;
+}
+.boxwrap{
+	border:1px solid #dce0e0;
+	margin-top: 20px;
+	padding: 0;
+}
+a{
+	color:#007a87;
+	text-decoration: none;
+}
+.boxtitle{
+    color: #484848;
+    font-size: 16px;
+    margin: 0;
+    padding:12px 20px;
+    border-bottom: 1px solid #dce0e0;
+    background-color: #edefed;
+}
+.box-body{
+    margin:0 20px;
+    padding: 20px 0;    
+}
+.box-body-top{
+    border-top: 1px solid #dce0e0;
+}
+/*菜单项通用样式*/
+.sidenav-list{
+    padding-left: 0;
+    list-style: none;
+}
+.sidenav-item{
+    display: block;
+    padding: 6px 0;
+    font-size: 16px;
+    color: #767676;
+}
+.sidenav-item[aria-selected="true"]{
+    text-decoration: none;
+    color: #484848;
+    font-weight: bold;
+}

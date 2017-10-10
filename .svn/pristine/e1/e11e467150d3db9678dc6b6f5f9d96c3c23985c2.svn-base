@@ -1,0 +1,115 @@
+﻿body{ background-color:#f5f5f5; font-family:"微软雅黑";}
+.collapse{ box-shadow:4px 4px 4px #A7A7A7; }
+.flow{ width:1170px; margin:auto; margin-top:70px;}
+.flow_center{ width:994px; margin:auto; padding-top:60px; padding-bottom:60px;}
+.flow_center img{ padding-left:9px; padding-right:9px;}
+.flow_words p{ float:left; font-size:14px; color:#999999; margin-right:230px;}
+.flow_words_english{ margin-top:20px; display:block; padding-left:15px;}
+.flow_words_english p{ float:left; font-size:12px; color:#999; margin-right:176px;}
+
+.flow_words{ width:920px; margin:auto; padding-top:20px;}
+.flow_words .no_right{ margin-right:0px;}
+.flow_words .flow_color{ color:#9ac761;}
+.flow_words .flow_color00{ color:#9ac761;}
+.flow_words .flow_color01{ color:#faaf3b;}
+.flow_words_english .flow_color{  color:#9ac761;}
+.flow_words_english .flow_color01{ color:#faaf3b;}
+.flow_words_english .flow_color02{ color:#9ac761;}
+.flow_words_english .no_right_margin{ margin-right:0; margin-left:10px; }
+
+.line_yellow{ width:1170px; height:20px; margin:auto; background-color:#f6f2e0; margin-bottom:30px;}
+.line_box{ height:50px;}
+.line_yellow p{ line-height:50px; margin-left:20px;}
+.line_yellow1{ width:1170px; margin:auto; background-color:#f6f2e0; margin-bottom:30px;}
+.line_yellow1 p{ line-height:50px; margin-left:20px;}
+
+
+.myself_news{ width:1170px; margin:auto; position:relative;}
+.myself_padding{ padding-bottom:600px;}
+.myself_padding01{  padding-bottom:260px;}
+.myself_news label{ font-size:16px; margin-right:20px; float:left; margin-top:5px; font-weight:normal;}
+.myself_news1{ width:1170px; margin:auto; position:relative; padding-bottom:800px;}
+.myself_news1 p{ font-size:16px; margin-left:25px; margin-right:20px; float:left; margin-top:5px;}
+.myself_news1 .prove{ width:160px; /*padding:15px 35px 15px 35px;*/ background-color:#c9302c; color:#f5f5f5; font-size:24px; text-align:center; line-height:50px; position:absolute; bottom:50px; left:50%; margin-left:-80px; }
+.myself_news2{ width:1170px; margin:auto; position:relative; padding-bottom:260px;}
+.myself_news2 .prove{ width:160px; /*padding:15px 35px 15px 35px;*/ background-color:#c9302c; color:#f5f5f5; font-size:24px; text-align:center; line-height:50px; position:absolute; bottom:50px; left:50%; margin-left:-80px; }
+.myself_news2 span{ font-size:16px; color:#333;}
+
+.words_title{ width:215px;}
+.words_title p{ font-size:16px; color:#333; line-height:40px; }
+.clause00,.clause01{ width:496px; background-color:#f1f5df; padding:15px 20px 15px 20px; position:absolute; right:0; top:100px;}
+.clause01{ top:200px;}
+
+.line01{ width:1170px; height:1px; background-color:#333333; margin:auto; margin-top:20px; margin-bottom:20px;}
+
+.pay_first{ width:1170px; height:50px; background-color:#337ab7; padding-left:20px; margin-bottom:20px; position:relative;}
+.pay_first p{ float:left; line-height:50px; font-size:16px; color:#f5f5f5;}
+.pay_first .center{ margin-left:210px;}
+.pay_first .text-right{float: right}
+
+.prode{ background:url(../img/tubiao14.png) left no-repeat; margin-left:190px; font-size:16px;}
+
+.tubiao{ float:left;}
+.tubiao1{ margin-right:10px;}
+
+.text{ width:365px; height:34px; margin:0; padding:0;}
+
+.china_name{ margin-bottom:20px; display:block;}
+.text_left,.text_right{ width:164px; height:34px; margin:0; padding:0;}
+.clearfix{ clear:both;}
+
+.bottom_line{ margin-bottom:70px;}
+
+.left_line{  margin-bottom:70px;}
+.left_line02{ padding-left:32px;}
+
+.fujia{ padding-left:250px; margin-bottom:15px;}
+
+.location01{ position:absolute; right:0; top:450px;}
+.location02{ position:absolute; right:0; top:680px; padding-top:30px;}
+.location03{ position:absolute; right:0; top:200px;}
+.location04{ position:absolute; right:0; top:550px;}
+.location05{ position:absolute; right:0; top:1000px; padding-top:20px;}
+.location06{ position:absolute; right:0; top:300px;}
+
+.choice{ float:left; padding:6px 20px 6px 20px;  text-align:center;  border-radius:6px; font-size:16px; color:#f5f5f5; margin-top:-6px; }
+
+.no_bottom{ margin-bottom:15px;}
+.submit{ width:1170px; margin:auto; text-align:center; margin-top:200px; margin-bottom:50px;}
+
+
+.button{  height:34px; background-color:#496dbe; border-radius:4px; color:#fff; outline:none; border:none; margin-left:10px; padding:0 10px 0 10px;}
+
+.add_information{ display:block; margin-top:20px; margin-left:76px;}
+
+.form-control{padding-left:10px; border-radius:0px; overflow:hidden;}
+.float{ float:left;}
+
+.china_name  label{width: 240px;text-align: right;}
+.order_box{ position:relative; margin-left:-105px; left:50%; width:210px; background-color:#c9302c; color:#f5f5f5; margin-top:20px; margin-bottom:50px;}
+.order{font-size:24px; text-align:center; line-height:40px; margin-top:0; padding-top:0;}
+.order_box:hover{ background-color:#f00;}
+.order_sub{ font-size:14px; padding:0; margin-top:-10px; text-align:center;}
+
+.tubiao{ float:left;}
+
+.form-control{ border-radius:0;}
+#upload{ float:left;}
+
+.pay_box{ width:1170px; height:500px; position:relative; left:50%; margin-left:-585px; top:120px;}
+.pay_title{ padding-bottom:20px; border-bottom:1px solid #000000; margin-bottom:30px;}
+.pay_name,.pay_use,.pay_money,.pay_way{ margin-right:190px;}
+.pay_men_box p{ float:left; font-size:16px; color:#333; padding-left:20px; }
+.content_name{margin-right:220px;}
+.content_money{ margin-right:172px;}
+.content_way{ margin-right:170px;}
+.content_use{ margin-right:182px;}
+
+.myself_news .cost{float: right;}
+
+.student .teacher{
+	display: none;
+}
+.student.active a{
+	display: block;
+}

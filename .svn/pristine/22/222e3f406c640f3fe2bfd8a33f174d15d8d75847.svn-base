@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="http://www.edutransfer.com.cn/assets/img/logo_ico.png">
+<title> EduCare</title>
+<link rel="stylesheet" type="text/css" href="assets/css/sercive.css">	
+</head>
+<body>
+<div class="background_img">
+
+    <div class='btop'>
+        <img class="blogo">
+        <span class="bname">EduCare</span>
+    </div>
+    <div class='bleft'></div>
+    <div class="chat_bg"></div>
+	<div class="weixin_page_box">
+    	<div class="left_page_box">
+        	<div class="head_portrait"></div>
+            <h4>好简单</h4>
+            <!-- <img src="assets/img/weixin_tubiao01.png" alt="" class="install">
+ -->           	<div class="tubiao_box">
+<!--             	<div class="img_tubiao_box"> 
+                	<img src="assets/img/weixin_tubiao04_01.png" alt="" class="notice" >
+                    <img src="assets/img/weixin_tubiao04.png" alt="" class="notice_hidden">   
+                </div>  
+                <div class="img_tubiao_box img_tubiao_border">  
+                    <img src="assets/img/weixin_tubiao03.png" alt="" class="news icon01">
+                    <img src="assets/img/weixin_tubiao03_01.png" alt="" class="icon01 news_hidden">
+                </div>
+                <div class="img_tubiao_box">
+                    <img src="assets/img/weixin_tubiao02_01.png" alt="" class="side"> 
+                    <img src="assets/img/weixin_tubiao02.png" alt="" class="side side_hidden">      
+                </div> -->
+                <img src="./assets/img/web-chat.png">
+                <div class="clearfix"></div>
+            </div>
+            <a href="#">
+                <div class="hidden01">
+                    <div class="dialogue_box dialogue01">
+                        <div class="head_box01"></div>
+                        <div class="words_tltle">edutransfer</div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="student dialogue_box">
+                        <div class="dialogue_box">
+                            <div class="head head_box03"></div>
+                            <div class="words_tltle">学生1<span class="rnum">2</span></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="teacher" >
+                        <div class="dialogue_box">
+                            <div class="head_box02"></div>
+                            <div class="words_tltle">新南维尔士大学</div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="dialogue_box">
+                            <div class="head_box03"></div>
+                            <div class="words_tltle">Mr.zhang</div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="dialogue_box">
+                            <div class="head_box04"></div>
+                            <div class="words_tltle">Ms.lee</div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="student dialogue_box ">
+                        <div class="dialogue_box">
+                            <div class="head_box03"></div>
+                            <div class="words_tltle">学生2</div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="teacher">
+                        <div class="dialogue_box">
+                            <div class="head_box03"></div>
+                            <div class="words_tltle">Mr.zhang</div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="dialogue_box">
+                            <div class="head_box04"></div>
+                            <div class="words_tltle">Ms.lee</div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="student dialogue_box">
+                        <div class="dialogue_box">
+                            <div class="head_box03"></div>
+                            <div class="words_tltle">学生3</div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="teacher">
+                         <div >
+                        <div class="dialogue_box">
+                            <div class="head_box03"></div>
+                            <div class="words_tltle">Mr.zhang</div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="dialogue_box">
+                            <div class="head_box04"></div>
+                            <div class="words_tltle">Ms.lee</div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    </div> 
+            </div>
+        	</a>
+            <div class="hidden02">
+            	<div>
+                    <p class="information"></p>
+                    <p class="second_title">新南维尔士大学</p>
+                </div>
+                <div class="second_content">
+                	<div class="second_small_content">
+                        <p>新南维尔士大学资讯一</p>
+                        <img src="assets/img/school_information01.png" alt="" class="te">
+                        <div class="clearfix"></div>
+                    </div> 
+                    <div class="second_small_content">   
+                        <p>新南维尔士大学资讯一</p>
+                        <img src="assets/img/school_information02.png" alt="">
+                        <div class="clearfix"></div>
+                    </div> 
+                    <div class="second_small_content"> 
+                        <p>新南维尔士大学资讯一</p>
+                        <img src="assets/img/school_information03.png" alt="">
+                        <div class="clearfix"></div>
+                    </div> 
+                    <div class="second_small_content"> 
+                        <p>新南维尔士大学资讯一</p>
+                        <img src="assets/img/school_information04.png" alt="">
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                
+                <span class="list_box"></span>
+                
+                <div>
+                    <p class="information"></p>
+                    <p class="second_title">哈佛大学</p>
+                </div>
+                <div class="second_content">
+                	<div class="second_small_content">
+                        <p>哈佛资讯一</p>
+                        <img src="assets/img/school_information01.png" alt="" class="te">
+                        <div class="clearfix"></div>
+                    </div> 
+                    <div class="second_small_content">   
+                        <p>哈佛资讯一</p>
+                        <img src="assets/img/school_information02.png" alt="">
+                        <div class="clearfix"></div>
+                    </div> 
+                    <div class="second_small_content"> 
+                        <p>哈佛资讯一</p>
+                        <img src="assets/img/school_information03.png" alt="">
+                        <div class="clearfix"></div>
+                    </div> 
+                    <div class="second_small_content"> 
+                        <p>哈佛资讯一</p>
+                        <img src="assets/img/school_information04.png" alt="">
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <span class="list_box"></span>
+            
+            </div>
+        </div>
+        <div class="right_page_box">
+        	<p class="right_title" id="text_content">edutransfer</p>
+            <p class="content_text">
+                <span class="hint">暂时没有新消息</span>
+                <a class="rev_topic">修改话题</a>
+            </p>
+
+                <div class="text-wrap">
+                    <p class="text" style="background-color: #eeeeee;border:none;margin:0;padding:0"></p>
+                    <span></span>
+                </div>
+            <div class="look">
+                <a href="#"><img src="assets/img/weixin_tubiao08.png" alt=""></a>
+                <a href="#"><img src="assets/img/weixin_tubiao09.png" alt=""></a>
+                <a href="#" class='filebtn'>
+                    <img src="assets/img/weixin_tubiao07.png" alt="">
+                    <input type="file" name="">
+                </a>
+            	
+            </div>
+            <textarea name="" id="" class="text_input"  ></textarea>
+            <div class="right_sending">
+                <span class="press">按下Enter换行</span>
+                <a href="#"><span class="sending">发送</span></a>
+            </div>
+        </div>
+        <div class="right_page_information_box">
+        	<p class="right_title" id="">新南维尔士大学</p>
+            <p class="content_text">
+                暂时没有新消息
+                <div >
+                <p class="text" style="background-color: #eeeeee;border:none;"></p>
+                </div>
+            </p>
+        </div>
+        <div class="side_box">
+        	<p class="content_text">
+                <p class="hint">暂时没有历史记录</p>
+                <div >
+                <p class="text" style="background-color: #eeeeee;border:none;"></p>
+                </div>
+            </p>
+        </div>
+        <div class="board">
+            <div class="stu clearfix">
+                <img src="./assets/img/web-name.png">
+                <span>某学生</span>
+                <!-- <button>发布成长</button> -->
+            </div>
+            <div class="btn-wrap clearfix">
+                <div value='0'>成长</div>  
+                <div value ='1'>每周一语</div>  
+            </div>
+            <div class="aff gro">
+                <p class="time">2016-12-20</p>
+                <img src="">
+                <p>成长事迹详细描述</p>
+            </div>            
+            <div class="aff news">
+                <p class="time">2016-12-22</p>
+                <img src="">
+                <p>每周一语详细描述</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="topic">
+        <p>请输入您此次对话的主要话题</p>
+        <input type="text">
+        <input type="button" value="确认话题">
+    </div>    
+</div>
+
+<script src="./assets/js/jquery.min.js"></script>
+<script type="text/javascript">
+// 对应老师列表收放
+ $('.student').click(function(){
+    $(this).next('div').toggle();
+ })
+
+// 显示发送内容
+$('.sending').click(function(){
+    var message = $('textarea').val();
+    $('textarea').val('');
+    var wrap = $('.text-wrap');
+    var h = $('.text-wrap>.text:last').position().top;
+    var hb = $('.text-wrap>.text:last').height();
+    var top = h +hb +30;
+    var topd= h + hb+24;
+    var topi = top +6;
+    var date = new Date();
+    $(wrap).append($('<p>').html(message).addClass('text'));
+    $(wrap).append($('<img>').css({'position':'absolute','top': topi + 'px','width':'40px','height':'40px','background':'url(./assets/img/head01.png)','right':'10px'}));
+    $('.text-wrap>.text:last').css({'position':'absolute','top':top+'px','right':'60px','max-width':'70%','word-wrap':' break-word','text-align':'left',});
+    $(wrap).append($('<span>').html(date.toLocaleString()).addClass('date').css({'position':'absolute','top':topd+'px','right':'60px'}));
+})
+
+//点击切换内容并显示颜色不同的图标
+$('.news').click(
+	function(){
+		$('.side').show();
+		$('.side_hidden').hide();
+		$('.news').hide();
+		$('.news_hidden').show();
+		$('.notice_hidden').show();
+		$('.notice').hide();
+		$('.hidden01').hide();
+		$('.right_page_box').hide();
+		$('.side_box').hide();
+		$('.hidden02').show();
+		$('.right_page_information_box').show();
+		
+})
+$('.side').click(
+	function(){
+		$('.side').hide();
+		$('.side_hidden').show();
+		$('.news_hidden').hide();
+		$('.news').show();
+		$('.notice_hidden').show();
+		$('.notice').hide();
+		$('.hidden02').hide();
+		$('.hidden01').hide();
+		$('.right_page_box').hide();
+		$('.right_page_information_box').hide();
+		$('.side_box').show();
+		
+})
+$('.notice_hidden').click(
+	function(){
+		$('.side').show();
+		$('.side_hidden').hide();
+		$('.news_hidden').hide();
+		$('.news').show();
+		$('.notice').show();
+		$('.notice_hidden').hide();	
+		$('.hidden02').hide();
+		$('.hidden01').show();
+		$('.side_box').hide();	
+		$('.right_page_box').show();	
+		$('.right_page_information_box').hide();
+})
+//单击联系人框背景和兑换框的改变
+$('.dialogue_box').click(
+	function(){
+		$('.dialogue_box').removeClass('dialogue01');
+		$(this).addClass('dialogue01');
+})
+//点击当前对话，对话内容中的title变为当前的title
+$(document).ready(function(){
+	$('.words_tltle').click(
+		function(){
+			document.getElementById('text_content').innerHTML=$(this).text();	
+		})
+});
+
+// 显示话题
+$(function(){
+    $('.rev_topic').click(function(){
+        $('.topic').toggle();
+    });
+    $('.topic input[type="button"]').click(function(){
+       var topic = $('.topic input[type="text"]').val();
+       $('.hint').text(topic);
+       $('.topic').hide()
+    });
+})
+// 切换每周一语与成长
+$(function(){
+    $('.btn-wrap>div').click(
+        function(){
+            if($(this).attr("value") == '0'){
+                $('.btn-wrap>div').css({'background-color':'rgba(255,255,255,0.5'});
+                $(this).css({'background-color':'rgba(255,255,255,0.8'});
+                $('.aff.gro').show();
+                $('.aff.news').hide();
+            }
+            else if($(this).attr("value") == '1'){
+                $('.btn-wrap>div').css({'background-color':'rgba(255,255,255,0.5'});
+                $(this).css({'background-color':'rgba(255,255,255,0.8'});
+                $('.aff.gro').hide();
+                $('.aff.news').show(); 
+            }
+        })
+})
+</script>
+</body>
+</html>

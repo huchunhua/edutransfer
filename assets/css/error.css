@@ -1,0 +1,53 @@
+.main{
+	width: 80%;
+	margin:160px auto 60px;
+	text-align: center;
+}
+.main i{
+	background-image: url("../img/error.png");
+	display: inline-block;
+	width: 658px;
+	height: 240px;
+}
+.attention i{
+	background-image: url("../img/attention.png");
+	display:block;
+	margin: 0 auto;
+	width: 155px;
+	height: 139px;
+}
+.main p{
+	display: inline-block;
+	width: 658px;
+	font-size: 100px;
+	font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+h2{
+	text-align: left;
+	padding-left: 40px;
+}
+.main h5{
+	text-align: left;
+	padding-left: 40px;
+}
+ul,h6{
+	list-style: none;
+	font-size:14px;
+	text-align: left;
+	color: #ff5a5f;
+
+}
+.main ul a{
+	cursor: pointer;
+	color: #ff5a5f;
+}
+.main ul a:hover{
+	text-decoration: underline;
+	color: #ff5a5f;
+}
+#loginBtn,#landBtn{
+	color: #fff;
+}
+#loginBtn:hover,#landBtn:hover{
+	color:rgb(51,51,51);
+}

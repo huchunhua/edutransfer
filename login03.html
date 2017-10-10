@@ -1,0 +1,527 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="http://www.edutransfer.com.cn/assets/img/logo_ico.png">
+  <title>学生信息</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/job.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/pay_info.css">
+     <link rel="stylesheet" type="text/css" href="./assets/css/user_info.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/student_info.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/register.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <style>
+    
+    </style>
+</head>
+
+<body>
+<div id="navbar-top">
+    <nav class="navbar navbar-default navbar-static affix-top" role="navigation">
+        <a class="logo fl" href="http://edutransfer.com.cn/index.jsp#home">
+            <img src="assets/img/logo.png">
+          <!--   <span>EduTransfer</span> -->
+        </a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        </div>
+<div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active">
+                <a href="http://edutransfer.com.cn/index.jsp#home" style="font-family:&#39;Microsoft YaHei&#39;;font-weight:normal;font-size: 1.1em">首页</a>
+            </li>
+            <li class="dropmenu">
+            <a href="http://edutransfer.com.cn/index.jsp#services" style="font-family:&#39;Microsoft YaHei&#39;;font-weight:normal;font-size: 1.1em">服务</a>
+            <div class="dropitem-land">
+            <!-- 登陆后我的服务 -->
+              <a href="">
+                  <div>我的服务</div>
+              </a>
+            </div>
+            <!-- 未登录时服务菜单栏 -->
+            <div class="dropitem">
+              <a href="./abroad_serve.html">
+                  <div>留学汇</div>
+              </a>
+              <a href="./school_consult.html">
+                  <div>学校咨询</div>
+              </a>
+              <a href="./help_serve.html">
+                  <div>援助中心</div>
+              </a>
+              <a href="./one_to_one.html">
+                  <div>寄宿家庭</div>
+              </a>
+              <a href="./globe_life.html">
+                  <div>环球生活式服务</div>
+              </a>
+              <a href="./home_to_school.html">
+                  <div>EduCare</div>
+              </a>
+            </div>
+          </li>
+        <li>
+            <a href="http://edutransfer.com.cn/index.jsp#clients" style="font-family: &#39;Microsoft YaHei&#39;;font-weight:normal;font-size: 1.1em">关于我们</a>
+        </li>
+        <li>
+            <a href="http://edutransfer.com.cn/index.jsp#contact" style="font-family: &#39;Microsoft YaHei&#39;;font-weight:normal;font-size: 1.1em">联系我们</a>
+        </li>
+        <li>
+            <a href="http://edutransfer.com.cn/index.jsp#footer" style="font-family: &#39;Microsoft YaHei&#39;;font-weight:normal;font-size: 1.1em">FAQ</a>
+        </li>
+        <li>
+            <div class="dropmenu user-dropmenu">
+              <!-- 登录后显示头像及下拉菜单 -->
+              <div class="land-user">
+                  <img src="./assets/img/logo.png" class="user-photo">
+              </div>
+              <div class="dropitem-land">
+                  <a href="">
+                    <div>
+                      个人资料
+                    </div>
+                 </a>
+                  <a href="">
+                    <div>
+                      学生信息
+                    </div>
+                  </a>
+                  <a href="">
+                    <div>
+                        学费支付
+                    </div>
+                  </a>
+                  <a href="">
+                    <div>
+                        开通服务
+                    </div>
+                  </a>
+                  <a href="">
+                    <div>
+                        支付记录
+                    </div>
+                  </a>
+                  <a href="">
+                    <div>
+                        退出
+                    </div>
+                  </a>
+              </div>
+
+            </div>
+        </li>  
+        <li>
+            <button class="btn login_btn" id="landBtn" style="margin-top: 10px">登录</button>
+        </li>
+          </ul>
+        </div>
+  </nav>
+</div>
+<!--订单流程--> 
+<div class="flow">
+  <div class="flow_center">
+        <img src="assets/img/flow08.png" alt="">
+        <img src="assets/img/line03.png" alt="">
+        <img src="assets/img/flow08.png" alt="">
+        <img src="assets/img/line03.png" alt="">
+        <img src="assets/img/flow05.png" alt="">
+        <div class="flow_words clearfix">
+            <p class="flow_color01">付款人信息</p>
+            <p>银行卡认证</p>
+            <p>学生信息</p>
+        </div>
+  </div>
+</div>
+<div class="line_yellow"></div>
+<!--个人信息栏-->
+<div class="myself_news">
+  <div class="content">
+  <div class="info_box clearfix">
+    <p class="user_name">
+      用户名：
+      <span id="user_name"></span>
+    </p>
+    <p>现有学生信息：</p>
+    <table cellpadding="10" >
+      <tr class="title">
+        <th class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">姓名</th>
+        <th class="col-xs-4 col-sm-4 col-md-4 col-lg-4">就读学校</th>
+        <th class="col-xs-4 col-sm-4 col-md-4  col-lg-4">学号</th>
+        <th class="col-xs-1 col-sm-1 col-md-1  col-lg-1">支付</th>
+      </tr>
+      <tr id="student_one">
+        <td>&nbsp</td>
+        <td>&nbsp</td>
+        <td>&nbsp</td>
+        <td><input type="radio" name="optionsStudent" ></td>
+      </tr>
+      <tr class="student_two">
+        <td>&nbsp</td>
+        <td>&nbsp</td>
+        <td>&nbsp</td>
+        <td><input type="radio" name="optionsStudent"></td>
+      </tr>
+      <tr class="student_three">
+        <td>&nbsp</td>
+        <td>&nbsp</td>
+        <td>&nbsp</td>
+        <td><input type="radio" name="optionsStudent"></td>
+      </tr>
+    </table>
+    <p class="tips">
+      *要开通同一个学生的其他业务，可以选择该学生，再选择开通所需任务，已经添加过的信息无需再添加。</br>
+      *开通新的学生业务，请勿选择任何已有的学生，若已经选中，请刷新页面重新添加。
+    </p>
+    <button id="add_btn" class="btn-b">
+      添加学生信息
+    <div class="tri"></div>
+    <ul class="additem">
+      <li id="tui">用于支付学费</li>
+      <li id="alimony">用于支付生活费</li>
+      <li id="ecare">EduCare身份验证</li>
+    </ul>
+    </button>
+   
+    <button id="edit_btn " class="btn-b">编辑学生信息</button>
+    <button id="del_btn" class="rbtn">删除学生信息</button>
+    <a href="./hq01.html">
+      <button id="pay_btn" class="btn-b">确认支付</button>
+    </a>
+    <a href="./weixin_page.html">
+      <button class="chart btn-b">EduCare</button>
+    </a>
+  </div>
+  <div class="hide_information more">
+    <h4 class="ruzhu">申请入驻“每日一语”</h4>
+    <div class="hide_information_content">
+        <div class="content_information_box">
+            <p class="start_information">学生姓名:</p>
+            <input type="text" value="请输入学生姓名" class="content_information form-control">
+        </div>
+        <div class="content_information_box">
+            <p class="start_information">学生学号:</p>
+            <input type="text" value="请输入学生学号" class="content_information form-control">
+        </div>
+        <div class="content_information_box">
+            <p class="start_information01">学生所在国家:</p>
+            <select name="" id="select_box">
+                <option class="content_nation">请选择国家</option>
+                <option value="1">American University/美国大学</option>
+                <option value="2">American  Secondary Shool/美国中学</option>
+                <option value="3">New Zealand University/新西兰大学</option>
+                <option value="4">New Zealand  Secondary Shool/新西兰中学</option>
+                <option value="5">England University/英国大学</option>
+                <option value="6">England  Secondary Shool/英国中学</option>
+                <option value="7">Singapore University/新加坡大学</option>
+                <option value="8">Singapore  Secondary Shool/新加坡中学</option>
+                <option value="9">Canadian University/加拿大大学</option>
+                <option value="10">Canadian  Secondary Shool/加拿大中学</option>
+                <option value="11">Australia University/澳洲大学</option>
+                <option value="12">Australia  Secondary Shool/澳大利亚中学</option>
+                <option value="13">Japanise University/日本大学 </option>
+                <option value="14">Japanise Educational Institution/ 日本其他教育机构 </option>
+            </select>
+        </div>
+        <div class="content_information_box">
+            <p class="start_information">所在学校:</p>
+            <input type="text" value="请输入学生所在学校名称" class="content_information form-control">
+        </div>
+        <div class="content_information_box">
+            <p class="start_information start_left">学校联系方式:</p>
+            <input type="text" value="请添加学生所在学校的联系方式" class="content_information form-control">
+            <p class="top_content">请输入所在学校的联系电话或学校的邮件地址</p>
+        </div>
+        <div class="content_information_box">
+            <p class="start_information">在校凭证:</p>
+            <input type="file" value="" id="up">
+            <input type="checkbox" checked>Offer文件
+            <input type="checkbox">学费单
+            <input type="checkbox">报名注册单
+            <input type="checkbox">其他
+        </div>
+        <button class="sumb">提交</button>
+    </div>
+    <div class="last_content">
+      <img src="assets/img/flow08.png" alt="" class="ok">
+        <h3>提交成功</h3>
+        <p>环球学生汇会尽快联系学校为您开通<br>“EduCare”服务</p>
+    </div>    
+  </div>
+  <form class="form-horizontal" role="form" id="add_ecare">
+    <div class="form-group tui alimony ecare">
+      <label for="chinesename" class="col-sm-2 control-label">中文姓名</label>
+      <div class="col-sm-10 chinesename">
+        <i></i>
+         <input type="text" class="form-control" id="chinesename" 
+            placeholder="请输入学生名字">
+      </div>
+    </div>
+    <div class="form-group tui alimony ecare">
+      <label for="name" class="col-sm-2 control-label">英文姓名</label>
+      <div class="col-sm-10 name">
+         <i class="lastname"></i>
+         <input type="text" class="form-control " id="lastname" 
+            placeholder="请输入姓">
+         <i class="firstname"></i>
+         <input type="text" class="form-control" id="firstname" 
+            placeholder="请输入名">  
+      </div>
+    </div>
+    <div class="form-group tui ecare">
+      <label for="school" class="col-sm-2 control-label">就读国家</label>
+      <div class="col-sm-10 country">
+        <i></i>
+         <input type="text" class="form-control" id="country" 
+            placeholder="请选择就读国家" >
+              <span class="tips tip" >
+                <i class="icons"></i>
+                <div ></div>
+              </span>
+              <select id="country-item">
+                <option style="color:#999999;">请选择就读国家</option>
+                <option>中国</option>
+                <option>美国</option>
+                <option>英国</option>
+              </select>
+      </div>
+    </div>
+    <div class="form-group ecare">
+      <label for="relation" class="col-sm-2 control-label">学生关系</label>
+      <div class="col-sm-10 relation">
+        <i></i>
+         <input type="text" class="form-control" id="relation" 
+            placeholder="请选择学生与您的关系" >
+              <span class="tips tip" >
+                <i class="icons"></i>
+                <div ></div>
+              </span>
+              <select id="relation-item">
+                <option style="color:#999999;">请选择学生与您的关系</option>
+                <option>父亲</option>
+                <option>母亲</option>
+                <option>相关亲属</option>
+                <option>其他</option>
+              </select>
+      </div>
+    </div>
+    <div class="form-group ecare">
+      <label for="idnum" class="col-sm-2 control-label">身份证号</label>
+      <div class="col-sm-10 idnum id_number">
+        <i></i>
+         <input type="text" class="form-control" id="idnum" 
+            placeholder="请输入学生身份证号" >
+              <span class="tips tip" >
+                <i class="icons"></i>
+                <div ></div>
+              </span>
+      </div>
+    </div>
+    <div class="form-group ecare">
+      <label for="passport" class="col-sm-2 control-label">护照号</label>
+      <div class="col-sm-10 passport">
+        <i></i>
+         <input type="text" class="form-control" id="passport" 
+            placeholder="请输入学生护照号" >
+              <span class="tips tip" >
+                <i class="icons"></i>
+                <div ></div>
+              </span>
+      </div>
+    </div>
+    <div class="form-group ecare">
+      <label for="school" class="col-sm-2 control-label">国籍</label>
+      <div class="col-sm-10  nationnality">
+        <i></i>
+         <input type="text" class="form-control" id="nationnality" 
+            placeholder="请选择国籍" >
+              <span class="tips tip" >
+                <i class="icons"></i>
+                <div ></div>
+              </span>
+              <select id="nationnality-item">
+                <option style="color:#999999;">请选择国籍</option>
+                <option>中国</option>
+                <option>美国</option>
+                <option>英国</option>
+              </select>
+
+      </div>
+    </div>
+    <div class="form-group tui ecare">
+      <label for="school" class="col-sm-2 control-label">就读学校</label>
+      <div class="col-sm-10 school marg">
+        <i></i>
+         <input type="text" class="form-control" id="school" 
+            placeholder="请输入学生就读学校" >
+              <span class="tips tip float_l" >
+                <i class="icons"></i>
+                <div ></div>
+              </span>
+              <div class="marg_l">
+            </div>
+      </div>
+      
+    </div>
+    <div class="form-group tui ecare">
+      <label for="student_number" class="col-sm-2 control-label">学号</label>
+      <div class="col-sm-10 student_number">
+        <i></i>
+         <input type="text" class="form-control" id="student_number" 
+            placeholder="请输入学生学号">
+      </div>
+    </div>
+    <div class="form-group alimony">
+      <label for="idnum" class="col-sm-2 control-label">收款银行名称</label>
+      <div class="col-sm-10 idnum id_number">
+        <i></i>
+         <input type="text" class="form-control" id="idnum" 
+            placeholder="请输入收款银行名称" >
+              <span class="tips tip" >
+                <i class="icons"></i>
+                <div ></div>
+              </span>
+      </div>
+    </div>
+    <div class="form-group alimony">
+      <label for="idnum" class="col-sm-2 control-label">银行账户号</label>
+      <div class="col-sm-10 idnum id_number">
+        <i></i>
+         <input type="text" class="form-control" id="idnum" 
+            placeholder="请输入银行账户号" >
+              <span class="tips tip" >
+                <i class="icons"></i>
+                <div ></div>
+              </span>
+      </div>
+    </div>
+    <div class="form-group alimony">
+      <label for="idnum" class="col-sm-2 control-label">银行swifi code</label>
+      <div class="col-sm-10 idnum id_number">
+        <i></i>
+         <input type="text" class="form-control" id="idnum" 
+            placeholder="请输入银行swifi code" >
+              <span class="tips tip" >
+                <i class="icons"></i>
+                <div ></div>
+              </span>
+      </div>
+    </div>
+    <div class="form-group alimony">
+      <label for="idnum" class="col-sm-2 control-label">地址</label>
+      <div class="col-sm-10 idnum id_number">
+        <i></i>
+         <input type="text" class="form-control" id="idnum" 
+            placeholder="请输入详细地址，包括城市、街道及门牌号" >
+              <span class="tips tip" >
+                <i class="icons"></i>
+                <div ></div>
+              </span>
+      </div>
+    </div>
+    <div class="form-group alimony">
+      <label for="idnum" class="col-sm-2 control-label">邮编</label>
+      <div class="col-sm-10 idnum id_number">
+        <i></i>
+         <input type="text" class="form-control" id="idnum" 
+            placeholder="请输入地址所在地邮编" >
+              <span class="tips tip" >
+                <i class="icons"></i>
+                <div ></div>
+              </span>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-lg rbtn" id="submit_btn">
+      添加
+    </button>
+    <div class="reminderimg">
+      <img src="assets/img/top_words.png" alt="" class="location01">
+      <img src="assets/img/img_inder.png" alt="" class="location04">
+    </div>
+  </form>
+  
+</div>
+<!--提交订单-->
+<div class="submit">
+  <input type="checkbox" checked class="text-center">Agree/同意<a target="_blank">《环球学生汇学费代理支付服务协议》</a>
+  <a >
+      <div class="order_box">
+            <p class="order">完成</p>
+      </div>    
+  </a>
+</div>
+</div>
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <p>地&nbsp;&nbsp;址：<a href="">成都市高新区吉瑞三路99号4栋 泰然环球时代中心617</a></p>
+              <p>电&nbsp;&nbsp;话：<a>400-8868-032</a></p>
+              <p>邮&nbsp;&nbsp;箱：<a>ET@edutransfer.com.cn</a></p>
+        </div>  
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <p><a href="./companyinfo.html">公司信息</a></p>
+          <p><a href="../EduTransfer_环球学生汇.html#contact">联系我们</a></p>
+          <p><a href="./job.html">工作机会</a></p>
+          <p><a href="">微博与微信</a></p>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <p><a href="./money_policy.html">反洗钱政策</a></p>
+          <p><a href="./forex_policy.html">外汇政策</a></p>
+          <p><a href="./serve_clause.html">服务条款</a></p>
+          <p><a href="./privacy_policy.html">隐私条款</a></p>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <img src="./assets/img/erweima.jpg">
+          <p>
+            <a href="">环球学生汇成都网络科技有限公司</a>
+          </p>
+        </div>        
+      </div>
+      <div class="nav row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <ul class="clearfix focus">
+          <li>
+            <a class="qq" href="">
+              <i class="qq"></i>
+            </a>
+          </li>
+          <li>
+            <a class="wechat" href="">
+              <i class="wechat"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="wechat" href="">
+              <i  class="weibo"></i>
+            </a>
+          </li>
+          <li>
+            <a class="fb" href="">
+              <i  class="fb"></i>
+            </a>
+          </li>
+        </ul>
+        <p>
+           版权归环球同学汇成都网络科技有限公司所有,违者必究   &nbsp;&nbsp; 蜀ICP备16017815号
+        </p>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/style.js"></script>
+  <script src="./assets/js/student_info.js"></script>
+  <script type="text/javascript" src="./assets/js/newsinfo.js"></script>
+
+
+</body>
+</html>

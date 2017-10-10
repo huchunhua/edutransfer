@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<link rel="shortcut icon" href="http://edutransfer.com.cn/assets/ico/favicon.ico">
+	<title>国家-学校查询</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+  	<link rel="stylesheet" href="assets/css/animate.min.css">
+  	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="assets/css/select2.min.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/job.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/information.css">
+</head>
+
+<body>
+<div id="navbar-top">
+		<nav class="navbar navbar-default navbar-static affix-top" role="navigation">
+    		<a class="logo fl" href="http://edutransfer.com.cn/index.jsp#home">
+      			<img src="assets/img/logo.png">
+    			<!--   <span>EduTransfer</span> -->
+    		</a>
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+    		</div>
+<div class="collapse navbar-collapse">
+  				<ul class="nav navbar-nav navbar-right">
+    				<li class="active">
+      					<a href="http://edutransfer.com.cn/index.jsp#home" style="font-family:&#39;Microsoft YaHei&#39;;font-weight:normal;font-size: 1.1em">首页</a>
+    				</li>
+   					<li class="dropmenu">
+      			<a href="http://edutransfer.com.cn/index.jsp#services" style="font-family:&#39;Microsoft YaHei&#39;;font-weight:normal;font-size: 1.1em">服务</a>
+      			<div class="dropitem-land">
+      			<!-- 登陆后我的服务 -->
+        			<a href="">
+          				<div>我的服务</div>
+        			</a>
+      			</div>
+      			<!-- 未登录时服务菜单栏 -->
+      			<div class="dropitem">
+        			<a href="./abroad_serve.html">
+          				<div>留学汇</div>
+        			</a>
+        			<a href="./school_consult.html">
+          				<div>学校咨询</div>
+        			</a>
+        			<a href="./help_serve.html">
+          				<div>援助中心</div>
+        			</a>
+        			<a href="./one_to_one.html">
+          				<div>寄宿家庭</div>
+        			</a>
+        			<a href="./globe_life.html">
+          				<div>环球生活式服务</div>
+        			</a>
+        			<a href="./home_to_school.html">
+          				<div>EduCare</div>
+        			</a>
+      			</div>
+    			</li>
+    		<li>
+      			<a href="http://edutransfer.com.cn/index.jsp#clients" style="font-family: &#39;Microsoft YaHei&#39;;font-weight:normal;font-size: 1.1em">关于我们</a>
+    		</li>
+    		<li>
+      			<a href="http://edutransfer.com.cn/index.jsp#contact" style="font-family: &#39;Microsoft YaHei&#39;;font-weight:normal;font-size: 1.1em">联系我们</a>
+    		</li>
+    		<li>
+      			<a href="http://edutransfer.com.cn/index.jsp#footer" style="font-family: &#39;Microsoft YaHei&#39;;font-weight:normal;font-size: 1.1em">FAQ</a>
+    		</li>
+    		<li>
+      			<div class="dropmenu user-dropmenu">
+        			<!-- 登录后显示头像及下拉菜单 -->
+       			 	<div class="land-user">
+          				<img src="img/logo.png" class="user-photo">
+        			</div>
+        			<div class="dropitem-land">
+          				<a href="">
+            				<div>
+             				 	个人资料
+            				</div>
+         				 </a>
+          				<a href="">
+            				<div>
+             					学生信息
+            				</div>
+          				</a>
+          				<a href="">
+            				<div>
+              					学费支付
+            				</div>
+          				</a>
+          				<a href="">
+            				<div>
+              					开通服务
+            				</div>
+          				</a>
+          				<a href="">
+            				<div>
+              					支付记录
+            				</div>
+          				</a>
+          				<a href="">
+            				<div>
+              					退出
+            				</div>
+          				</a>
+        			</div>
+
+      			</div>
+    		</li>  
+    		<li>
+      			<button class="btn login_btn" id="landBtn" style="margin-top: 10px">登录</button>
+    		</li>
+  				</ul>
+    		</div>
+	</nav>
+</div>
+<div class="contentwrap"> 
+  <div class="content">
+      <div>
+            <label for="nation">国家</label>
+            <img src="assets/img/tubiao15.png" alt="" class="tubiao">
+      <select name="" id="nation">
+              <option value="" class="text-muted">请选择国家</option>
+                <option value="1">美国</option>
+                <option value="2">英国</option>
+                <option value="3">澳洲</option>
+            </select>
+            <div class="clearfix"></div>
+        </div>  
+        <div class="space">
+          <label for="school">学校</label>
+            <img src="assets/img/tubiao16.png" alt="" class="tubiao">
+            <select name="" id="school">
+              <option value="">请选择学校</option>
+                <option value="1">American Universities/美国大学</option>
+                <option value="2">American HighSchool/美国高中</option>
+                <option value="3">New Zealand Universities/新西兰大学</option>
+                <option value="4">New Zealand HighSchool/新西兰高中</option>
+                <option value="5">England Universities/英国大学</option>
+                <option value="6">England HighSchool/英国高中</option>
+                <option value="7">Singapore Universities/新加坡大学</option>
+                <option value="8">Singapore HighSchool/新加坡高中</option>
+                <option value="9">Canadian Universities/加拿大大学</option>
+                <option value="10">Canadian HighSchool/加拿大高中</option>
+                <option value="11">Australia Universities/澳洲大学</option>
+                <option value="12">Australia HighSchool/澳大利亚高中</option>
+            </select>
+            <div class="clearfix"></div>
+        </div>  
+        <label for="" class="intro">
+            <div class="inti">学校简介</div>
+            <div class="inte"> HHHHHHhhh</div>
+        </label>
+        <a href=""><input type="button" value="学校官网" class="website school_w"></a>
+        <a href="school_web02.html"><input type="button" value="学校动态" class="details school_w"></a>
+  </div>
+</div>
+<!-- <img src="assets/img/bg_img.png" alt="" class="bg"> -->
+
+
+<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<p>地&nbsp;&nbsp;址：<a href="">成都市高新区吉瑞三路99号4栋 泰然环球时代中心617</a></p>
+        			<p>电&nbsp;&nbsp;话：<a>400-8868-032</a></p>
+        			<p>邮&nbsp;&nbsp;箱：<a>ET@edutransfer.com.cn</a></p>
+				</div>	
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <p><a href="./companyinfo.html">公司信息</a></p>
+          <p><a href="../EduTransfer_环球学生汇.html#contact">联系我们</a></p>
+          <p><a href="./job.html">工作机会</a></p>
+          <p><a href="">微博与微信</a></p>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <p><a href="./money_policy.html">反洗钱政策</a></p>
+          <p><a href="./forex_policy.html">外汇政策</a></p>
+          <p><a href="./serve_clause.html">服务条款</a></p>
+          <p><a href="./privacy_policy.html">隐私条款</a></p>
+        </div>
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+					<img src="./assets/img/erweima.jpg">
+          <p>
+            <a href="">环球学生汇成都网络科技有限公司</a>
+          </p>
+				</div>				
+			</div>
+			<div class="nav row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<ul class="clearfix focus">
+					<li>
+						<a class="qq" href="">
+							<i class="qq"></i>
+						</a>
+					</li>
+					<li>
+						<a class="wechat" href="">
+							<i class="wechat"></i>
+						</a>
+					</li>
+					<li>
+						<a  class="wechat" href="">
+							<i  class="weibo"></i>
+						</a>
+					</li>
+					<li>
+						<a class="fb" href="">
+							<i  class="fb"></i>
+						</a>
+					</li>
+				</ul>
+				<p>
+					 版权归环球同学汇成都网络科技有限公司所有,违者必究   &nbsp;&nbsp; 蜀ICP备16017815号
+				</p>
+			</div>
+		</div>
+	</footer>
+ 
+    
+</body>
+</html>

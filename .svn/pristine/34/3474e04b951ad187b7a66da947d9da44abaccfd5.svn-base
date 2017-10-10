@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+   <link rel="shortcut icon" href="http://www.edutransfer.com.cn/assets/img/logo_ico.png">
+    <title>EduTransfer/寄宿之家(详细条件搜索）</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./boostrap_datatime/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <!-- <link rel="stylesheet" href="./assets/css/select2.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="flexslider/flexslider.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/selector_desc.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/homestay_top.css">
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./boostrap_datatime/bootstrap-datetimepicker.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src='./assets/js/newsinfo.js'></script>
+  </head>
+  <body class="bg_color">
+  <!-- 头部导航 -->
+  <div id="navbar-top">
+    <nav class="navbar navbar-default navbar-static affix-top" role="navigation">
+        <a class="logo fl" href="http://edutransfer.com.cn/index.jsp#home">
+            <img src="./assets/imgs/logo.png">
+        </a>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right longin-out">
+            <li >
+              <a>首页</a>
+            </li>
+            <li >
+              <a>帮助</a>
+            </li>
+            <li>
+            <div class="dropmenu user-dropmenu">
+              <button class="btn login_btn" id="loginBtn" style="margin-top: 10px">注册</button>
+            </div>
+            </li>  
+            <li>
+             <button class="btn login_btn" id="landBtn" style="margin-top: 10px">登录</button>
+            </li>
+          </ul>
+          <ul class="fr longin-show navbar-nav">
+            <li>
+              <a href="" class="icon-btn">
+                <i class="icon phone-icon"></i>
+                <span class="hidden">手机端</span>
+              </a>
+            </li>
+            <li>
+              <a href="" class="icon-btn">
+                <i class="icon trips-icon"></i>
+                <span class="hidden">旅程</span>
+              </a>
+            </li>
+            <li>
+              <div class="dropmenu user-dropmenu land">
+              <!-- 登录后显示头像及下拉菜单 -->
+                <div class="land-user">
+                  <img class="user-photo">
+                </div>
+                <div class="dropitem-land">
+                <a>
+                  <div>
+                    用户名
+                  </div>
+                </a>
+                <a >
+                  <div>
+                    编辑个人资料
+                  </div>
+                </a>
+                <a href="">
+                  <div>
+                    邀请好友
+                  </div>
+                </a>
+                <a href="">
+                  <div>
+                    账号设置
+                  </div>
+                </a>
+                <a href="">
+                  <div>
+                     商务差旅
+                  </div>
+                </a>
+                <a href="">
+                  <div>
+                    我的指南
+                  </div>
+                 </a>
+                <a href="">
+                  <div>
+                    退出
+                  </div>
+                </a>
+                </div>
+              </div>
+            </li> 
+          </ul>
+          <div>
+            <a href="./home.html">
+              <span class="hoster">成为房东</span>
+            </a>
+          </div>
+          <div class="search-bar">
+            <i class="search-icon"></i>
+            <form>
+              <input type="text" name="location" placeholder="想去哪儿？">
+            </form>
+          </div>
+        </div>
+    </nav>
+  </div>
+  <!-- 筛选条件及结果 -->
+  <div class="clearfix">
+    <div class="col-lg-7 bg_col_fff left_desc">
+    <div class="selector_group clearfix">
+      <h5>日期：</h5>
+      <input size="16" type="text" value="入住日期" readonly class="form_datetime">
+      <input size="16" type="text" value="退房日期" readonly class="form_datetime">
+    </div>
+    <div class="selector_group clearfix">
+      <h5>房间类型：</h5>
+      <p>独立房间<input type="checkbox"></p>
+      <p>合住房间<input type="checkbox"></p>
+    </div>
+    <div class="selector_group clearfix">
+      <h5>价格范围：</h5>
+      <select name="" id="price_round">
+        <option value="">5k以上</option>
+        <option value="">5k-2w</option>
+        <option value="">2w-5w</option>
+        <option value="">5w以上</option>
+      </select>
+    </div>
+    <div class="none selector_if">
+      <div class="selector_group clearfix">
+      <h5>面积：</h5>
+      <select name="" id="room">
+        <option value="">卧室</option>
+        <option value="">1间卧室</option>
+        <option value="">2间卧室</option>
+        <option value="">3间卧室</option>
+        <option value="">4间卧室</option>
+        <option value="">5间卧室</option>
+        <option value="">6间卧室</option>
+        <option value="">7间卧室</option>
+        <option value="">8间卧室</option>
+        <option value="">9间卧室</option>
+        <option value="">10间卧室</option>
+      </select>
+      <select name="" id="wc">
+        <option value="">卫生间</option>
+        <option value="">1个卫生间</option>
+        <option value="">2个卫生间</option>
+        <option value="">3个卫生间</option>
+        <option value="">4个卫生间</option>
+        <option value="">5个卫生间</option>
+        <option value="">6个卫生间</option>
+        <option value="">7个卫生间</option>
+        <option value="">8个卫生间</option>
+        <option value="">9个卫生间</option>
+        <option value="">10个卫生间</option>
+      </select>
+      <select name="" id="bed">
+        <option value="">床位</option>
+        <option value="">1张床位</option>
+        <option value="">2张床位</option>
+        <option value="">3张床位</option>
+        <option value="">4张床位</option>
+        <option value="">5张床位</option>
+        <option value="">6张床位</option>
+        <option value="">7张床位</option>
+        <option value="">8张床位</option>
+        <option value="">9张床位</option>
+      </select>
+      </div>
+      <div class="selector_group clearfix">
+        <h5>选项：</h5>
+        <lable class="good_room_check"><input type="checkbox">
+          <span class="good_intro">
+            <b>超赞房间</b>
+           住进大家认可的寄宿家庭
+          </span>
+        </lable>
+      </div>
+      <div class="selector_group clearfix">
+        <h5>街区：</h5>
+        <lable class="chekbox"><input type="checkbox">十八区</lable>
+        <lable class="chekbox"><input type="checkbox">十一区</lable>
+        <lable class="chekbox"><input type="checkbox">蒙马特</lable>
+        <div class="scale_area scale_stree"><span class="scale"></span></div>
+        <div class="none sub_group stree_group">
+          <div class="sub_group_cont">
+            <lable class="chekbox"><input type="checkbox">阿莱西亚(Alésia)</lable>
+            <lable class="chekbox"><input type="checkbox">巴士底</lable>
+            <lable class="chekbox"><input type="checkbox">巴蒂诺尔(Batignolles)</lable>
+            <lable class="chekbox"><input type="checkbox">贝尔西</lable>
+          </div>
+        </div>
+      </div>
+      <div class="selector_group clearfix">
+      <h5>便利设施：</h5>
+      <lable class="chekbox"><input type="checkbox">无线网络</lable>
+      <lable class="chekbox"><input type="checkbox">厨房</lable>
+      <lable class="chekbox"><input type="checkbox">空调</lable>
+      <div class="scale_area scale_facility"><span class="scale"></span></div>
+      <div class="sub_group none facility_group">
+        <div class="sub_group_cont">
+        <lable class="chekbox"><input type="checkbox">24小时随时入住</lable>
+        <lable class="chekbox"><input type="checkbox">一氧化碳报警器</lable>
+        <lable class="chekbox"><input type="checkbox">健身房</lable>
+        <lable class="chekbox"><input type="checkbox">花园</lable>
+        <lable class="chekbox"><input type="checkbox">允许携带宠物</lable>
+        <lable class="chekbox"><input type="checkbox">内部提供免费停车</lable>
+        <lable class="chekbox"><input type="checkbox">卧室门装锁</lable>
+        <lable class="chekbox"><input type="checkbox">吹风机</lable>
+        <lable class="chekbox"><input type="checkbox">大厦内电梯</lable>
+        <lable class="chekbox"><input type="checkbox">烘干机</lable>
+        <lable class="chekbox"><input type="checkbox">暖气</lable>
+        </div>
+      </div>
+      </div>
+      <div class="selector_group clearfix">
+        <h5>安全：</h5>
+        <lable class="chekbox"><input type="checkbox">烟雾检测器</lable>
+        <lable class="chekbox"><input type="checkbox">一氧化碳检测器</lable>
+        <lable class="chekbox"><input type="checkbox">卧室房门锁</lable>
+        <div class="scale_area scale_safety"><span class="scale"></span></div>
+        <div class="sub_group none safety_group">
+          <div class="sub_group_cont">
+            <lable class="chekbox"><input type="checkbox"></lable>
+          </div>
+        </div>
+      </div>
+      <div class="selector_group clearfix">
+        <h5>个人物品：</h5>
+        <lable class="chekbox"><input type="checkbox">毛巾</lable>
+        <lable class="chekbox"><input type="checkbox">床单</lable>
+        <lable class="chekbox"><input type="checkbox">香皂</lable>
+        <div class="scale_area scale_personal"><span class="scale"></span></div>
+        <div class="sub_group none personal_group">
+          <div class="sub_group_cont">
+            <lable class="chekbox"><input type="checkbox">厕纸</lable>
+            <lable class="chekbox"><input type="checkbox">洗发水</lable>
+            <lable class="chekbox"><input type="checkbox">牙刷</lable>
+          </div>
+        </div>
+      </div>
+      <div class="selector_group clearfix">
+        <h5>附近设施：</h5>
+        <lable class="chekbox"><input type="checkbox">公交站</lable>
+        <lable class="chekbox"><input type="checkbox">医院</lable>
+        <lable class="chekbox"><input type="checkbox">火车站</lable>
+        <div class="scale_area scale_homeStyle"><span class="scale"></span></div>
+        <div class="sub_group none homeStyle_group">
+          <div class="sub_group_cont">
+            <lable class="chekbox"><input type="checkbox">公园</lable>
+            <lable class="chekbox"><input type="checkbox">体育馆</lable>
+            <lable class="chekbox"><input type="checkbox">超市</lable>
+            <lable class="chekbox"><input type="checkbox">杂货店</lable>
+            <lable class="chekbox"><input type="checkbox">自动取款机</lable>
+            <lable class="chekbox"><input type="checkbox">银行</lable>
+            <lable class="chekbox"><input type="checkbox">宾馆</lable>
+            <lable class="chekbox"><input type="checkbox">餐厅</lable>
+            <lable class="chekbox"><input type="checkbox">学校</lable>
+            <lable class="chekbox"><input type="checkbox">咖啡馆</lable>
+          </div>
+        </div>
+      </div>
+      <div class="selector_group clearfix">
+        <h5>房源类型：</h5>
+        <lable class="chekbox"><input type="checkbox">公寓</lable>
+        <lable class="chekbox"><input type="checkbox">独立屋</lable>
+        <lable class="chekbox"><input type="checkbox">住宿加早餐</lable>
+        <div class="scale_area scale_homeStyle"><span class="scale"></span></div>
+        <div class="sub_group none homeStyle_group">
+          <div class="sub_group_cont">
+            <lable class="chekbox"><input type="checkbox">公寓</lable>
+            <lable class="chekbox"><input type="checkbox">别墅</lable>
+            <lable class="chekbox"><input type="checkbox">其他</lable>
+            <lable class="chekbox"><input type="checkbox">宿舍</lable>
+            <lable class="chekbox"><input type="checkbox">小木屋</lable>
+            <lable class="chekbox"><input type="checkbox">牧人小屋</lable>
+            <lable class="chekbox"><input type="checkbox">船</lable>
+            <lable class="chekbox"><input type="checkbox">连栋住宅</lable>
+            <lable class="chekbox"><input type="checkbox">阁楼</lable>
+            <lable class="chekbox"><input type="checkbox">露营车/房车</lable>
+          </div>
+        </div>
+      </div>
+      <div class="selector_group clearfix">
+        <h5>房东语言：</h5>
+        <lable class="chekbox"><input type="checkbox">中文</lable>
+        <lable class="chekbox"><input type="checkbox">英语</lable>
+        <lable class="chekbox"><input type="checkbox">西班牙语</lable>
+        <div class="scale_area scale_language"><span class="scale"></span></div>
+        <div class="sub_group none language_group">
+          <div class="sub_group_cont">
+            <lable class="chekbox"><input type="checkbox">韩语</lable>
+            <lable class="chekbox"><input type="checkbox">日语</lable>
+          </div>
+        </div>
+      </div>
+      <div class="selector_group selector_group_btn clearfix">
+      <button class="btn btn-info no_bth">取消</button>
+      <button class="btn btn-primary selected_btn">完成</button>
+      </div>
+    </div>
+    <button class="btn select_if_btn">筛选条件</button>
+    <ul class="home_list clearfix">
+      <li>
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <a href="home_desc.html"><img src="./assets/img/home1.jpg"/></a>
+            </li>
+            <li>
+              <a href="home_desc.html"><img src="./assets/img/home1.jpg"/></a>
+            </li>
+            <li>
+              <a href="home_desc.html"><img src="./assets/img/home1.jpg"/></a>
+            </li>
+            <li>
+              <a href="home_desc.html"><img src="./assets/img/home1.jpg"/></a>
+            </li>
+          </ul>
+          <!-- 图标 -->
+          <div class="zIndex">
+            <i class="icon_heart"></i>
+            <b class="home_price">￥<strong>678</strong></b>
+            <span class="home_pepole">
+              <img src="./assets/img/home1.jpg" alt=""/>
+            </span>
+          </div>
+        </div>
+        <a class="link_name">Romantic nest with sunny terrace</a>
+        <!-- <p> -->
+        <p class="mark_intro">
+          <span>整套房子/公寓</span>·
+          <span>2位房客</span>·
+          <span>19条评价</span>
+          <span>
+            <i class="icon icon_star"></i>
+            <i class="icon icon_star"></i>
+            <i class="icon icon_star"></i>
+            <i class="icon icon_star"></i>
+            <i class="icon icon_star_half"></i>
+          </span>
+        </p>
+      </li>
+      <li>
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <a><img src="./assets/img/home2.jpg"/></a>
+            </li>
+            <li>
+              <a><img src="./assets/img/home2.jpg"/></a>
+            </li>
+            <li>
+              <a><img src="./assets/img/home2.jpg"/></a>
+             </li>
+            <li>
+              <a><img src="./assets/img/home2.jpg"/></a>
+            </li>
+          </ul>
+          <!-- 图标 -->
+          <div class="zIndex">
+            <i class="icon_heart"></i>
+            <b class="home_price">￥<strong>678</strong></b>
+            <span class="home_pepole">
+              <img src="./assets/img/home2.jpg" alt=""/>
+            </span>
+          </div>
+        </div>
+        <a class="link_name">中山四人房 雙連捷運一分鐘 24小時CHECK in 兩房</a>
+        <p class="mark_intro">
+          <span>整套房子/公寓</span>·
+          <span>4位房客</span>·
+          <span>22条评价</span>
+          <span>
+            <i class="icon icon_star"></i>
+            <i class="icon icon_star"></i>
+            <i class="icon icon_star"></i>
+            <i class="icon icon_star"></i>
+            <i class="icon icon_star"></i>
+          </span>
+        </p>
+      </li>
+      <li>
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <a><img src="./assets/img/home3.jpg"/></a>
+            </li>
+            <li>
+              <a><img src="./assets/img/home3.jpg"/></a>
+            </li>
+            <li>
+              <a><img src="./assets/img/home3.jpg"/></a>
+            </li>
+            <li>
+              <a><img src="./assets/img/home3.jpg"/></a>
+            </li>
+          </ul>
+          <!-- 图标 -->
+          <div class="zIndex">
+            <i class="icon_heart"></i>
+            <b class="home_price">￥<strong>888</strong></b>
+            <span class="home_pepole">
+               <img src="./assets/img/home3.jpg" alt=""/>
+            </span>
+          </div>
+        </div>
+        <a class="link_name">市政府捷运站出口 3分鐘 台北101信義商圈</a>
+        <p class="mark_intro">
+          <span>独立房间</span>·
+          <span>1位房客</span>·
+          <span>55条评价</span>
+          <span>
+            <i class="icon icon_star"></i>
+            <i class="icon icon_star"></i>
+            <i class="icon icon_star"></i>
+            <i class="icon icon_star"></i>
+            <i class="icon icon_star"></i>
+          </span>
+        </p>
+      </li>
+      <li>
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+              <a><img src="./assets/img/home4.jpg"/></a>
+            </li>
+            <li>
+              <a><img src="./assets/img/home4.jpg"/></a>
+            </li>
+            <li>
+              <a><img src="./assets/img/home4.jpg"/></a>
+            </li>
+            <li>
+              <a><img src="./assets/img/home4.jpg"/></a>
+            </li>
+          </ul>
+          <!-- 图标 -->
+          <div class="zIndex">
+            <i class="icon_heart"></i>
+            <b class="home_price">￥<strong>221</strong></b>
+            <span class="home_pepole">
+              <img src="./assets/img/home4.jpg" alt=""/>
+            </span>
+          </div>
+        </div>
+          <a class="link_name">Sunny Room, 2 Blocks from MRT</a>
+          <p class="mark_intro">
+            <span>独立房间</span>·
+            <span>2位房客</span>·
+            <span>88条评价</span>
+            <span>
+              <i class="icon icon_star"></i>
+              <i class="icon icon_star"></i>
+              <i class="icon icon_star"></i>
+              <i class="icon icon_star"></i>
+              <i class="icon icon_star"></i>
+            </span>
+          </p>
+      </li>
+    </ul>
+    <p class="home_count">
+      <span>1</span>-
+      <span>36</span>共
+      <span>300+</span>房源出租
+    </p>
+    <ul class="pagination clearfix">
+      <li><a href="#">上一页</a></li>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">···</a></li>
+      <li><a href="#">17</a></li>
+      <li><a href="#">18</a></li>
+      <li><a href="#">下一页</a></li>
+    </ul>
+    <div class="left_bot">
+      <p class="bot_intro">
+        <span class="people_name">Taipei City</span>还有更多的房源:
+        <a>独立房间</a>·
+        <a>公寓</a>·
+        <a>住宿加早餐</a>·
+        <a>房源阁楼</a>·
+        <a>别墅</a>
+      </p>
+      <p class="bot_intro">
+        <a>人们还会住在</a>
+        <a>大安区</a>·
+        <a>万华区</a>·
+        <a>中山区</a>·
+        <a>西屯区</a>·
+        <a>Shoufeng </a>·
+        <a>台湾 </a>  >
+        <span class="people_name">Taipei City</span>
+      </p>
+    </div>
+  </div>
+  <div class="col-lg-5 right_map">
+    <img src="./assets/img/map_dec.jpg" alt="地图"/>
+  </div>
+  </div>
+  
+  <!-- 底部 -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+          <p>地&nbsp;&nbsp;址：<a href="">成都市高新区吉瑞三路99号4栋 泰然环球时代中心617</a></p>
+              <p>电&nbsp;&nbsp;话：<a>400-8868-032</a></p>
+              <p>邮&nbsp;&nbsp;箱：<a>ET@edutransfer.com.cn</a></p>
+        </div>  
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <p><a href="./companyinfo.html">公司信息</a></p>
+          <p><a href="./EduTransfer_环球学生汇.html#contact">联系我们</a></p>
+          <p><a href="./job.html">工作机会</a></p>
+          <p><a href="">微博与微信</a></p>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+          <p><a href="./money_policy.html">反洗钱政策</a></p>
+          <p><a href="./forex_policy.html">外汇政策</a></p>
+          <p><a href="./serve_clause.html">服务条款</a></p>
+          <p><a href="./privacy_policy.html">隐私条款</a></p>
+        </div>
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+          <img src="./assets/img/erweima.jpg">
+          <p>
+            <a href="">环球学生汇成都网络科技有限公司</a>
+          </p>
+        </div>        
+      </div>
+      <div class="nav row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <ul class="clearfix focus">
+          <li>
+            <a class="qq" href="">
+              <i class="qq"></i>
+            </a>
+          </li>
+          <li>
+            <a class="wechat"href="">
+              <i class="wechat"></i>
+            </a>
+          </li>
+          <li>
+            <a  class="wechat" href="">
+              <i  class="weibo"></i>
+            </a>
+          </li>
+          <li>
+            <a class="fb" href="">
+              <i  class="fb"></i>
+            </a>
+          </li>
+        </ul>
+        <p>
+           版权归环球同学汇成都网络科技有限公司所有,违者必究   &nbsp;&nbsp; 蜀ICP备16017815号
+        </p>
+      </div>
+    </div>
+  </footer>
+  </body>
+  <script src="boostrap_datatime/bootstrap-datetimepicker.min.js"></script>
+  <script src="flexslider/jquery.flexslider-min.js"></script>
+  <script>
+    //日历时间
+    $(".form_datetime").datetimepicker({
+        format: "dd MM yyyy - hh:ii",
+        autoclose: true,
+        todayBtn: true,
+        minuteStep: 10
+    });
+    //条件筛选
+    $(".select_if_btn").on("click",function(){
+        $(".selector_if").show();
+    });
+    //下拉选项卡
+    $(".scale_area").on("click",function(){
+        var scale = $(this).children('.scale');
+        if(scale.hasClass("scaleH")){
+            scale.removeClass("scaleH");
+        }else{
+            scale.removeClass("scaleH").addClass("scaleH");
+        }
+    });
+    //街道
+    $(".scale_stree").on("click",function(){
+        $(".stree_group").slideToggle();
+    });
+    //便利设施
+    $(".scale_facility").on("click",function(){
+        $(".facility_group").slideToggle();
+    });
+    //房屋类型
+    $(".scale_homeStyle").on("click",function(){
+        $(".homeStyle_group").slideToggle();
+    });
+    // 安全
+        $(".scale_safety").on("click",function(){
+        $(".safety_group").slideToggle();
+    });
+    // 个人物品
+
+    //房东语言
+    $(".scale_language").on("click",function(){
+        $(".language_group").slideToggle();
+    });
+    //取消
+    $(".no_bth,.selected_btn").on("click",function(){
+        $(".selector_if").slideUp();
+    });
+    //轮播
+    $(".flexslider").flexslider({
+        animation: "fade",
+        direction: "horizontal",
+        slideshowSpeed: 3000,
+        easing: "swing",
+        slideshow: true,
+        pauseOnHover: false,
+        prevText: "",
+        nextText: ""
+    });
+  </script>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Hasan Alibegic">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <link rel="shortcut icon" href="http://www.edutransfer.com.cn/assets/img/logo_ico.png">
+    <title>EduTransfer/寄宿之家（我的寄宿家庭）</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/homestay.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="viewport">
+    <div class="header">
+      <div class="container">
+        <div class="hd_l">
+          <h4>寄宿家庭主页流程</h4>
+          <p class="flow">第1步,共7步</p>
+        </div>
+        <ul class="icon_lists">
+          <li class="li1 active">
+            <a><i class="icon iconfont">&#xe687;</i></a>
+            <strong>我的寄宿家庭</strong>
+          </li>
+          <li class="li2">
+            <a><i class="icon iconfont">&#xe6e0;</i></a>
+          </li>
+          <li class="li3">
+            <a><i class="icon iconfont">&#xe6df;</i></a>
+          </li>
+          <li class="li4">
+            <a><i class="icon iconfont">&#xe6e1;</i></a>
+          </li>
+          <li class="li5">
+            <a><i class="icon iconfont">&#xe6e2;</i></a>
+          </li>
+          <li class="li6">
+            <a><i class="icon iconfont">&#xe687;</i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <p class="hom_tit">我的寄宿家庭</p>
+      <div class="home_cont">
+        <div class="row">
+          <div class="col-lg-5 homeStyle">
+            <b>房子类型</b>
+            <select name="homeStyle_inps" id="homeStyle_inps" class="homeStyle_inps">
+              <option value="请选择">请选择</option>
+            </select>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="col-lg-5 homeStyle">
+            <b>您的上线标题</b>
+            <input type="text" placeholder="添加一个醒目的标题！！" maxlength="35"/>
+            <span class="putNum_length">最大35格(剩余35)</span>
+          </div>
+        </div><!--row-->
+        <div class="facility">
+          <b>房屋设施</b>
+          <ul class="facility_ul clearfix">
+            <li>
+              <input type="checkbox"/>花园
+            </li>
+            <li>
+              <input type="checkbox"/>停车场
+            </li>
+            <li>
+              <input type="checkbox"/>洗衣
+            </li>
+            <li>
+              <input type="checkbox"/>网络连接
+            </li>
+            <li>
+              <input type="checkbox"/>允许轮椅
+            </li>
+            <li>
+              <input type="checkbox"/>空调
+            </li>
+          </ul>
+        </div>
+        <div class="about_home">
+          <b>关于此寄宿家庭</b>
+          <textarea name="about_intro" id="AboutIntro" minlength="100" placeholder="请告诉我们关于您的家庭" ></textarea>
+          <span class="putNum_length">最小100(剩余100)</span>
+          <p class="continue_div clearfix">
+            <button class="btn continue_btn">继续</button>
+          </p>
+        </div>
+      </div><!-- home_cont -->
+    </div>
+  </div>
+</body>
+<script>
+$('.continue_btn').click(function(){
+  window.location.href="./area.html";
+})
+
+</script>
+</html>

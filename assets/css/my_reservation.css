@@ -1,0 +1,9 @@
+/*通用边框样式*/
+.boxwrap{
+	border: 1px solid #dce0e0;
+    margin-top: 20px;
+    padding: 30px ;
+}
+.space-top-5{
+	margin-top: 30px;
+}

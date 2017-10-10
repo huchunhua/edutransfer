@@ -1,0 +1,657 @@
+body {
+    font-family: "Hiragino Sans GB","����ϸ��","STHeiti","΢���ź�","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+    color: #444;
+    min-width: 800px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 300
+}
+
+*,*:focus {
+    outline: none!important
+}
+
+a {
+    color: #2d2d2d
+}
+
+a:hover,a:focus,.navbar-nav li>a:hover {
+    color: #01d0c0;
+    text-decoration: none
+}
+
+.hiding {
+    opacity: 0
+}
+
+.showing {
+    opacity: 1
+}
+.btn {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    transition: all .2s
+}
+
+.btn-blue {
+    color: #fff;
+    background-color: #0093cf
+}
+
+.btn-blue:hover,.btn-blue:focus {
+    color: #fff;
+    background-color: #2a3940
+}
+
+.btn-green {
+    color: #fff;
+    background-color: #71be3c
+}
+
+.btn-green:hover,.btn-green:focus {
+    color: #fff;
+    background-color: #2a3940
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #2a3940
+}
+
+.btn-dark:hover,.btn-dark:focus {
+    color: #fff;
+    background-color: #2a3940
+}
+/*顶部导航条*/
+#navbar-top{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 100;
+    min-height: 51px;
+}
+.navbar-default{
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    border-top: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    width: 100%;
+}
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
+    color: #fd5a60;
+    background-color: transparent
+}
+ .navbar-default .navbar-nav>li>a:hover{
+    color: #01d0c0;
+}
+.navbar-nav>li>a.news:hover{
+    background-color: #dddddd;
+}
+.fl{
+    float: left;
+}
+.fr {
+    float: right
+}
+.logo{
+    height: 40px;
+    margin: 10px;
+}
+.logo>img{
+    float: left;
+    height: 100%;
+}
+.logo>span {
+    float: left;
+    margin: 10px 0 0 3px;
+    font: bold 19px/20px "Helvetica";
+    color: #666
+}
+
+.logo>span:hover {
+    color: #666
+}
+.navbar-right{
+    margin-right: 0px;
+    margin-top: 5px;
+}
+.nav>li{
+    position: relative;
+    display: block;
+}
+.nav>li>button{
+    margin: 10px 15px; 
+}
+.navbar-default .navbar-nav>li>a{
+    font: normal 15px/20px "Microsoft YaHei";
+    color: #fff;
+    font-weight: 700;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+    color: #fd5a60;
+    background-color: transparent;
+}
+.dropitem, .dropitem-land{
+    display: none;
+    width: 240px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    margin-top: 50px;
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
+}
+.dropmenu:hover .dropitem{
+    display: block;
+}
+.dropmenu.land:hover .dropitem-land{
+    display: block;
+}
+.dropitem div, .dropitem-land div{
+    padding: 19px 20px;
+    border-bottom: 1px solid #dce0e0;
+}
+.dropitem div:hover,.dropitem-land div:hover{
+    background-color: #d3d3d3;
+}
+.dropitem:before, .dropitem-land:before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    right: 14px;
+    bottom: auto;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #d3d3d3;
+    border-top: 0;
+}
+.dropitem:after, .dropitem-land:after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: -9px;
+    right: 14px;
+    bottom: auto;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 9px solid #fff;
+    border-top: 0;
+}
+.dropmenu .dropitem_phone{
+    display: none;
+}
+.dropmenu{
+    padding: 0 5px 11px;
+}
+.user-dropmenu .user-photo{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    margin: 10px 15px;
+}
+.navbar-nav>li>a.news{
+    display: inline-block;
+    background-color: #dddddd;
+    margin: 20px 0;
+    border-radius: 2px;
+    background-image: url("../img/news.png");
+    background-size: 21px 14px;
+    padding: 5px 0;
+    height: 14px;
+    width: 21px;
+}
+.news-wrap{
+    position: relative;
+}
+.news-wrap span{
+    position: absolute;
+    top: 19px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: red;
+    color: #fff;
+}
+.news span{
+    top: -6px;
+    right: -6px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    border-radius: 14px;
+}
+.page .content{
+    padding: 60px 0;
+}
+#transfer .content{
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.page .content.cover{
+    padding: 200px 0;
+}
+.navbar-default .navbar-toggle{
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover .icon-bar{
+    background-color: #333;
+}
+i.qq, i.wechat, i.weibo, i.fb{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+i.qq{
+    background-image: url("../img/qq.png");
+}
+i.qq:hover{
+    background-image: url("../img/qq_active.png");
+}
+i.wechat{
+    background-image: url("../img/wechat.png")
+}
+i.wechat:hover{
+    background-image: url("../img/wechat_active.png")
+}
+i.weibo{
+    background-image: url("../img/weibo.png");
+}
+i.weibo:hover{
+    background-image: url("../img/weibo_active.png")
+}
+i.fb{
+    background-image: url("../img/fb.png");
+}
+i.fb:hover{
+    background-image: url("../img/fb_active.png")
+}
+.modal_bg {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+    z-index: 9;
+}
+.dialog {
+    position: fixed;
+    width: 460px;
+    top: 59%;
+    left: 50%;
+    background: #fff;
+    padding: 30px 20px;
+    margin: -300px 0 0 -300px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#login_modal{
+    height: 540px;
+}
+#info_modal{
+    top:60%;
+    left:56%;
+}
+
+.dialog .dialog_content,.dialog .dialog_title{
+    text-align: center;
+}
+
+.dialog .dialog_content{
+    padding: 20px 10px;
+}
+.dialog_cont {
+    z-index: 100;
+}
+
+#dialog_form p{
+    width: 30%;
+}
+
+#dialog_form p input{
+    width: 100%;
+    height: 40px;
+}
+#info_modal form{
+    width: 100%;
+    margin: 0;
+    padding:0;
+    min-width: 400px;
+    background-color: #fff;
+}
+.chart .start_btn{
+    width: 55%;
+}
+.start_btn a{
+    float:left;
+}
+.start_btn .teacher-enter{
+    margin-left: 20px;
+    text-transform: none;
+    float:right;
+}
+.cancel_btns input{
+    border-color: #ff5a5f;
+    border-bottom-color: #ff5a5f;
+    background-color: #ff5a5f;
+    color: #fff;
+
+}
+
+.sure_btns input{
+    border-color: #09bc13;
+    border-bottom-color: #067a0c;
+    background-color: #09bc13;
+    color: #fff;
+}
+.wexin_btn {
+    display: block;
+    white-space: normal;
+    width: 100%;
+    border-color: #09bc13;
+    border-bottom-color: #067a0c;
+    background-color: #09bc13;
+    color: #fff;
+    font: normal 16px/50px "Microsoft YaHei";
+}
+.wexin_btn:hover {
+    background: #0DDE18;
+    color: #efefef;
+    border-bottom-color: #0DDE18;
+}
+.or_line {
+    position: relative;
+    border-top: 1px solid #cecece;
+    width: 100%;
+    margin: 20px 0;
+}
+.or_txt {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    padding: 10px 20px;
+    background: #fff;
+    color: #666;
+    margin-left: -20px;
+}
+.inpts {
+    width: 100%;
+    height: 70px;
+    margin: 20px auto;
+}
+.inpts>input {
+    display: block;
+    color: #999;
+    font-size: 14px;
+    height: 40px;
+    padding: 10px 35px 10px 10px;
+    box-sizing: border-box;
+    width: 100% !important;
+    background: url(../img/form_icon.png) no-repeat;
+    background-size: 40px 171px;
+    border: 1px solid #cecece;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.inpts>input.tel {
+    background-position: right -28px;
+    height: 64px;
+    font-size: 16px;
+}
+.inpts>input.pwd {
+    background-position: right -79px;
+    height: 64px;
+    font-size: 16px;
+}
+.chckoxs {
+    line-height: 20px;
+}
+.chckoxs>input {
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+}
+��form_txt {
+    color: #333;
+}
+.form_txt>a {
+    color: #ff5a5f;
+}
+.form_txt>a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.form_btns {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #cecece;
+}
+.form_btns>input {
+    width: 100%;
+    height: 100%;
+    background: #ff5a5f;
+    color: #fff;
+    border: 1px solid #ff5a5f;
+    background-color: #ff5a5f;
+    height: 64px;
+    font-size: 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.reg_txt {
+    width: 100%;
+    color: #333;
+    height: 50px;
+}
+.reg_btn {
+    border: 1px solid #ff5a5f;
+    color: #ff5a5f;
+    background: #fff;
+    padding: 7px 21px;
+    font-size: 14px;
+    float: right;
+}
+.forget_pwd {
+    position: fixed;
+    width: 500px;
+    height: 370px;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    margin: -250px 0 0 -170px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.dialog_hd {
+    width: 100%;
+    color: #484848;
+    padding-left: 30px;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #dce0e0;
+    background-color: #edefed;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+.forget_cont {
+    width: 90%;
+    margin: auto;
+}
+.reg_promt {
+    margin: 30px auto;
+}
+.inpts>input.email {
+    height: 40px;
+    background-position: right -40px;
+}
+.reset_btn {
+    width: 30%;
+    margin-top: 30px;
+}
+.reset_btn>input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ff5a5f;
+    border-bottom-color: #e00007;
+    background-color: #ff5a5f;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.dialog>h4 {
+    margin-bottom: 6px;
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}
+input.reg_pwd,input.inpt_tel,input.code {
+    display: block;
+    color: #999;
+    font-size: 14px;
+    height: 40px;
+    padding: 10px 35px 10px 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    width: 100% !important;
+    background: url(../img/form_icon.png) no-repeat;
+    background-size: 40px 171px;
+    border: 1px solid #cecece;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+input.reg_pwd {
+    background-position: right -90px;
+}
+input.inpt_tel {
+    background-position: right -142px;
+}
+.telM {
+    float: right;
+    display: block;
+    width: 120px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    background-color: #5bb75b;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 10px 0 10px 0;
+}
+input.code {
+    background: none;
+}
+.reg_login_btn {
+    width: 100%;
+    height: 40px;
+}
+.reg_login_btn>input {
+    width: 100%;
+    height: 100%;
+    background: #ff5a5f;
+    color: #fff;
+    border: 1px solid #ff5a5f;
+    background-color: #ff5a5f;
+    font-size: 16px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 48px;
+}
+select.tel_seleName {
+    float: left;
+    width: 84px;
+    height: 35px;
+    background: #cecece;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.put_tel_p {
+    width: 100%;
+}
+.put_tel_p>.tel {
+    float: right;
+    width: 80%;
+    height: 35px;
+    border-left: none;
+    border: 1px solid #cecece;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#dialog_form .sure_btns{
+    float: left;
+}
+
+#dialog_form .cancel_btns{
+    float: right;
+}
+@media (min-width: 768px){
+    .navbar-nav>li{
+        float: left;
+    }
+    .dropitem_phone{
+        display: none !important;
+    }
+}
+@media(max-width: 480px){
+    /*导航*/
+    .nav>li{
+        text-align: right;
+    }
+    .dialog{
+        width: 260px;
+        left:100%;
+    }
+    select.tel_seleName{
+        width: 66px;
+    }
+    .put_tel_p>.tel{
+        width: 70%;
+    }
+    .telM{
+        width: auto;
+    }
+    .reg_login_btn>input{
+        margin-top:78px;
+    }
+    .dropmenu:hover .dropitem,.dropmenu:hover .dropitem_land{
+        display: none !important;
+   }
+   .dropmenu .dropitem_phone{
+        padding-left: 30px;
+        font-weight: normal;
+   }
+   .dropitem_phone a{
+    color: #fff;
+    padding-left: 40px;
+   }
+}

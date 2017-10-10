@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/css/teacher_settled.css">
+<script src="./assets/js/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+   $('.sumb01').click(function(){
+	$('.hide_information_content01').hide();
+	$('.last_content01').show();
+	}); 
+});
+</script>
+</head>
+<style>
+
+</style>
+
+<body>
+<div class="hide_information01">
+	<h3 class="s">Apply for entering EduTone</h3>
+    <div class="hide_information_content01">
+        <div class="English_content">
+            <p class="title_start text-right">Which country:</p>
+            <select name="" id="select_box01">
+                    <option class="content_nation">Please select a country</option>
+                    <option value="1">American University</option>
+                    <option value="2">American  Secondary Shool</option>
+                    <option value="3">New Zealand University</option>
+                    <option value="4">New Zealand  Secondary Shool</option>
+                    <option value="5">England University</option>
+                    <option value="6">England  Secondary Shool</option>
+                    <option value="7">Singapore University</option>
+                    <option value="8">Singapore  Secondary Shool</option>
+                    <option value="9">Canadian University</option>
+                    <option value="10">Canadian  Secondary Shool</option>
+                    <option value="11">Australia University</option>
+                    <option value="12">Australia  Secondary Shool</option>
+                    <option value="13">Japanise University </option>
+                    <option value="14">Japanise Educational Institution</option>
+           </select>
+        </div>
+        <div class="English_content">
+            <p class="title_start text-right">Which city:</p>
+            <input type="text" value="Please enter the city of the school" class="English_input form-control">
+        </div>
+        <div class="English_content">
+            <p class="title_start text-right">School name:</p>
+            <input type="text" value="Please enter the school name " class="English_input form-control">
+        </div>
+        <div>
+            <h4>Contact</h4>
+            <div class="English_content01">
+                <p class="title_start text-right">Tel:</p>
+                <input type="text" value="Please enter the school contact information" class="English_input form-control">
+            </div>
+            <div class="English_content01">
+                <p class="title_start text-right">E-mail:</p>
+                <input type="text" value="Please enter the school email address" class="English_input form-control">
+            </div>
+            <div class="English_content01">
+                <p class="title_start text-right">Add:</p>
+                <textarea name="" id="text_news" cols="40" rows="10">Please enter the school announcement or the latest news</textarea>
+                <form name="formen" class="click">
+                     <input type="file" name="picpath" id="picpath" style="display:none" onChange="document.formen.path.value=this.value">
+                     <input name="path" readonly value="Upload the picture">
+                     <input type="button" value="Select" onclick="document.formen.picpath.click()">
+                </form>
+            </div>
+            <button class="sumb01">Submit</button>
+        </div>
+    </div>
+    <div class="last_content01">
+    	<img src="assets/img/flow08.png" alt="" class="ok">
+        <h3>Submit saccess</h3>
+        <p>EduTransfer will contact school as soon as possible</p>
+    </div> 
+</div>
+</body>
+</html>

@@ -1,0 +1,630 @@
+<html>
+ <head>
+     <meta charset="utf-8">
+ </head>
+ <body style="margin:0;"> 
+  <div id="SITE_CONTAINER">
+   <div class="noop" data-reactid=".0">
+    <div data-reactid=".0.0">
+     <style type="text/css" data-reactid=".0.0.$theme_fonts">.font_0 {font: normal normal bold 30px/1.4em 'Josefin Slab',serif ;color:#000000;} 
+.font_1 {font: normal normal normal 14px/1.4em Tahoma,tahoma-w01-regular,tahoma-w02-regular,tahoma-w10-regular,tahoma-w15--regular,tahoma-w99-regular,sans-serif ;color:#000000;} 
+.font_2 {font: normal normal bold 66px/1.4em 'josefin slab',serif ;color:#278389;} 
+.font_3 {font: normal normal bold 60px/1.4em 'Josefin Slab',serif ;color:#494949;} 
+.font_4 {font: normal normal normal 40px/1.4em 'Josefin Slab',serif ;color:#FFFFFF;} 
+.font_5 {font: normal normal normal 30px/1.4em 'Times New Roman',times,serif ;color:#278389;} 
+.font_6 {font: normal normal normal 23px/1.4em 'Times New Roman',times,serif ;color:#000000;} 
+.font_7 {font: normal normal normal 18px/1.4em 'Times New Roman',times,serif ;color:#000000;} 
+.font_8 {font: normal normal normal 14px/1.4em 'Noticia Text',serif ;color:#494949;} 
+.font_9 {font: normal normal normal 12px/1.4em Basic,sans-serif ;color:#494949;} 
+.font_10 {font: normal normal normal 11px/1.4em Tahoma,tahoma-w01-regular,tahoma-w02-regular,tahoma-w10-regular,tahoma-w15--regular,tahoma-w99-regular,sans-serif ;color:#080808;} 
+</style>
+     <style type="text/css" data-reactid=".0.0.$theme_colors">.color_0 {color: #FFFFFF;}
+     a{text-decoration: none;}
+.backcolor_0 {background-color: #FFFFFF;}
+.color_1 {color: #FFFFFF;}
+.backcolor_1 {background-color: #FFFFFF;}
+.color_2 {color: #000000;}
+.backcolor_2 {background-color: #000000;}
+.color_3 {color: #ED1C24;}
+.backcolor_3 {background-color: #ED1C24;}
+.color_4 {color: #0088CB;}
+.backcolor_4 {background-color: #0088CB;}
+.color_5 {color: #FFCB05;}
+.backcolor_5 {background-color: #FFCB05;}
+.color_6 {color: #727272;}
+.backcolor_6 {background-color: #727272;}
+.color_7 {color: #B0B0B0;}
+.backcolor_7 {background-color: #B0B0B0;}
+.color_8 {color: #FFFFFF;}
+.backcolor_8 {background-color: #FFFFFF;}
+.color_9 {color: #727272;}
+.backcolor_9 {background-color: #727272;}
+.color_10 {color: #B0B0B0;}
+.backcolor_10 {background-color: #B0B0B0;}
+.color_11 {color: #FFFFFF;}
+.backcolor_11 {background-color: #FFFFFF;}
+.color_12 {color: #D7D7D7;}
+.backcolor_12 {background-color: #D7D7D7;}
+.color_13 {color: #888888;}
+.backcolor_13 {background-color: #888888;}
+.color_14 {color: #494949;}
+.backcolor_14 {background-color: #494949;}
+.color_15 {color: #080808;}
+.backcolor_15 {background-color: #080808;}
+.color_16 {color: #B9DFE1;}
+.backcolor_16 {background-color: #B9DFE1;}
+.color_17 {color: #95C1C4;}
+.backcolor_17 {background-color: #95C1C4;}
+.color_18 {color: #6BA3A7;}
+.backcolor_18 {background-color: #6BA3A7;}
+.color_19 {color: #278389;}
+.backcolor_19 {background-color: #278389;}
+.color_20 {color: #134144;}
+.backcolor_20 {background-color: #134144;}
+.color_21 {color: #D8ACAC;}
+.backcolor_21 {background-color: #D8ACAC;}
+.color_22 {color: #B27C7C;}
+.backcolor_22 {background-color: #B27C7C;}
+.color_23 {color: #8C3636;}
+.backcolor_23 {background-color: #8C3636;}
+.color_24 {color: #5D2424;}
+.backcolor_24 {background-color: #5D2424;}
+.color_25 {color: #2E1212;}
+.backcolor_25 {background-color: #2E1212;}
+.color_26 {color: #C1CFC2;}
+.backcolor_26 {background-color: #C1CFC2;}
+.color_27 {color: #8AA08C;}
+.backcolor_27 {background-color: #8AA08C;}
+.color_28 {color: #677869;}
+.backcolor_28 {background-color: #677869;}
+.color_29 {color: #455046;}
+.backcolor_29 {background-color: #455046;}
+.color_30 {color: #222823;}
+.backcolor_30 {background-color: #222823;}
+.color_31 {color: #D5C2D6;}
+.backcolor_31 {background-color: #D5C2D6;}
+.color_32 {color: #AC8EAD;}
+.backcolor_32 {background-color: #AC8EAD;}
+.color_33 {color: #816A82;}
+.backcolor_33 {background-color: #816A82;}
+.color_34 {color: #564756;}
+.backcolor_34 {background-color: #564756;}
+.color_35 {color: #2B232B;}
+.backcolor_35 {background-color: #2B232B;}
+</style>
+     <style type="text/css" data-reactid=".0.0.$s0">.s0screenWidthBackground {position:absolute;top:0;right:0;bottom:0;left:0;margin: 0 auto;}
+.s0[data-state~="mobileView"] {position:absolute !important;}
+.s0[data-state~="fixedPosition"] {position:fixed !important;left:auto !important;z-index:50;}
+.s0[data-state~="fixedPosition"].s0_footer {top:auto;bottom:0;}
+.s0bg {position:absolute;top:0;right:0;bottom:0;left:0;}
+.s0inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}
+.s0centeredContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style>
+     <style type="text/css" data-reactid=".0.0.$s1">.s1bg {background-color:rgba(255, 255, 255, 0.84);  box-sizing:border-box;position:absolute;top:0;right:0;bottom:0;left:0;border-top:0px solid rgba(215, 215, 215, 1);border-bottom:2px solid rgba(215, 215, 215, 1);}
+.s1inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style>
+     <style type="text/css" data-reactid=".0.0.$s2">.s2itemsContainer {width:calc(100% - 0px);white-space:nowrap;position:relative;overflow:hidden;}
+.s2moreContainer {overflow:visible;display:inherit;white-space:nowrap;width:auto;background-color:rgba(39, 131, 137, 1);border-radius:0;  }
+.s2dropWrapper {z-index:99999;display:block;opacity:1;visibility:hidden;position:absolute;margin-top:7px;}
+.s2[data-dropmode="dropUp"] .s2dropWrapper {margin-top:0;margin-bottom:7px;}
+.s2repeaterButton {height:100%;position:relative;box-sizing:border-box;display:inline-block;cursor:pointer;font:normal normal normal 14px/1.4em Tahoma,tahoma-w01-regular,tahoma-w02-regular,tahoma-w10-regular,tahoma-w15--regular,tahoma-w99-regular,sans-serif ;  border-left:1px solid rgba(0, 0, 0, 1);}
+.s2repeaterButton[data-state~="header"] a,.s2repeaterButton[data-state~="header"] div {cursor:default !important;}
+.s2repeaterButtonlabel {color:#000000;transition: color 0.4s ease 0s;  display:inline-block;padding:0 10px;}
+.s2repeaterButton_wrapper {padding:0 0px;}
+.s2repeaterButton:first-child {border:0;}
+.s2repeaterButton[data-listposition="lonely"] {border:0;}
+.s2repeaterButton[data-state~="over"] .s2repeaterButtonlabel {color:#D7D7D7;transition: color 0.4s ease 0s;}
+.s2repeaterButton[data-state~="selected"] .s2repeaterButtonlabel {color:#888888;transition: color 0.4s ease 0s;}
+.s2repeaterButton[data-state~="drop"] {width:100%;display:block;border:0;border-top:1px solid rgba(0, 0, 0, 1);}
+.s2repeaterButton[data-state~="drop"] .s2repeaterButtonlabel {display:inline-block;padding:0 .5em;}
+.s2repeaterButton[data-state~="drop"] .s2repeaterButton_wrapper {padding:0;}
+.s2repeaterButton[data-listposition="top"] {border:0;}
+.s2repeaterButton[data-listposition="dropLonely"] {border:0;}</style>
+     <style type="text/css" data-reactid=".0.0.$s3">.s3bg {background-color:rgba(8, 8, 8, 0.92);  border:0px solid rgba(8, 8, 8, 1);position:absolute;top:0;right:0;bottom:0;left:0;bottom:calc(8px + 10px);}
+.s3_ribbon {position:absolute;bottom:calc(-1 * (8px + 10px));height:0;width:0;border:calc(8px + 10px) solid transparent;}
+.s3_fr {border-top-color:rgba(39, 131, 137, 1);border-left-width:0;right:0;}
+.s3_fl {border-top-color:rgba(39, 131, 137, 1);border-right-width:0;left:0;}
+.s3inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;bottom:calc(8px + 10px);}</style>
+     <style type="text/css" data-reactid=".0.0.$s4">.s4 {word-wrap:break-word;}
+.s4_override-left * {text-align:left !important;}
+.s4_override-right * {text-align:right !important;}
+.s4_override-center * {text-align:center !important;}
+.s4_override-justify * {text-align:justify !important;}
+.s4 li {font-style:inherit;font-weight:inherit;line-height:inherit;letter-spacing:normal;}
+.s4 ol,.s4 ul {padding-left:1.3em;padding-right:0;margin-left:0.5em;margin-right:0;line-height:normal;letter-spacing:normal;}
+.s4 ol[class~="wix-list"],.s4 ul[class~="wix-list"] {padding-left:0;padding-right:0;}
+.s4 ol[class~="wix-list"] li,.s4 ul[class~="wix-list"] li {margin-left:1.3em;margin-right:0;}
+.s4 ol[class~="wix-list"][dir="rtl"],.s4 ul[class~="wix-list"][dir="rtl"] {padding-left:0;padding-right:0;}
+.s4 ol[class~="wix-list"][dir="rtl"] li,.s4 ul[class~="wix-list"][dir="rtl"] li {margin-left:0;margin-right:1.3em;}
+.s4 ul {list-style-type:disc;}
+.s4 ol {list-style-type:decimal;}
+.s4 ul ul,.s4 ol ul {list-style-type:circle;}
+.s4 ul ul ul,.s4 ol ul ul {list-style-type:square;}
+.s4 ul ol ul,.s4 ol ol ul {list-style-type:square;}
+.s4 ul[dir="rtl"],.s4 ol[dir="rtl"] {padding-left:0;padding-right:1.3em;margin-left:0;margin-right:0.5em;}
+.s4 ul[dir="rtl"] ul,.s4 ul[dir="rtl"] ol,.s4 ol[dir="rtl"] ul,.s4 ol[dir="rtl"] ol {padding-left:0;padding-right:1.3em;margin-left:0;margin-right:0.5em;}
+.s4 p {margin:0;line-height:normal;letter-spacing:normal;}
+.s4 h1 {margin:0;line-height:normal;letter-spacing:normal;}
+.s4 h2 {margin:0;line-height:normal;letter-spacing:normal;}
+.s4 h3 {margin:0;line-height:normal;letter-spacing:normal;}
+.s4 h4 {margin:0;line-height:normal;letter-spacing:normal;}
+.s4 h5 {margin:0;line-height:normal;letter-spacing:normal;}
+.s4 h6 {margin:0;line-height:normal;letter-spacing:normal;}
+.s4 a {color:inherit;}</style>
+     <style type="text/css" data-reactid=".0.0.$s5">.s5screenWidthBackground {position:absolute;top:0;right:0;bottom:0;left:0;}
+.s5[data-state~="mobileView"] {position:absolute !important;}
+.s5[data-state~="fixedPosition"] {position:fixed !important;left:auto !important;z-index:50;}
+.s5[data-state~="fixedPosition"].s5_footer {top:auto;bottom:0;}
+.s5_bg {position:absolute;top:0;right:0;bottom:0;left:0;background-color:transparent;  border-top:0px solid rgba(39, 131, 137, 1);border-bottom:0px solid rgba(39, 131, 137, 1);}
+.s5[data-state~="mobileView"] .s5bg {left:10px;right:10px;}
+.s5bg {position:absolute;top:0px;right:0;bottom:0px;left:0;background-color:rgba(255, 255, 255, 0.91);border-radius:0;}
+.s5inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}
+.s5centeredContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style>
+     <style type="text/css" data-reactid=".0.0.$s6">.s6screenWidthBackground {position:absolute;top:0;right:0;bottom:0;left:0;}
+.s6[data-state~="mobileView"] {position:absolute !important;}
+.s6[data-state~="fixedPosition"] {position:fixed !important;left:auto !important;z-index:50;}
+.s6[data-state~="fixedPosition"].s6_footer {top:auto;bottom:0;}
+.s6bg {position:absolute;top:0;right:0;bottom:0;left:0;}
+.s6inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}
+.s6centeredContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style>
+     <style type="text/css" data-reactid=".0.0.$s7">.s7 {height:100px;width:100px;}
+.s7overlay {position:absolute;top:0;right:0;bottom:0;left:0;background-color:rgba(0, 0, 0, 0.664);}
+.s7inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style>
+     <style type="text/css" data-reactid=".0.0.$s8">.s8bg {position:absolute;top:0;right:0;bottom:0;left:0;}
+.s8[data-state~="mobileView"] .s8bg {left:10px;right:10px;}
+.s8inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style>
+     <style type="text/css" data-reactid=".0.0.$s9">.s9bg {overflow:hidden;position:absolute;top:0;right:0;bottom:0;left:0;background-color:rgba(255, 255, 255, 0.89);}
+.s9inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style>
+     <style type="text/css" data-reactid=".0.0.$s10">.s10 {-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-user-drag:none;-moz-user-drag:none;-ms-user-drag:none;user-drag:none;-webkit-user-modify:ready-only;-moz-user-modify:ready-only;-ms-user-modify:ready-only;user-modify:ready-only;border-radius:0;    overflow:hidden;background:rgba(39, 131, 137, 1);}
+.s10_border {position:absolute;top:0;right:0;bottom:0;left:0;border-radius:0;  border:2px solid rgba(39, 131, 137, 1);pointer-events:none;background:none !important;}
+.s10itemsContainer {position:absolute;top:0;right:0;bottom:0;left:0;border-radius:0;  overflow:hidden;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);}
+.s10_btn {transition: opacity 0.5s ease 0s;  opacity:0.4;height:70px;background:url(https://static.parastorage.com/services/skins/2.1229.62/images/wysiwyg/core/themes/base/arrows_white_new3.png) no-repeat;width:45px;position:absolute;top:50%;margin-top:-35px;cursor:pointer;}
+.s10[data-state~="mobile"] .s10_btn {opacity:1;}
+.s10buttonPrev {left:20px;background-position:0 0;}
+.s10buttonNext {right:20px;background-position:100% 0;}
+.s10_helpers {transition: opacity 0.5s ease 0s;  opacity:0;position:absolute;right:2px;bottom:2px;padding:0 10px 10px 0;width:60px;text-align:right;}
+.s10counter {display:inline-block;color:#494949;font-family:arial, helvetica,sans-serif;font-size:12px;padding-left:5px;}
+.s10autoplay {display:inline-block;padding-left:10px;width:20px;min-height:10px;position:relative;text-align:center;}
+.s10autoplay > span {display:inline-block;position:relative;z-index:0;}
+.s10[data-state~="autoplayOff"] .s10autoplay > span {border:5px solid transparent;border-left:5px solid #494949;width:0;height:0;}
+.s10[data-state~="autoplayOn"] .s10autoplay > span {border-left:2px solid #494949;border-right:2px solid #494949;height:10px;width:1px;margin-right:5px;}
+.s10_buttons {transition: opacity 0.5s ease 0s;  opacity:0;}
+.s10[data-state~="mobile"] .s10_buttons {opacity:1;}
+.s10:hover > .s10_buttons {opacity:1;}
+.s10:hover > .s10_helpers {opacity:1;}
+.s10:hover .s10_pnl {opacity:1;}
+.s10[data-state~="showTextPanel"] .s10_pnl {opacity:1;}
+.s10_btn:hover {opacity:1;}
+.s10[data-state~="touchRollOver"] .s10_buttons {opacity:1;}
+.s10[data-state~="touchRollOver"] .s10_helpers {opacity:1;}
+.s10[data-state~="touchRollOver"] .s10_pnl {opacity:1;}
+.s10[data-state~="touchRollOver"] .s10_btn {opacity:1;}
+.s10[data-state~="showButtons"] .s10_buttons {opacity:1;}
+.s10[data-text-alignment="right"] .s10imageItempanel {padding-right:10px;padding-left:100px;}
+.s10[data-text-alignment="right"] .s10_helpers {left:0px;right:initial;text-align:left;}
+.s10[data-text-alignment="right"][data-state~="hidePlayButton"] .s10autoplay {display:none;}
+.s10imageItemtitle,.s10imageItemdescription {overflow:hidden;text-overflow:ellipsis;white-space:pre-line;}
+.s10imageItemimageWrapper {position:absolute;}
+.s10imageItempanel {border-radius:0;  background-color:rgba(255, 255, 255, 0.56);transition: opacity 0.5s ease 0s;  opacity:0;position:absolute;right:2px;left:2px;bottom:2px;padding:10px 100px 10px 10px;min-height:18px;border-top-left-radius:0 !important;border-top-right-radius:0 !important;}
+.s10imageItemzoom {position:absolute;top:2px;right:2px;bottom:2px;left:2px;}
+.s10imageItemimage {border-radius:0;}
+.s10imageItemtitle {font:normal normal normal 12px/1.4em Basic,sans-serif ;  color:#494949;}
+.s10imageItemdescription {font:normal normal normal 11px/1.4em Tahoma,tahoma-w01-regular,tahoma-w02-regular,tahoma-w10-regular,tahoma-w15--regular,tahoma-w99-regular,sans-serif ;  color:#494949;}
+.s10imageItemlink {font:normal normal normal 11px/1.4em Tahoma,tahoma-w01-regular,tahoma-w02-regular,tahoma-w10-regular,tahoma-w15--regular,tahoma-w99-regular,sans-serif ;  color:#494949;}
+.s10imageItem[data-state~="link"] .s10imageItemlink {text-decoration:underline;cursor:pointer;font:normal normal normal 11px/1.4em Tahoma,tahoma-w01-regular,tahoma-w02-regular,tahoma-w10-regular,tahoma-w15--regular,tahoma-w99-regular,sans-serif ;  color:#494949;}
+.s10imageItem[data-state~="noLink"] .s10imageItemlink {display:none;}
+.s10imageItem[data-state~="showPanel"] .s10imageItempanel {opacity:1;}
+.s10imageItem[data-state~="notShowPanel"] .s10imageItempanel {opacity:0;}
+.s10imageItem[data-state~="transOut"] .s10imageItempanel {opacity:0;}
+.s10imageItem[data-state~="transIn"] .s10imageItempanel {opacity:0;}
+.s10imageItemimageimage {position:static;box-shadow:#000 0 0 0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}</style>
+     <style type="text/css" data-reactid=".0.0.$s11">.s11wrapper {min-width:180px;max-width:980px;max-height:1024px;position:absolute;width:100%;}
+.s11 li {box-sizing:border-box;position:relative;}
+.s11 ul {box-sizing:border-box;position:relative;list-style: none;padding-left: 0;}
+.s11_foot {min-height:50px;position:relative;}
+.s11 span {color:#494949;font:normal 14px 'Helvetica Neue', Helvetica, sans-serif;position:absolute;top:0;}
+.s11 span.s11_success {color:#BADA55;}
+.s11 span.s11_error {color:#8B0000;}
+.s11 button,.s11 input,.s11 textarea {box-sizing:border-box;border-radius:0 0 0 0;  }
+.s11 input,.s11 textarea {background-color:rgba(255, 255, 255, 0.74);font:normal normal normal 12px/1.4em Basic,sans-serif ;  -webkit-appearance:none;-moz-appearance:none;border:1px solid rgba(107, 163, 167, 1);color:#494949;margin:0 0 5px;padding:5px;width:100%;}
+.s11 input.s11_error,.s11 textarea.s11_error {border:1px solid #8B0000;color:#8B0000;font:normal normal normal 12px/1.4em Basic,sans-serif ;}
+.s11 textarea {height:100%;resize:none;}
+.s11 button {border:0;color:#FFFFFF;cursor:pointer;background-color:rgba(107, 163, 167, 1);font:normal normal normal 18px/1.4em 'Times New Roman',times,serif ;  padding:5px;position:absolute;top:0;}
+.s11[data-state~="desktop"] li {width:50%;}
+.s11[data-state~="desktop"][data-state~="left"] li.s11_left {margin:0;}
+.s11[data-state~="desktop"][data-state~="left"] li.s11_right {bottom:0;padding:0 0 5px 5px;position:absolute;right:2px;top:0;}
+.s11[data-state~="desktop"][data-state~="right"] li.s11_left {margin-left:50%;}
+.s11[data-state~="desktop"][data-state~="right"] li.s11_right {bottom:0;left:2px;padding:0 5px 5px 0;position:absolute;top:0;}
+.s11[data-state~="mobile"] li {display:block;width:100%;}
+.s11[data-state~="mobile"] input,.s11[data-state~="mobile"] textarea {font-size:16px;}
+.s11[data-state~="mobile"] input::-webkit-input-placeholder,.s11[data-state~="mobile"] textarea::-webkit-input-placeholder {line-height:45px;font-size:16px;}
+.s11[data-state~="mobile"] input::-moz-placeholder,.s11[data-state~="mobile"] textarea::-moz-placeholder {line-height:45px;font-size:16px;}
+.s11[data-state~="mobile"] input:-ms-input-placeholder,.s11[data-state~="mobile"] textarea:-ms-input-placeholder {line-height:45px;font-size:16px;}
+.s11[data-state~="mobile"] input::placeholder,.s11[data-state~="mobile"] textarea::placeholder {line-height:45px;font-size:16px;}
+.s11[data-state~="mobile"] input {height:45px;line-height:45px;margin-bottom:15px;}
+.s11[data-state~="mobile"] textarea {height:130px;}
+.s11 input::-webkit-input-placeholder,.s11 textarea::-webkit-input-placeholder {color:#A9A9A9;font:normal normal normal 12px/1.4em Basic,sans-serif ;}
+.s11 input::-moz-placeholder,.s11 textarea::-moz-placeholder {color:#A9A9A9;font:normal normal normal 12px/1.4em Basic,sans-serif ;}
+.s11 input:-ms-input-placeholder,.s11 textarea:-ms-input-placeholder {color:#A9A9A9;font:normal normal normal 12px/1.4em Basic,sans-serif ;}
+.s11 input::placeholder,.s11 textarea::placeholder {color:#A9A9A9;font:normal normal normal 12px/1.4em Basic,sans-serif ;}
+.s11 input::-webkit-input-placeholder.s11_error,.s11 textarea::-webkit-input-placeholder.s11_error {color:#8B0000;font:normal normal normal 12px/1.4em Basic,sans-serif ;}
+.s11 input::-moz-placeholder.s11_error,.s11 textarea::-moz-placeholder.s11_error {color:#8B0000;font:normal normal normal 12px/1.4em Basic,sans-serif ;}
+.s11 input:-ms-input-placeholder.s11_error,.s11 textarea:-ms-input-placeholder.s11_error {color:#8B0000;font:normal normal normal 12px/1.4em Basic,sans-serif ;}
+.s11 input::placeholder.s11_error,.s11 textarea::placeholder.s11_error {color:#8B0000;font:normal normal normal 12px/1.4em Basic,sans-serif ;}
+.s11[data-state~="right"] {direction:rtl;text-align:right;}
+.s11[data-state~="right"] button {left:0;}
+.s11[data-state~="right"] span {left:100px;right:0;}
+.s11[data-state~="left"] {direction:ltr;text-align:left;}
+.s11[data-state~="left"] button {right:0;}
+.s11[data-state~="left"] span {left:0;right:100px;}
+.s11[data-state~="nameHidden"] .s11nameField,.s11[data-state~="emailHidden"] .s11emailField,.s11[data-state~="subjectHidden"] .s11subjectField,.s11[data-state~="phoneHidden"] .s11phoneField,.s11[data-state~="addressHidden"] .s11addressField,.s11[data-state~="messageHidden"] .s11messageField {display:none !important;}</style>
+     <style type="text/css" data-reactid=".0.0.$s12">.s12itemsContainer {position:absolute;width:100%;height:100%;white-space:nowrap;}
+.s12itemsContainer > div:last-child {margin:0 !important;}
+.s12[data-state~="mobileView"] .s12itemsContainer {position:absolute;width:100%;height:100%;white-space:normal;}
+.s12imageItemlink {cursor:pointer;}
+.s12imageItemimageimage {position:static;box-shadow:#000 0 0 0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}</style>
+     <style type="text/css" data-reactid=".0.0.$s13">.s13[data-state~="shouldUseFlex"] .s13link,.s13[data-state~="shouldUseFlex"] .s13labelwrapper {text-align:initial;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;}
+.s13[data-state~="shouldUseFlex"][data-state~="center"] .s13link,.s13[data-state~="shouldUseFlex"][data-state~="center"] .s13labelwrapper {-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;}
+.s13[data-state~="shouldUseFlex"][data-state~="left"] .s13link,.s13[data-state~="shouldUseFlex"][data-state~="left"] .s13labelwrapper {-webkit-box-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;}
+.s13[data-state~="shouldUseFlex"][data-state~="right"] .s13link,.s13[data-state~="shouldUseFlex"][data-state~="right"] .s13labelwrapper {-webkit-box-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end;}
+.s13link {border-radius:0 0 0 0;  position:absolute;top:0;right:0;bottom:0;left:0;transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;  }
+.s13label {font:normal normal normal 14px/1.4em 'Noticia Text',serif ;  transition: color 0.4s ease 0s;  color:#FFFFFF;display:inline-block;margin:calc(-1 * 1px) 1px 0;position:relative;white-space:nowrap;}
+.s13[data-state~="shouldUseFlex"] .s13label {margin:0;}
+.s13[data-disabled="false"] .s13link {background-color:rgba(39, 131, 137, 1);border:solid rgba(73, 73, 73, 1) 1px;cursor:pointer !important;}
+.s13[data-disabled="false"]:active[data-state~="mobile"] .s13link,.s13[data-disabled="false"]:hover[data-state~="desktop"] .s13link {background-color:rgba(107, 163, 167, 1);border-color:rgba(255, 255, 255, 1);}
+.s13[data-disabled="false"]:active[data-state~="mobile"] .s13label,.s13[data-disabled="false"]:hover[data-state~="desktop"] .s13label {color:#080808;}
+.s13[data-disabled="true"] .s13link {background-color:rgba(204, 204, 204, 1);border-color:rgba(204, 204, 204, 1);}
+.s13[data-disabled="true"] .s13label {color:#FFFFFF;}</style>
+     <style type="text/css" data-reactid=".0.0.$wixAds">.wixAdsmobileAd {width:100%;height:30px;position:relative;display:block;text-align:center;background-image:url(https://static.parastorage.com/services/skins/2.1229.62/images/wysiwyg/core/themes/base/wixads/BG91x1.jpg);background-repeat:repeat;background-size:100% 30px;z-index:999;}
+.wixAdsdesktopWADBottom {position:fixed;z-index:999;width:100%;bottom:0;max-height:10vh;}
+.wixAdsdesktopWADBottomContent {width:100%;height:40px;text-align:center;background-color:#404040;border-radius:6px 6px 0 0;pointer-events:all;cursor:pointer;}
+.wixAdsdesktopWADBottomContent:hover {background-color:#222;}
+.wixAds[data-state~="facebook"] .wixAdsdesktopWADBottomContent {width:500px;margin:0 auto;}
+.wixAdsdesktopWADTop {position:fixed;z-index:999;height:26px;top:0;right:50px;overflow:hidden;background-color:#404040;border-radius:0 0 6px 6px;pointer-events:all;cursor:pointer;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
+.wixAdsdesktopWADTop:hover {height:97px;background-color:rgba(50, 50, 50, 0.8);}
+.wixAdsdesktopWADTop:hover .wixAdsdesktopWADTopLabel {background-color:#222;}
+.wixAdsdesktopWADTopLabel {padding:6px;font-size:13px;line-height:1.3em;color:#FFF;width:100%;font-size:13px;color:#FFF;font-weight:bold;line-height:18px;text-align:justify;padding:5px 10px;}
+.wixAds[data-state~="desktop"] .wixAdsmobileAd {display:none;}
+.wixAds[data-state~="mobile"] .wixAdsdesktopWADTop {display:none;}
+.wixAds[data-state~="mobile"] .wixAdsdesktopWADBottom {display:none;}
+.wixAdsdesktopWADTopLabel .wixAds_smallMusa {display:inline-block;text-indent:-9999px;width:16px;height:16px;margin-right:5px;background-image:url(https://static.parastorage.com/services/skins/2.1229.62/images/wysiwyg/core/themes/base/wixads/wf_label_static.png);background-repeat:no-repeat;background-position:0% 0%;}
+.wixAdsdesktopWADTopLabel .wixAds_smallLogo {display:inline-block;text-indent:-9999px;width:29px;height:16px;background-image:url(https://static.parastorage.com/services/skins/2.1229.62/images/wysiwyg/core/themes/base/wixads/wf_label_static.png);background-repeat:no-repeat;background-position:-16px top;}
+.wixAdsdesktopWADTopContent {font-size:13px;line-height:1.3em;color:#ffffff;font-weight:bold;line-height:18px;text-align:justify;padding:5px 10px;width:100%;}
+.wixAdsdesktopWADBottomContent .wixAds_faceBanner {background-color:rgba(64, 64, 64, 1);width:500px;height:100%;margin:0 auto;border-radius:6px 6px 0 0;  padding:5px 0 0 0;}
+.wixAdsdesktopWADBottomContent .wixAds_faceBanner div {display:inline-block;height:30px;}
+.wixAdsdesktopWADBottomContent .wixAds_faceBanner .wixAds_txt {color:#fff;font-weight:bold;font-size:15px;text-align:justify;margin:-2px 10px 0 19px;}
+.wixAdsdesktopWADBottomContent .wixAds_faceBanner .wixAds_logoDot {position:static;margin:0 3px;}
+.wixAdsdesktopWADBottomContent .wixAds_faceBanner .wixAds_emphasis {font-weight:bold;position:relative;top:-6px;}
+.wixAdsdesktopWADTopContent .wixAds_spacer {line-height:26px;}
+.wixAdsdesktopWADTopContent .wixAds_emphasis {color:#ffcc00;}
+.wixAdsdesktopWADTopContent .wixAds_cap {font-size:16px;line-height:1.3em;text-transform:uppercase;}
+.wixAdsdesktopWADTopContent .wixAds_face {display:block;line-height:18px;text-align:justify;padding:0 20px;width:120px;}
+.wixAdsdesktopWADBottomContent .wixAds_adFootBox {height:40px;width:100%;text-align:center;}
+.wixAdsdesktopWADBottomContent .wixAds_siteBanner {background-color:rgba(64, 64, 64, 1);border-radius:6px 6px 0 0;  width:100%;height:100%;text-align:center;}
+.wixAdsdesktopWADBottomContent:hover .wixAds_siteBanner {background-color:#222;}
+.wixAdsdesktopWADBottomContent .wixAds_siteBanner .wixAds_wrapper {padding:5px 0;}
+.wixAdsdesktopWADBottomContent .wixAds_siteBanner .wixAds_wrapper div {display:inline-block;height:30px;}
+.wixAdsdesktopWADBottomContent .wixAds_bigMusa {text-indent:-9999px;width:36px;background-image:url(https://static.parastorage.com/services/skins/2.1229.62/images/wysiwyg/core/themes/base/wixads/wf_label_static.png);background-repeat:no-repeat;background-position:left bottom;position:relative;top:-19px;}
+.wixAdsdesktopWADBottomContent.wixAds_nativeAndroid .wixAds_bigMusa {overflow:hidden;}
+.wixAdsdesktopWADBottomContent .wixAds_logoDot {text-indent:-9999px;width:39px;height:15px;position:relative;top:-4px;margin:0 5px;background-image:url(https://static.parastorage.com/services/skins/2.1229.62/images/wysiwyg/core/themes/base/wixads/wf_label_static.png);background-repeat:no-repeat;background-position:right -17px;}
+.wixAdsdesktopWADBottomContent .wixAds_emphasis {color:#ffcc00;font-size:16px;text-transform:uppercase;}
+.wixAdsdesktopWADBottomContent .wixAds_txt {color:#fff;font-weight:bold;font-size:15px;}
+.wixAdsdesktopWADBottomContent .wixAds_siteBanner .wixAds_txt {line-height:47px;}@media (orientation: landscape){.wixAdsmobileAd {display:none;}}
+@media (orientation: landscape){.wixAds_wixAds[data-state~="mobile"] {display:none;}}</style>
+     <style type="text/css" data-reactid=".0.0.$mobileAppBanner">.mobileAppBannercontainer {position:relative;overflow:hidden;z-index:99;height:70px;background-color:#f2f2f2;border-bottom:1px solid #d7d7d7;}
+.mobileAppBannercontainer > div {float:left;margin-left:10px;}
+.mobileAppBannerclose > a {color:#777777;line-height:70px;font-family:Helvetica, sans-serif, Arial;font-size:14px;}
+.mobileAppBannericonbody {width:40px;height:40px;margin-top:15px;border-radius:10px;display:inline-block;  background-size:cover;background-position:center;background-repeat:no-repeat;}
+.mobileAppBannercontainer[data-device~="android"] .mobileAppBannericonbody {border-radius:3px;}
+.mobileAppBannertext {color:#0d0d0d;line-height:20px;margin-top:15px;}
+.mobileAppBannerappname {font-family:"Helvetica Neue", Helvetica, sans-serif, Arial;font-size:13px;font-weight:600;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;max-width:175px;}
+.mobileAppBannertagline {font-family:"HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, sans-serif-light, Arial;font-size:13px;font-weight:normal;}
+.mobileAppBannergetlink {color:#3798eb;line-height:normal;font-family:"HelveticaNeue-Medium", Helvetica, sans-serif, Arial;font-weight:600;font-size:13px;}
+.mobileAppBannercontainer[data-device~="apple"] .mobileAppBannergetlink {font-weight:500;}
+.mobileAppBannerbaselinehack {height:14px;line-height:0px;display:inline-block;}
+.mobileAppBannerget {border:1px solid #3798eb;border-radius:3px;padding:3px 10px;display:inline-block;}@media all and (max-width: 400px) and (min-width: 0px){.mobileAppBannerget {position:absolute;top:22.5px;right:10px;float:none !important;}}
+@media all and (min-width: 401px){.mobileAppBannerget {margin-top:22.5px;margin-left:30px !important;}}</style>
+     <style type="text/css" data-reactid=".0.0.$deadComp">.deadComp {background:transparent;}</style>
+     <style type="text/css" data-reactid=".0.0.$siteBackground">.siteBackground {width:100%;position:absolute;}
+.siteBackgroundbgBeforeTransition {position:absolute;top:0;}
+.siteBackgroundbgAfterTransition {position:absolute;top:0;}</style>
+     <style type="text/css" data-reactid=".0.0.$loginDialog">.loginDialog {position:fixed;width:100%;height:100%;z-index:99;font-family:Arial, sans-serif;font-size:1em;color:#9C9C9C;}
+.loginDialogblockingLayer {background-color:rgba(85, 85, 85, 0.75);position:fixed;top:0;right:0;bottom:0;left:0;visibility:visible;zoom:1;overflow:auto;}
+.loginDialogdialog {background-color:rgba(170, 170, 170, 0.7);width:455px;position:fixed;padding:20px;}
+.loginDialog_wrapper {background-color:rgba(255, 255, 255, 1);padding:45px 40px 0 40px;}
+.loginDialogxButton {position:absolute;top:-14px;right:-14px;cursor:pointer;background:transparent url(https://static.parastorage.com/services/skins/2.1229.62/images/wysiwyg/core/themes/base/viewer_login_sprite.png) no-repeat right top;height:30px;width:30px;}
+.loginDialogxButton:hover {background-position:right -80px;}
+.loginDialogheader {padding-bottom:25px;line-height:30px;}
+.loginDialogfavIcon {float:left;margin:7px 7px 0 0;width:16px;height:16px;}
+.loginDialogtitle {font-size:20px;font-weight:bold;color:#555555;}
+.loginDialog[data-state~="mobile"] {position:absolute;width:100%;height:100%;z-index:99;font-family:Arial, sans-serif;font-size:1em;color:#9C9C9C;top:0;}
+.loginDialog[data-state~="mobile"] .loginDialogheader {padding-bottom:10px;line-height:30px;}
+.loginDialog[data-state~="mobile"] .loginDialogfavIcon {display:none;}
+.loginDialog[data-state~="mobile"] .loginDialogtitle {font-size:14px;}
+.loginDialog[data-state~="mobile"] .loginDialogdialog {width:260px;padding:10px;position:absolute;}
+.loginDialog[data-state~="mobile"] .loginDialog_footer {margin-top:0;padding-bottom:10px;}
+.loginDialog[data-state~="mobile"] .loginDialogcancel {font-size:14px;line-height:30px;}
+.loginDialog[data-state~="mobile"] .loginDialog_wrapper {padding:14px 12px 0 12px;}
+.loginDialog[data-state~="mobile"] .loginDialogsubmitButton {height:30px;width:100px;font-size:14px;}
+.loginDialog_forgot {text-align:left;font-size:12px;}
+.loginDialog_forgot a {color:#0198ff;border-bottom:1px solid #0198ff;}
+.loginDialog_forgot a:hover {color:#0044ff;border-bottom:1px solid #0044ff;}
+.loginDialog_error {font-size:12px;color:#d74401;text-align:right;}
+.loginDialog_footer {width:100%;margin-top:27px;padding-bottom:40px;}
+.loginDialogcancel {color:#9C9C9C;font-size:18px;text-decoration:underline;line-height:36px;}
+.loginDialogcancel:hover {color:#9c3c3c;}
+.loginDialogpasswordInput label {font-size:14px;}
+.loginDialogpasswordInput label[data-type="password"] {font-size:14px;line-height:30px;height:30px;}
+.loginDialogsubmitButton {float:right;cursor:pointer;border:solid 2px #0064a8;height:36px;width:143px;background:transparent url(https://static.parastorage.com/services/skins/2.1229.62/images/wysiwyg/core/themes/base/viewer_login_sprite.png) repeat-x right -252px;color:#ffffff;font-size:24px;font-weight:bold;box-shadow:0 1px 3px rgba(0, 0, 0, 0.5);}
+.loginDialogsubmitButton:hover {background-position:right -352px;border-color:#004286;}
+.loginDialog[data-state="normal"] .loginDialogerror {display:none;}
+.loginDialog[data-state="error"] .loginDialogerror {display:block;font-size:12px;color:#d74401;text-align:right;}
+.loginDialog[data-state="error"] .loginDialogpasswordInput {border-color:#d74401;}
+.loginDialogpasswordInput {font-size:1em;}
+.loginDialogpasswordInput label {float:none;font-size:17px;line-height:25px;color:#585858;}
+.loginDialogpasswordInput[data-state~="mobile"] label {float:none;font-size:14px;line-height:20px;color:#585858;}
+.loginDialogpasswordInputinput {padding:0 15px;width:100%;height:42px;font-size:19px;line-height:42px;color:#0198ff;margin:0 -3px;background:transparent url(https://static.parastorage.com/services/skins/2.1229.62/images/wysiwyg/core/themes/base/viewer_login_sprite.png) repeat-x right -170px;border:solid 1px #a1a1a1;box-sizing:border-box;}
+.loginDialogpasswordInput[data-state~="mobile"] .loginDialogpasswordInputinput {padding:0 15px;width:100%;height:30px;font-size:14px;line-height:30px;color:#0198ff;margin:0 -3px;background:transparent url(https://static.parastorage.com/services/skins/2.1229.62/images/wysiwyg/core/themes/base/viewer_login_sprite.png) repeat-x right -170px;border:solid 1px #a1a1a1;box-sizing:border-box;}
+.loginDialogpasswordInputinput[data-type="password"] {font-size:38px;}
+.loginDialogpasswordInput[data-state~="mobile"] .loginDialogpasswordInputinput[data-type="password"] {font-size:14px;}
+.loginDialogpasswordInputerrorMessage {display:block;font-size:12px;color:#d74401;text-align:right;height:15px;}
+.loginDialogpasswordInput:not([data-state~="invalid"]) .loginDialogpasswordInputerrorMessage {visibility:hidden;}
+.loginDialogpasswordInput[data-state~="invalid"] .loginDialogpasswordInputerrorMessage {visibility:visible;}
+.loginDialogpasswordInput[data-state~="invalid"] input {border-color:#d74401;}
+.loginDialogpasswordInput[data-state~="invalid"] .loginDialogpasswordInputinput {border-color:red;}</style>
+     <style type="text/css" data-reactid=".0.0.$strc1">.strc1inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style>
+     <style type="text/css" data-reactid=".0.0.$testStyle">.testStyles {position:absolute; display: none; z-index: 18}</style>
+     <div class="testStyles" data-reactid=".0.0.n"></div>
+     <style type="text/css" data-reactid=".0.0.$uploadedFonts"></style>
+     <div style="overflow:hidden;visibility:hidden;max-height:0;max-width:0;position:absolute;" data-reactid=".0.0.$fontsLoader">
+      <style data-reactid=".0.0.$fontsLoader.0">.font-ruler-content::after {content:"@#$%%^&*~IAO"}</style>
+     </div>
+    </div>
+    <div id="SITE_BACKGROUND" class="siteBackground" style="position: absolute; top: 0px; height: 852px; width: 1118px;" data-reactid=".0.$SITE_BACKGROUND">
+     <div id="SITE_BACKGROUND_previous_" class="siteBackgroundprevious" data-reactid=".0.$SITE_BACKGROUND.$noPrev">
+      <div id="SITE_BACKGROUND_previousImage_" class="siteBackgroundpreviousImage" data-reactid=".0.$SITE_BACKGROUND.$noPrev.0"></div>
+      <div id="SITE_BACKGROUNDpreviousVideo" class="siteBackgroundpreviousVideo" data-reactid=".0.$SITE_BACKGROUND.$noPrev.1"></div>
+      <div id="SITE_BACKGROUND_previousOverlay_" class="siteBackgroundpreviousOverlay" data-reactid=".0.$SITE_BACKGROUND.$noPrev.2"></div>
+     </div>
+     <div id="SITE_BACKGROUND_current_c16q4" style="top:0;height:100%;width:100%;background-color:rgba(215, 215, 215, 1);display:;position:fixed;" class="siteBackgroundcurrent" data-reactid=".0.$SITE_BACKGROUND.$c16q4">
+      <div id="SITE_BACKGROUND_currentImage_c16q4" style="position: absolute; top: 0px; height: 100%; width: 100%; background-image: url(&quot;https://static.wixstatic.com/media/41d000_c5a0ca1893896b25c0902ca4e23c63c3.png/v1/fill/w_1068,h_868,al_t/41d000_c5a0ca1893896b25c0902ca4e23c63c3.png&quot;); background-size: cover; background-position: center top; background-repeat: no-repeat;" data-type="bgimage" class="siteBackgroundcurrentImage" data-reactid=".0.$SITE_BACKGROUND.$c16q4.$background_currentImage_fixed" data-image-css="{&quot;backgroundSize&quot;:&quot;cover&quot;,&quot;backgroundPosition&quot;:&quot;center top&quot;,&quot;backgroundRepeat&quot;:&quot;no-repeat&quot;}"></div>
+      <div id="SITE_BACKGROUNDcurrentVideo" class="siteBackgroundcurrentVideo" data-reactid=".0.$SITE_BACKGROUND.$c16q4.1" style="position: relative; min-width: 0px; min-height: 0px; top: 0px; left: 0px;"></div>
+      <div id="SITE_BACKGROUND_currentOverlay_c16q4" style="position:absolute;top:0;width:100%;height:100%;background-attachment:fixed;" class="siteBackgroundcurrentOverlay" data-reactid=".0.$SITE_BACKGROUND.$c16q4.2"></div>
+     </div>
+    </div>
+    <div class="SITE_ROOT" id="SITE_ROOT" style="width:980px;padding-bottom:40px;position: relative;margin: 0 auto;" data-reactid=".0.$SITE_ROOT">
+     <div id="masterPage" style="width: 980px; position: static; top: 0px; height: 852px;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot">
+      <div style="width: 980px; position: absolute; top: 0px; height: 252px; left: 0px;" class="s0" data-state=" " id="SITE_HEADER" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER">
+       <div id="SITE_HEADERscreenWidthBackground" class="s0screenWidthBackground" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.0" style="width: 690px; left: 0px;"></div>
+       <div id="SITE_HEADERcenteredContent" class="s0centeredContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1">
+        <div id="SITE_HEADERbg" class="s0bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.0"></div>
+        <div id="SITE_HEADERinlineContent" class="s0inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1">
+         <div style="position: absolute; top: 0px; height: 54px;" class="s1" id="idocq2oa" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$idocq2oa">
+          <div data-type="bgimage" id="idocq2oabg" class="s1bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$idocq2oa.0" style="background-image: none;"></div>
+          <div id="idocq2oainlineContent" class="s1inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$idocq2oa.1"></div>
+         </div>
+         <div id="DrpDwnMn0-m1d" data-menuborder-y="0" data-menubtn-border="0" data-ribbon-els="0" data-label-pad="0" data-ribbon-extra="0" style="left: 0px; width: 980px; position: absolute; top: 19px; height: 20px;" class="s2" data-state="center notMobile" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d" data-dropmode="dropDown">
+          <div style="display: inline-block; text-align: center; overflow: visible; height: 20px;" id="DrpDwnMn0-m1ditemsContainer" class="s2itemsContainer" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d.0">
+           <a style="display: inherit; color: grey; width: 980px; height: 20px; position: relative; box-sizing: border-box; overflow: visible;" data-listposition="lonely" href="http://274078026.wixsite.com/mysite" target="_self" class="s2repeaterButton" data-state="menu selected idle link notMobile" id="DrpDwnMn0-m1d0" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d.0.$0" data-original-gap-between-text-and-btn="0">
+            <div class="s2repeaterButton_wrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d.0.$0.0">
+             <div style="text-align:center;" id="DrpDwnMn0-m1d0bg" class="s2repeaterButtonbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d.0.$0.0.0">
+              <p style="text-align: center; line-height: 20px;margin:0;" id="DrpDwnMn0-m1d0label" class="s2repeaterButtonlabel" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d.0.$0.0.0.0">WELCOME</p>
+             </div>
+            </div></a>
+           <a style="display: inline-block; box-sizing: border-box; color: grey; height: 0px; overflow: hidden; position: absolute;" data-listposition="right" class="s2repeaterButton" data-state="menu  idle header notMobile" id="DrpDwnMn0-m1d__more__" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d.0.1" data-original-gap-between-text-and-btn="1">
+            <div class="s2repeaterButton_wrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d.0.1.0">
+             <div style="text-align:center;" id="DrpDwnMn0-m1d__more__bg" class="s2repeaterButtonbg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d.0.1.0.0">
+              <p style="line-height:20px;text-align:center;" id="DrpDwnMn0-m1d__more__label" class="s2repeaterButtonlabel" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d.0.1.0.0.0">More</p>
+             </div>
+            </div></a>
+          </div>
+          <div id="DrpDwnMn0-m1dmoreButton" class="s2moreButton" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d.1"></div>
+          <div style="visibility: hidden; left: 0px; right: auto; bottom: auto;" data-drophposition="" data-dropalign="center" id="DrpDwnMn0-m1ddropWrapper" class="s2dropWrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d.2">
+           <div style="visibility: hidden; left: 0px; right: auto;" id="DrpDwnMn0-m1dmoreContainer" class="s2moreContainer" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$DrpDwnMn0-m1d.2.0" data-listposition="lonely"></div>
+          </div>
+         </div>
+         <div style="left: -14px; width: 1009px; position: absolute; top: 54px; height: 198px;" class="s3" id="Cntnrc-14t8" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$Cntnrc-14t8">
+          <div class="s3_fl s3_ribbon" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$Cntnrc-14t8.0"></div>
+          <div class="s3_fr s3_ribbon" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$Cntnrc-14t8.1"></div>
+          <div id="Cntnrc-14t8bg" class="s3bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$Cntnrc-14t8.2"></div>
+          <div id="Cntnrc-14t8inlineContent" class="s3inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$Cntnrc-14t8.3">
+           <div style="left: 400px; width: 241px; position: absolute; top: 73px;" class="s4" id="comp-ix5uoynb" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_HEADER.1.1.$Cntnrc-14t8.3.$comp-ix5uoynb">
+            <h2 class="font_2" style="font-size: 46px;"><span style="font-size:46px;">EDUCARE</span></h2> 
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div style="width: 980px; position: absolute; left: 0px; height: 100px; bottom: auto; top: 692px;" class="s5_footer s5" data-state=" " id="SITE_FOOTER" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER">
+       <div id="SITE_FOOTERscreenWidthBackground" class="s5screenWidthBackground" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.0" style="width: 690px; left: 0px;">
+        <div class="s5_bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.0.0"></div>
+       </div>
+       <div id="SITE_FOOTERcenteredContent" class="s5centeredContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1">
+        <div id="SITE_FOOTERbg" class="s5bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.0"></div>
+        <div id="SITE_FOOTERinlineContent" class="s5inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.1">
+         <div style="left: 140px; width: 700px; position: absolute; top: 35px;" class="s4" id="WRchTxt13" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$SITE_FOOTER.1.1.$WRchTxt13">
+          <p class="font_8"><span style="font-weight:bold"><span style="text-decoration:underline">How to use？</span> &nbsp; &nbsp; &nbsp; &nbsp;1. Sign in/Log in &nbsp; 2. Fill info &nbsp;3. Select Student &nbsp;4. Start&nbsp;Educare</span></p> 
+         </div>
+        </div>
+       </div>
+      </div>
+      <div style="width: 980px; position: absolute; top: 252px; height: 500px; left: 0px;" class="s6" data-state="" id="PAGES_CONTAINER" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER">
+       <div id="PAGES_CONTAINERscreenWidthBackground" class="s6screenWidthBackground" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.0" style="width: 690px; left: 0px;"></div>
+       <div id="PAGES_CONTAINERcenteredContent" class="s6centeredContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1">
+        <div id="PAGES_CONTAINERbg" class="s6bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.0"></div>
+        <div id="PAGES_CONTAINERinlineContent" class="s6inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1">
+         <div style="left: 0px; width: 980px; position: absolute; top: 0px; height: 500px;" class="s7" id="SITE_PAGES" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES">
+          <div style="left: 0px; width: 980px; position: absolute; top: 0px; height: 500px;" class="s8" id="c16q4" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4">
+           <div id="c16q4bg" class="s8bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.0"></div>
+           <div id="c16q4inlineContent" class="s8inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1">
+            <div style="left: 0px; width: 530px; position: absolute; top: 0px; height: 398px;" class="s9" id="Cntnrd-jho" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho">
+             <div id="Cntnrd-jhobg" class="s9bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.0"></div>
+             <div id="Cntnrd-jhoinlineContent" class="s9inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1">
+              <div style="overflow: hidden; left: 15px; position: absolute; top: 0px; height: 381px; width: 500px;" data-gallery-id="SldShwGllry1-xt8" data-height-diff="0" data-width-diff="0" class="s10" data-state="hidePlayButton autoplayOn notMobile desktopView touchRollOut animationInProcess" id="SldShwGllry1-xt8" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8">
+               <div class="s10_border" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.0"></div>
+               <div style="height: 100%; z-index: 0;" data-gallery-id="SldShwGllry1-xt8" id="SldShwGllry1-xt8itemsContainer" class="s10itemsContainer" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1">
+                <div data-image-index="0" data-displayer-width="640" data-displayer-height="425" data-displayer-uri="a560a7_5a817244e0644438ab3c4231c9ee9d6e~mv2.jpg" data-height-diff="0" data-width-diff="0" data-bottom-gap="0" data-image-wrapper-right="2" data-image-wrapper-left="2" data-image-wrapper-top="2" data-image-wrapper-bottom="2" data-margin-to-container="0" style="position: absolute; left: 0px; top: 0px; visibility: inherit; opacity: 1; height: 381px; width: 500px; transform: translate3d(242.589px, 0px, 0px);" class="s10imageItem" data-state="notShowPanel desktopView  unselected clipImage transIn normal noLink" id="SldShwGllry1-xt8dataItem-ix5v4zfh0" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfh">
+                 <div style="height: 381px; width: 500px; margin: 0px;" id="SldShwGllry1-xt8dataItem-ix5v4zfh0imageWrapper" class="s10imageItemimageWrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfh.0">
+                  <div style="cursor:default;" id="SldShwGllry1-xt8dataItem-ix5v4zfh0zoom" class="s10imageItemzoom" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfh.0.0">
+                   <div style="position: relative; overflow: hidden; width: 496px; height: 377px;" id="SldShwGllry1-xt8dataItem-ix5v4zfh0image" class="s10imageItemimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfh.0.0.0">
+                    <div class="s10imageItemimagepreloader" id="SldShwGllry1-xt8dataItem-ix5v4zfh0imagepreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfh.0.0.0.0"></div>
+                    <img id="SldShwGllry1-xt8dataItem-ix5v4zfh0imageimage" alt="" src="./assets/img/f01.jpg" style="width: 496px; height: 377px; object-fit: cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfh.0.0.0.$image" />
+                   </div>
+                   <a draggable="false" style="cursor:default;height:100%;display:block;width:100%;position:absolute;top:0px;left:0px;background-color:#ffffff;filter:alpha(opacity=0);opacity:0;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-drag:none;-webkit-user-drag:none;-moz-user-drag:none;-ms-user-drag:none;user-modify:read-only;-webkit-user-modify:read-only;-moz-user-modify:read-only;-ms-user-modify:read-only;" data-page-item-context="coad" data-gallery-id="SldShwGllry1-xt8" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfh.0.0.1"></a>
+                  </div>
+                 </div>
+                 <div id="SldShwGllry1-xt8dataItem-ix5v4zfh0panel" class="s10imageItem_pnl s10imageItempanel" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfh.1">
+                  <h3 style="text-align:left;" id="SldShwGllry1-xt8dataItem-ix5v4zfh0title" class="s10imageItemtitle" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfh.1.0">educare</h3>
+                  <p style="text-align:left;" id="SldShwGllry1-xt8dataItem-ix5v4zfh0description" class="s10imageItemdescription" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfh.1.1"></p>
+                  <a style="display:none;" id="SldShwGllry1-xt8dataItem-ix5v4zfh0link" class="s10imageItemlink" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfh.1.2"></a>
+                 </div>
+                </div>
+                <div data-image-index="1" data-displayer-width="407" data-displayer-height="280" data-displayer-uri="a560a7_fe5a8a54603b4ddfb45e8e0e4ee57ef0~mv2.jpg" data-height-diff="0" data-width-diff="0" data-bottom-gap="0" data-image-wrapper-right="2" data-image-wrapper-left="2" data-image-wrapper-top="2" data-image-wrapper-bottom="2" data-margin-to-container="0" style="position: absolute; left: 0px; top: 0px; visibility: hidden; opacity: 0; height: 381px; width: 500px;" class="s10imageItem" data-state="notShowPanel desktopView  unselected clipImage noTransition normal noLink" id="SldShwGllry1-xt8dataItem-ix5v4zfi1" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi">
+                 <div style="height: 381px; width: 500px; margin: 0px;" id="SldShwGllry1-xt8dataItem-ix5v4zfi1imageWrapper" class="s10imageItemimageWrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi.0">
+                  <div style="cursor:default;" id="SldShwGllry1-xt8dataItem-ix5v4zfi1zoom" class="s10imageItemzoom" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi.0.0">
+                   <div style="position: relative; overflow: hidden; width: 496px; height: 377px;" id="SldShwGllry1-xt8dataItem-ix5v4zfi1image" class="s10imageItemimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi.0.0.0">
+                    <div class="s10imageItemimagepreloader" id="SldShwGllry1-xt8dataItem-ix5v4zfi1imagepreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi.0.0.0.0"></div>
+                    <img id="SldShwGllry1-xt8dataItem-ix5v4zfi1imageimage" alt="" src="./assets/img/f02.png" style="width: 496px; height: 377px; object-fit: cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi.0.0.0.$image" />
+                   </div>
+                   <a draggable="false" style="cursor:default;height:100%;display:block;width:100%;position:absolute;top:0px;left:0px;background-color:#ffffff;filter:alpha(opacity=0);opacity:0;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-drag:none;-webkit-user-drag:none;-moz-user-drag:none;-ms-user-drag:none;user-modify:read-only;-webkit-user-modify:read-only;-moz-user-modify:read-only;-ms-user-modify:read-only;" data-page-item-context="coad" data-gallery-id="SldShwGllry1-xt8" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi.0.0.1"></a>
+                  </div>
+                 </div>
+                 <div id="SldShwGllry1-xt8dataItem-ix5v4zfi1panel" class="s10imageItem_pnl s10imageItempanel" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi.1">
+                  <h3 style="text-align:left;" id="SldShwGllry1-xt8dataItem-ix5v4zfi1title" class="s10imageItemtitle" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi.1.0">006vVoGgzy73ZLgIiiN55&amp;690</h3>
+                  <p style="text-align:left;" id="SldShwGllry1-xt8dataItem-ix5v4zfi1description" class="s10imageItemdescription" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi.1.1"></p>
+                  <a style="display:none;" id="SldShwGllry1-xt8dataItem-ix5v4zfi1link" class="s10imageItemlink" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi.1.2"></a>
+                 </div>
+                </div>
+                <div data-image-index="2" data-displayer-width="3993" data-displayer-height="1662" data-displayer-uri="a560a7_ffefa116e97d442d906e8eff9213df6d~mv2_d_3993_1662_s_2.jpg" data-height-diff="0" data-width-diff="0" data-bottom-gap="0" data-image-wrapper-right="2" data-image-wrapper-left="2" data-image-wrapper-top="2" data-image-wrapper-bottom="2" data-margin-to-container="0" style="position: absolute; left: 0px; top: 0px; height: 381px; width: 500px; transform: translate3d(-257.411px, 0px, 0px);" class="s10imageItem" data-state="notShowPanel desktopView  unselected clipImage transOut normal noLink" id="SldShwGllry1-xt8dataItem-ix5v4zfi12" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi1">
+                 <div style="height: 381px; width: 500px; margin: 0px;" id="SldShwGllry1-xt8dataItem-ix5v4zfi12imageWrapper" class="s10imageItemimageWrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi1.0">
+                  <div style="cursor:default;" id="SldShwGllry1-xt8dataItem-ix5v4zfi12zoom" class="s10imageItemzoom" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi1.0.0">
+                   <div style="position: relative; overflow: hidden; width: 496px; height: 377px;" id="SldShwGllry1-xt8dataItem-ix5v4zfi12image" class="s10imageItemimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi1.0.0.0">
+                    <div class="s10imageItemimagepreloader" id="SldShwGllry1-xt8dataItem-ix5v4zfi12imagepreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi1.0.0.0.0"></div>
+                    <img id="SldShwGllry1-xt8dataItem-ix5v4zfi12imageimage" alt="" src="./assets/img/f03.png" style="width: 496px; height: 377px; object-fit: cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi1.0.0.0.$image" />
+                   </div>
+                   <a draggable="false" style="cursor:default;height:100%;display:block;width:100%;position:absolute;top:0px;left:0px;background-color:#ffffff;filter:alpha(opacity=0);opacity:0;user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-drag:none;-webkit-user-drag:none;-moz-user-drag:none;-ms-user-drag:none;user-modify:read-only;-webkit-user-modify:read-only;-moz-user-modify:read-only;-ms-user-modify:read-only;" data-page-item-context="coad" data-gallery-id="SldShwGllry1-xt8" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi1.0.0.1"></a>
+                  </div>
+                 </div>
+                 <div id="SldShwGllry1-xt8dataItem-ix5v4zfi12panel" class="s10imageItem_pnl s10imageItempanel" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi1.1">
+                  <h3 style="text-align:left;" id="SldShwGllry1-xt8dataItem-ix5v4zfi12title" class="s10imageItemtitle" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi1.1.0">c7</h3>
+                  <p style="text-align:left;" id="SldShwGllry1-xt8dataItem-ix5v4zfi12description" class="s10imageItemdescription" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi1.1.1"></p>
+                  <a style="display:none;" id="SldShwGllry1-xt8dataItem-ix5v4zfi12link" class="s10imageItemlink" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.1.$2dataItem-ix5v4zfi1.1.2"></a>
+                 </div>
+                </div>
+               </div>
+               <div class="s10_buttons" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.2">
+                <div style="visibility:hidden;" data-gallery-id="SldShwGllry1-xt8" id="SldShwGllry1-xt8buttonPrev" class="s10_btn s10buttonPrev" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.2.0"></div>
+                <div style="visibility:hidden;" data-gallery-id="SldShwGllry1-xt8" id="SldShwGllry1-xt8buttonNext" class="s10_btn s10buttonNext" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.2.1"></div>
+               </div>
+               <div class="s10_helpers" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.3">
+                <div style="cursor:pointer;visibility:hidden;" data-gallery-id="SldShwGllry1-xt8" id="SldShwGllry1-xt8autoplay" class="s10autoplay" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.3.0">
+                 <span data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.3.0.0"></span>
+                </div>
+                <div style="visibility:visible;" data-gallery-id="SldShwGllry1-xt8" id="SldShwGllry1-xt8counter" class="s10counter" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$SldShwGllry1-xt8.3.1">
+                 3/3
+                </div>
+               </div>
+              </div>
+              <div style="left: 15px; width: 445px; position: absolute; top: 229px; height: 108px;" class="s9" id="Cntnre-el6" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$Cntnre-el6">
+               <div id="Cntnre-el6bg" class="s9bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$Cntnre-el6.0"></div>
+               <div id="Cntnre-el6inlineContent" class="s9inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$Cntnre-el6.1">
+                <div style="left: 44px; width: 395px; position: absolute; top: 15px;" class="s4" id="WRchTxth-8wn" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnrd-jho.1.$Cntnre-el6.1.$WRchTxth-8wn">
+                 <h4 class="font_4" style="line-height:1em"><span style="color: rgb(39, 131, 137);">We Care for their education</span></h4> 
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+            <div style="left: 545px; width: 435px; position: absolute; top: 0px; height: 398px;" class="s9" id="Cntnr4-f99" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99">
+             <div id="Cntnr4-f99bg" class="s9bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.0"></div>
+             <div id="Cntnr4-f99inlineContent" class="s9inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1">
+              <div style="left: 23px; width: 390px; position: absolute; top: 126px; height: 180px;" class="s11" data-state="   phoneHidden  addressHidden desktop left" id="CntctFrm1-3rp" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp">
+               <div id="CntctFrm1-3rpwrapper" class="s11wrapper" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0">
+                <ul class="s11_row s11_form" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0.0">
+                 <li class="s11_col s11_left" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0.0.0"><input type="text" name="Name" class="s11_required s11nameField" placeholder="Name" id="CntctFrm1-3rpnameField" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0.0.0.0" /><input type="text" name="Email" class="s11_required s11emailField" placeholder="Email" id="CntctFrm1-3rpemailField" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0.0.0.1" /><input type="text" name="Phone" class="s11_hidden s11phoneField" placeholder="Phone" id="CntctFrm1-3rpphoneField" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0.0.0.2" /><input type="text" name="Address" class="s11_hidden s11addressField" placeholder="Address" id="CntctFrm1-3rpaddressField" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0.0.0.3" /><input type="text" name="Subject" class="s11subjectField" placeholder="Subject" id="CntctFrm1-3rpsubjectField" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0.0.0.4" /></li>
+                 <li class="s11_col s11_right" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0.0.1"><textarea name="Message" class="s11messageField" placeholder="Message" id="CntctFrm1-3rpmessageField" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0.0.1.0"></textarea></li>
+                </ul>
+                <div class="s11_foot" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0.1">
+                 <span class="s11_success s11notifications" id="CntctFrm1-3rpnotifications" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0.1.0"></span>
+                 <button id="CntctFrm1-3rpsubmit" class="s11submit" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$CntctFrm1-3rp.0.1.1">Send</button>
+                </div>
+               </div>
+              </div>
+              <div style="width: 196px; left: 119px; position: absolute; top: 326px; height: 32px;" class="s12" id="LnkBr2-ra5" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5">
+               <div id="LnkBr2-ra5itemsContainer" class="s12itemsContainer" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0">
+                <div style="width:32px;height:32px;margin-bottom:0;margin-right:9px;display:inline-block;" class="s12imageItem" id="LnkBr2-ra5i0ybw" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.0">
+                 <a href="http://www.facebook.com/wix" target="_blank" data-content="http://www.facebook.com/wix" data-type="external" id="LnkBr2-ra5i0ybwlink" class="s12imageItemlink" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.0.0">
+                  <div style="position:absolute;width:32px;height:32px;" id="LnkBr2-ra5i0ybwimage" class="s12imageItemimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.0.0.0">
+                   <div class="s12imageItemimagepreloader" id="LnkBr2-ra5i0ybwimagepreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.0.0.0.0"></div>
+                   <img id="LnkBr2-ra5i0ybwimageimage" alt="" src="https://static.wixstatic.com/media/ed86bdfa6aecf88649d305e11d76ac33.wix_mp/v1/fill/w_32,h_32,al_c,usm_0.66_1.00_0.01/ed86bdfa6aecf88649d305e11d76ac33.wix_mp" style="width:32px;height:32px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.0.0.0.$image" />
+                  </div></a>
+                </div>
+                <div style="width:32px;height:32px;margin-bottom:0;margin-right:9px;display:inline-block;" class="s12imageItem" id="LnkBr2-ra5i11psd" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.1">
+                 <a href="http://www.twitter.com/wix" target="_blank" data-content="http://www.twitter.com/wix" data-type="external" id="LnkBr2-ra5i11psdlink" class="s12imageItemlink" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.1.0">
+                  <div style="position:absolute;width:32px;height:32px;" id="LnkBr2-ra5i11psdimage" class="s12imageItemimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.1.0.0">
+                   <div class="s12imageItemimagepreloader" id="LnkBr2-ra5i11psdimagepreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.1.0.0.0"></div>
+                   <img id="LnkBr2-ra5i11psdimageimage" alt="" src="https://static.wixstatic.com/media/c9d3494be883cc2bd520386fed30f296.png/v1/fill/w_32,h_32,al_c,usm_0.66_1.00_0.01/c9d3494be883cc2bd520386fed30f296.png" style="width:32px;height:32px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.1.0.0.$image" />
+                  </div></a>
+                </div>
+                <div style="width:32px;height:32px;margin-bottom:0;margin-right:9px;display:inline-block;" class="s12imageItem" id="LnkBr2-ra5i21uqf" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.2">
+                 <a href="http://www.youtube.com/user/Wix" target="_blank" data-content="http://www.youtube.com/user/Wix" data-type="external" id="LnkBr2-ra5i21uqflink" class="s12imageItemlink" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.2.0">
+                  <div style="position:absolute;width:32px;height:32px;" id="LnkBr2-ra5i21uqfimage" class="s12imageItemimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.2.0.0">
+                   <div class="s12imageItemimagepreloader" id="LnkBr2-ra5i21uqfimagepreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.2.0.0.0"></div>
+                   <img id="LnkBr2-ra5i21uqfimageimage" alt="" src="https://static.wixstatic.com/media/45bce1d726f64f1999c49feae57f6298.png/v1/fill/w_32,h_32,al_c,usm_0.66_1.00_0.01/45bce1d726f64f1999c49feae57f6298.png" style="width:32px;height:32px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.2.0.0.$image" />
+                  </div></a>
+                </div>
+                <div style="width:32px;height:32px;margin-bottom:0;margin-right:9px;display:inline-block;" class="s12imageItem" id="LnkBr2-ra5i3790" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.3">
+                 <a href="http://plus.google.com/+Wix/posts" target="_blank" data-content="http://plus.google.com/+Wix/posts" data-type="external" id="LnkBr2-ra5i3790link" class="s12imageItemlink" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.3.0">
+                  <div style="position:absolute;width:32px;height:32px;" id="LnkBr2-ra5i3790image" class="s12imageItemimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.3.0.0">
+                   <div class="s12imageItemimagepreloader" id="LnkBr2-ra5i3790imagepreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.3.0.0.0"></div>
+                   <img id="LnkBr2-ra5i3790imageimage" alt="" src="https://static.wixstatic.com/media/38f46577d89b43ae95cb65fac6d660f3.png/v1/fill/w_32,h_32,al_c,usm_0.66_1.00_0.01/38f46577d89b43ae95cb65fac6d660f3.png" style="width:32px;height:32px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.3.0.0.$image" />
+                  </div></a>
+                </div>
+                <div style="width:32px;height:32px;margin-bottom:0;margin-right:9px;display:inline-block;" class="s12imageItem" id="LnkBr2-ra5i4pn1" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.4">
+                 <a href="https://www.linkedin.com/company/wix-com" target="_blank" data-content="https://www.linkedin.com/company/wix-com" data-type="external" id="LnkBr2-ra5i4pn1link" class="s12imageItemlink" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.4.0">
+                  <div style="position:absolute;width:32px;height:32px;" id="LnkBr2-ra5i4pn1image" class="s12imageItemimage" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.4.0.0">
+                   <div class="s12imageItemimagepreloader" id="LnkBr2-ra5i4pn1imagepreloader" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.4.0.0.0"></div>
+                   <img id="LnkBr2-ra5i4pn1imageimage" alt="" src="https://static.wixstatic.com/media/035def1a04ba3d3dc7113661354fc9d3.wix_mp/v1/fill/w_32,h_32,al_c,usm_0.66_1.00_0.01/035def1a04ba3d3dc7113661354fc9d3.wix_mp" style="width:32px;height:32px;object-fit:cover;" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$LnkBr2-ra5.0.4.0.0.$image" />
+                  </div></a>
+                </div>
+               </div>
+              </div>
+              <div id="StBttn0-pyd" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" style="left: 125px; position: absolute; top: 256px; height: 45px; min-height: 19px; width: 185px;" class="s13" data-state="desktop shouldUseFlex center" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$StBttn0-pyd" data-prev-text="// VISIT OUR CAMPUS" data-prev-min-width="135" data-prev-width="185">
+               <a href="http://www.wix.com/templateslp/links" target="_blank" data-content="http://www.wix.com/templateslp/links" data-type="external" id="StBttn0-pydlink" class="g-transparent-a s13link" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$StBttn0-pyd.0"><span id="StBttn0-pydlabel" class="s13label" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$StBttn0-pyd.0.0">// VISIT OUR CAMPUS</span></a>
+              </div>
+              <div style="left: 42px; width: 350px; position: absolute; top: 12px;" class="s4" id="WRchTxt0-xy0" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$Cntnr4-f99.1.$WRchTxt0-xy0">
+               <h6 class="font_6" style="line-height:1.3em; text-align:center"><span class="color_19"><span>Be a part of the</span></span></h6> 
+               <h1 class="font_0" style="line-height:1.3em; text-align:center">Educare</h1> 
+              </div>
+             </div>
+            </div>
+            <div style="left: 0px; width: 530px; position: absolute; top: -18px; height: 18px;" class="s9" id="comp-ikgz7wdr" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$comp-ikgz7wdr">
+             <div id="comp-ikgz7wdrbg" class="s9bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$comp-ikgz7wdr.0"></div>
+             <div id="comp-ikgz7wdrinlineContent" class="s9inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$comp-ikgz7wdr.1"></div>
+            </div>
+            <div style="left: 545px; width: 435px; position: absolute; top: -18px; height: 18px;" class="s9" id="comp-ikgz7dab" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$comp-ikgz7dab">
+             <div id="comp-ikgz7dabbg" class="s9bg" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$comp-ikgz7dab.0"></div>
+             <div id="comp-ikgz7dabinlineContent" class="s9inlineContent" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c16q4.1.$comp-ikgz7dab.1"></div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <noscript data-reactid=".0.5"></noscript>
+    <div class="siteAspectsContainer" data-reactid=".0.$siteAspectsContainer"></div>
+    <noscript data-reactid=".0.7"></noscript>
+   </div>
+  </div> 
+  <div comp="wysiwyg.viewer.components.WixAds" skin="wysiwyg.viewer.skins.wixadsskins.WixAdsWebSkin" id="wixFooter"></div> 
+ </body>
+ <script type="text/javascript">
+    var width = document.body.clientWidth;
+    var left = - (width - 980 ) / 2 + 'px';
+    console.log(left);
+    document.getElementById('idocq2oa').style.width = width;
+    document.getElementById('idocq2oa').style.left = left;
+ </script>
+</html>

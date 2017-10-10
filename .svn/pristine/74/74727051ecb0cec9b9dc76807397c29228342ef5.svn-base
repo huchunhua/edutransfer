@@ -1,0 +1,13 @@
+.address_put{
+	padding-top: 30px;
+}
+.address_put>input, .address_put>select{
+	width: 100%;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 10px;
+    border: 1px solid #cecece;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}

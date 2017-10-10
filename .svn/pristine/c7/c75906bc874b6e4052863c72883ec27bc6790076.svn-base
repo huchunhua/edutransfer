@@ -1,0 +1,91 @@
+.line_yellow{
+	height: auto;
+}
+.line_yellow p{
+	line-height: 50px;
+    margin-left: 20px;
+}
+.words_title p{
+	font-size: 16px;
+    color: #333;
+    line-height: 28px;
+    padding-left: 200px;
+}
+.clause00, .clause01{
+	width: 496px;
+    background-color: #f1f5df;
+    padding: 15px 20px 15px 20px;
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+.clause01{
+	top: 200px;
+}
+.myself_news{
+	padding-bottom: 100px;
+    margin-top: 10px;
+}
+.iconimg{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+   margin-right: 8px;
+}
+i.name{
+    background-image: url(../img/name.png);
+}
+i.name-s{
+    background-image: url(../img/name-s.png);
+}
+i.money-d{
+    background-image: url(../img/money-d.png);
+}
+i.money-p{
+    background-image: url(../img/money-p.png);
+}
+i.used{
+    background-image: url(../img/used.png);
+}
+i.student-id{
+    background-image: url(../img/student-id.png);
+}
+i.e-mail{
+    background-image: url(../img/e-mail.png);
+}
+i.phone{
+    background-image: url(../img/phone.png);
+}
+i.accont{
+    background-image: url(../img/accont.png);
+}
+i.true{
+    background-image: url(../img/true.png);
+}
+i.nation{
+    background-image: url(../img/nation.png);
+}
+.text-left .info{
+    padding-left: 20px;
+}
+h3{
+    margin-top: 50px;
+}
+button{
+    float: right;
+    height: 30px;
+    font-size: 14px;
+    background-color: #2dae4b;
+    border:none;
+    color:#fff;
+    border-radius: 4px;
+}
+.order_box{
+    height: 60px;
+    line-height: 60px;
+    width: 160px;
+    border-radius: 6px;
+}
+.order{
+    line-height: 60px;
+}

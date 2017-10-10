@@ -1,0 +1,52 @@
+.alert{
+	background-color: #c2e4e7;
+}
+.alert-block{
+	text-align: left;
+    padding: 25px 40px 25px 90px;
+    position: relative;
+}
+.alert-close{
+	color: #007a87;
+	float: right;
+	right: 25px;
+	font-size:28px;
+}
+.alert-close:before{
+	content: "\00d7";
+}
+.alert-block i{
+	display: inline-block;
+	position: absolute;
+	top: 26px;
+    left: 24px;
+	width: 30px;
+	height: 60px;
+	background-image: url('../imgs/dollor.png');
+	background-size: cover;
+}
+.h5{
+	font-size: 16px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.alert p{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.select{
+	position: relative;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 16px;
+}
+select{
+	padding:10px 32px 10px 10px;
+}
+.col-off{
+	padding-left: 10px;
+	margin-left:33.3%;
+	margin-top: 48px;
+	margin-bottom:48px;
+	text-align: center;
+}

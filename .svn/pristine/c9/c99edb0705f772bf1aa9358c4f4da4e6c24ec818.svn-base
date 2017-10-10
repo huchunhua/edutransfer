@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" href="http://www.edutransfer.com.cn/assets/img/logo_ico.png">
+	<title>teacher register</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/css/teacher_register.css">
+	<script src="./assets/js/jquery.min.js"></script>
+	<script src="./assets/js/gdlb.js"></script>
+</head>
+<body>
+	<div class="head">
+		<p>WELCOME</p>
+	</div>
+	<div class="title">
+		<h2>EDUCARE</h2>
+		<div class="l"></div>
+		<div class="r"></div>
+	</div>
+	<div class="content">
+		<div class="ban" id='ban1'>
+			<div class="banner">
+				<ul class="img">
+					<li><a href=""><img src="./assets/img/f01.jpg"></a></li>
+					<li><a href=""><img src="./assets/img/f02.png"></a></li>
+					<li><a href=""><img src="./assets/img/f03.png"></a></li>
+				</ul>
+				<ul class="num">
+					
+				</ul>
+				<div class="btn btn_l">&lt;</div>
+    			<div class="btn btn_r">&gt;</div>
+			</div>
+			<span>We Care for their education</span>
+		</div>	
+		<div class="form_wrap">
+			<div class="tips">
+				Be a part of the
+				<p>Educare</p>
+			</div>
+			<form >
+				<li class="left">
+					<input type="text" placeholder="Name" name="">
+					<input type="text" placeholder="Email" name="">
+					<input type="text" placeholder="Subject" name="">
+				</li>
+				<li class="right">
+					<textarea placeholder="Message"></textarea>
+				</li>
+				<button class="send">Send</button>
+				<button class="visit">// VISIT OUR CAMPUS</button>
+			</form>
+			<div class="link clearfix">
+				<div>
+					<a href="">
+						<img src="./assets/img/f.png">
+					</a>
+				</div>				
+				<div>
+					<a href="">
+						<img src="./assets/img/twitter.png">
+					</a>
+				</div>				
+				<div>
+					<a href="">
+						<img src="./assets/img/in.png">
+					</a>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="use">
+		<p class="text_wrap">
+			<span>How to use？</span>
+			1. Sign in/Log in &nbsp 2. Fill info &nbsp 3. Select Student &nbsp  4. Start Educare
+		</p>
+	</div>
+</body>
+<script type="text/javascript">
+	// 调用轮播函数
+	$(function(){
+		imgscrool('#ban1');
+	})
+</script>
+</html>

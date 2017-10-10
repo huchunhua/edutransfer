@@ -1,0 +1,49 @@
+/*个人信息*/
+.flow_center{
+	margin:10px auto;
+	width: 746px;
+	padding-bottom: 20px;
+}
+.flow_words p{float: left;
+	width: 138px;
+	margin-right: 148px;
+	text-align: center;
+	margin-top: 10px;
+}
+.myself_news{
+	margin-top: 10px;
+}
+.attimg{
+	border:1px solid #707070;
+	width: 140px;
+	height: 140px;
+}
+.submit{
+	margin-top: 40px;
+}
+.order_box{
+	background-color: #3879d9;
+	border-radius: 6px;
+	border:1px solid #3879d9;
+	width: 150px;
+}
+.order{
+	margin: 0;
+}
+.ps{
+	display: inline-block;
+	width: 400px;
+	padding-left: 20px;
+	color: rgb(240,90,36);
+}
+/*银行卡认证*/
+.imgwrap{
+	width: 50%;
+	text-align: center;
+	margin-top: 40px;
+}
+.attimg{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 20px;
+}

@@ -1,0 +1,152 @@
+label{
+	display: block;
+}
+.bankphoto{
+    background-image: url("../img/banner-infermation.png");
+    width: 1140px;
+    height: 279px;
+    display: inline-block;
+}
+.cardnum{
+	margin-left: 40px;
+}
+.form-group .theme{
+    font-weight: 700;
+}
+.form-group .info{
+	position: relative;
+    margin-top: 12px;
+    text-align: left;
+    color: #3879d9;
+}
+form{
+	text-align: center;
+	padding-bottom: 40px;
+}
+form .btn{
+	padding: 9px 27px;
+    border-color: #ff5a5f;
+    border-bottom-color: #e00007;
+    background-color: #ff5a5f;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.frilink{
+    width: 1170px;
+    border-top:1px solid rgb(51,51,51);
+    padding-top: 20px;
+    margin:0 auto 100px;
+    text-align: center;
+    color: #3879d9;
+}
+.frilink a{
+    display: inline-block;
+    width: 140px;
+    height: 52px;
+    padding: 10px;
+    background-origin:content-box;
+    background-size:120px 32px;
+    background-repeat:no-repeat;
+}
+.linkwrap{
+    width: 862px;
+    margin: 20px auto;
+}
+#icbc{
+    background-image: url(../img/icbc.png);
+
+}
+#wydl{
+    background-image: url(../img/wydl.png);
+}
+#boc{
+    background-image: url(../img/boc2.png);
+}
+#jh{
+    background-image: url(../img/jh.png);
+}
+#pbank{
+    background-image: url(../img/pbank.png);
+}
+#ceb{
+    background-image: url(../img/ceb.png);
+}
+#cmb{
+    background-image: url(../img/cmb.png);
+}
+#spdb{
+    background-image: url(../img/spdb.png);
+}
+#cgb{
+    background-image: url(../img/cgb.png);
+}
+#cib{
+    background-image: url(../img/cib.png);
+}
+#pweb{
+    background-image: url(../img/pweb.png);
+}
+#tic{
+    background-image: url(../img/tic.png);
+}
+#cnb{
+    background-image: url(../img/cnb.png);
+}
+#ibs{
+    background-image: url(../img/ibs.png);
+}
+#bcc{
+    background-image: url(../img/bcc.png);
+}
+#pa{
+    background-image: url(../img/pa.png);
+}
+#hxb{
+    background-image: url(../img/hxb.png);
+}
+.numwrap{
+    position: relative;
+    width: 600px;
+    margin: 10px;
+    margin-left: 200px;
+    text-align: left;
+}
+span.ps{
+    color:rgb(240,90,36);
+    font-size: 14px;
+}
+span.ps_safe{
+    width: 200px;
+    padding-left: 20px;
+}
+.numwrap i{
+    position: absolute;
+    left: -2px;
+    display: inline-block;
+    width: 40px;
+    height: 34px;
+    background-image: url("../img/tubiao05.png");
+    border-radius: 4px 0 0 4px;
+}
+#num{
+    padding:5px 50px;
+    width: 600px;
+    margin-bottom: 4px;
+}
+.pbtn{
+    position: absolute;
+    right: 0;
+    top:0;
+    height: 34px;
+    background-color: #3879d9;
+    border:2px solid #3879d9;
+    color:#fff;
+
+}
+form .otherpay{
+    color: #333;
+    background-color: #ffffff;
+    border:1px solid rgb(204,204,204);
+    margin-right: 20px;
+}

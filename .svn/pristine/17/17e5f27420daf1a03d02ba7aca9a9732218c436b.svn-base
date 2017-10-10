@@ -1,0 +1,89 @@
+form{
+	width: 64%;
+    margin: 0 auto;
+    min-width: 900px;
+    text-align: center;
+    padding: 40px 100px 20px;
+    background-color: #f5f5f5;
+}
+.content{
+	margin:20px;
+}
+.line{
+	height: 10px;
+	border-bottom: 1px solid;
+	float: left;
+	width: 100%;
+	margin-left: 10px;
+}
+.row{
+	text-align: left;
+}
+.row_title{
+	font-size: 16px;
+	font-weight: 700;
+	text-align: right;
+	width: 80px;
+}
+.date_title{
+	display: inline-block;
+	width: 100px;
+	margin-right: 20px;
+	text-align: right;
+	font-weight: 700;
+}
+.date_titlel{
+	width: 180px;
+}
+.col-sm-6,.col-sm-12{
+	padding-bottom: 10px;
+}
+.bgimg-wrap{
+	text-align: center;
+}
+.bgimg{
+	width: 64%;
+	min-width: 900px;
+	height: 279px;
+	background-image: url("../img/banner-infermation.png");
+    display: inline-block;
+    background-size: cover;
+}
+form button{
+	float: right;
+	margin-left: 20px;
+}
+.btn-b{
+	background-color: #3879d9;
+	border-color: #3879d9;
+	color: #fff;
+}
+.btn-b:hover{
+	background-color: #589afc;
+	border-color: #589afc;
+	color: #fff;
+}
+.certiwrap{
+	text-align: center;
+}
+img.certi{
+	display: inline-block;
+	width: 320px;
+	height: 250px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-image: url('../img/certi.png');
+	background-size: cover;
+}
+.certib{
+	display: none;
+	position: fixed;
+	width: 800px;
+	height: 640px;
+	left:10%;
+	top:10%;
+}
+.certib img{
+	width: 800px;
+	height: 640px;
+}

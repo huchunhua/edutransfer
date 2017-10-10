@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, dd, dl, dt, li, ol, ul,input,select,button,textarea,img { padding:0; margin:0; border:none;}
+input,button,select,textarea,a,img{outline:none; }/*去掉超链接或按钮点击时出现的虚线框黄色边框*/
+::-moz-focus-inner{border:0px;}/*火狐的私有属性去掉点击时边框*/
+body {font-size:12px; width:100%; background:#fff; overflow-x:hidden;  font-family:"Microsoft YaHei","SimSun","Arial";}
+html{ width:100%;}
+a img {	border:none;}
+img{vertical-align: middle;}
+a {	text-decoration:none; outline:none; padding:0px; margin:0; cursor:pointer; cursor:hand;}
+ul, ul li, ol li, li {	list-style:none;}
+table {	border-collapse: collapse;border-spacing:0;}
+input, textarea {border: 0;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: ".";clear: both;height: 0;}
+* html .clearfix {zoom: 1;}
+*:first-child + html .clearfix {zoom: 1;}
+.fl {float:left;}
+.fr {float:right;}
+.none{display:none;}
+.tx_c{text-align: center;}
+.tx_l{text-align: left;}
+.w_pb{width: 1200px;margin: 0 auto}
+i{font-style: normal}
+.clearfix{clear:both;}
+a:hover{text-decoration:none;}
+body{font-family: "Hiragino Sans GB","华文细黑","STHeiti","微软雅黑","Microsoft YaHei",SimHei,"Helvetica Neue",Helvetica,Arial,sans-serif !important;}
+/* 图标引入 */
+
+@font-face {font-family: "iconfont";
+    src: url('iconfont/iconfont.eot?t=1468569445'); /* IE9*/
+    src: url('iconfont/iconfont.eot?t=1468569445#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('iconfont/iconfont.woff?t=1468569445') format('woff'), /* chrome, firefox */
+    url('iconfont/iconfont.ttf?t=1468569445') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('iconfont/iconfont.svg?t=1468569445#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}.icon-home:before { content: "\e60d"; }
+.icon-jingjide:before { content: "\e6e0"; }
+.icon-jianyuede:before { content: "\e6df"; }
+.icon-shushide:before { content: "\e6e1"; }
+.icon-gaoduande:before { content: "\e6e2"; }
+.icon-huwai:before { content: "\e687"; }
+
+/* 登录 */
+.login_bg{background:url("../imgs/top_bg.jpg") no-repeat 0 0; background-size:cover;}
+#regFrom{position:absolute; top:10%; left:32%; background:#fff;border:1px solid #ccc; padding:20px;-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius:5px;}
+.promt_reg_h2{text-align:center; line-height:60px;}
+.promt_reg_txt{font-size:15px; color:#444; text-align:center; margin-bottom:20px;}
+.control-group{width:100%; height:100%; margin:20px auto;}
+.control-group>input{padding-left:10px; box-sizing: border-box; font-size:15px; width:100%; height:40px; background: url("../imgs/form_icon.png") no-repeat; background-size:40px 171px; border: 1px solid #cecece;-webkit-border-radius: 5px; -moz-border-radius:5px; border-radius:5px; }
+.control-group>input.tel{background-position:right -142px;}
+.control-group>input.pwd{background-position:right -90px;}
+.getTelNum{float:right; margin:10px 0;}
+.btn_col{width:100%; height:50px; font-size:16px; background-color:#FF5B61; color:#fff; border: 1px solid #FF5B61;-webkit-border-radius: 5px; -moz-border-radius:5px; border-radius:5px;}
+.btn_col:hover{color:#fff;}
+#telArea{float:left;background-color:#fff; border:1px solid #cecece; width:16%; height:40px;}
+.control-group>input.telphone{float:left; width:84%; }
+.argg_txt{color:#666; width:80%; margin:0 auto;}
+.argg_txt>a{color:#FF5B61;}
+/* search */
+img{width:100%; height:100%;}
+.search_area{margin:30px auto; padding:30px 0; background:#fff;}
+.bg_col_fff{background-color:#fff;}
+.search_form>input{width:200px; height:40px; color:#444; font-size:16px; border:1px solid #797979; padding-left:10px; box-sizing:border-box; }
+.want_where{-webkit-border-radius: 5px 0 0 5px;-moz-border-radius: 5px 0 0 5px;border-radius: 5px 0 0 5px;}
+.inps_group{position:relative;}
+.inps_group>input{width:395px;  height:40px; border:1px solid #ccc; font-size:15px; padding-left:10px; box-sizing:border-box;}
+.inps_group>button{height:40px;}
+.inps_group>input.form_datetime2{width:294px;}
+.country_list{display:none; position:absolute; width:300%; background-color:#fff; border:1px solid #ccc;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;}
+.country_list>dl{width:100%; border-bottom:1px solid #cecece; padding:10px 0;}
+.country_list>dl:last-child{border:none;}
+.country_list>dl>dt{float: left; width:10%; height:25px;  text-align: center; font-size:15px;}
+.country_list>dl>dd{float: left;display:inline-block; *display:inline; zoom:1; width:90%; }
+.country_list>dl>dd>a{display:inline-block; *display:inline; zoom:1; width:10%;  line-height:25px; height:25px; color:#333; text-align: center;}
+.country_list>dl>dd>a:hover{color:#fff;  background-color:#FF5B61;}
+/* 筛选条件详情 */
+.right_map{height:700px;}
+.left_desc{max-height:700px; overflow-y: auto;}
+/* 导航栏 */
+.logo{width:120px; height:40px;margin:10px; padding-right:20px; border-right:1px solid #cecece;}
+.show_search{display:inline-block; *display:inline; zoom:1; width:200px; height:44px; background:url("./../imgs/serch.png") no-repeat 10px 20px; color:#666; font-size:16px; line-height:65px; padding-left:40px;}
+/*.navbar-default .navbar-nav > li > a{font-size:15px; color:#222;}*/
+.navbar-nav > li > a{padding-top:8px;padding-bottom:8px; border-right:1px solid #cecece;}
+/*帮助*/
+.helpCenter_child{position:absolute; top:30px; right:0; width:500%; color:#444; font-size:14px; background-color:#fff; border:1px solid #cecece; z-index: 9;}
+.nav>li:hover .helpCenter_child{display:block;}
+.help_search{color:#999; padding-left:50px; width:300px; border-bottom:1px solid #cecece; height:70px;}
+.naoScroll{max-height:300px; overflow-y:auto;}
+.naoScroll>h4{color:#333; line-height:40px; background-color:#edefed; padding-left:10px; box-sizing: border-box;}
+.trans_linear{display:block;width:90%;  height:50px; line-height:50px; font-size:12px;padding-left:40px; color:#333;box-sizing: border-box;  background:url("./../imgs/help_icon.png") no-repeat 10px 10px; border-bottom:1px solid #cecece; margin:0 auto 10px;  }
+.trans_linear:hover{color:#666; cursor: pointer;}
+.nav>li:hover .helpCenter_child{display:block;}
+.link_help{color:#FF5B61; display:block; padding-left:20px; line-height:40px; border-top:1px solid #cecece;}
+.link_help:hover{text-decoration: underline;color:#FF5B61;}
+/* 左边 */
+.selector_group{padding:20px 0; border-bottom:1px solid #eee;}
+.selector_group:hover{cursor: pointer;}
+h5{float:left; width:10%; font-weight:600; line-height:40px;}
+.selector_group .form_datetime,.selector_group>select{float: left; width:30%; height:40px; font:normal 15px/40px "Microsoft YaHei"; color:#666; border:1px solid #cecece; -webkit-border-radius:3px;-moz-border-radius: 3px;border-radius: 3px; margin-right:20px; padding-left:10px;}
+.selector_group>p{position: relative; float: left; width:30%; height:40px; background-color:#edefed; margin-right:20px;font:normal 15px/40px "Microsoft YaHei"; color:#666; padding-left:10px;}
+.selector_group>p>input{position:absolute; top:5px; right:10px;  width:20px; height:20px;}
+.select_if_btn{width:120px; height:40px; background-color:#fff; color:#333; margin:20px; border:1px solid #cecece; font-size:15px; font-weight:600;}
+.selector_group>#room,.selector_group>#bed,.selector_group>#wc{width:25%;}
+.selector_group lable{display:inline-block; *display:inline; zoom:1; width:25%;}
+.selector_group lable>input[type="checkbox"]{width:20px; height:20px; background:#fff; vertical-align: top; -webkit-appearance: none; border:1px solid #cecece;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius: 3px;}
+.selector_group lable>input[type="checkbox"]:checked:before{display:inline-block; width:20px; height:20px;content: "\2713";font-size:15px;text-align:center;color: #ff5a5f;}
+.selector_group lable.good_room_check>input{float: left;}
+.good_intro{float:left; font-size:15px; color:#666; padding-left:8px;}
+.good_intro>b{ display: block; text-align: left;}
+.chekbox{font-size:16px;}
+.chekbox>input[type="checkbox"]{ margin-right:10px;}
+.scale_area{position: relative; float:right; width:30px; height:30px;margin-right:30px;}
+.scale{position:absolute;top:3px; left:9px; border-left:6px solid transparent; border-right:6px solid transparent;border-top:6px solid transparent;border-bottom:6px solid #333;}
+.scaleH{top:10px; border-bottom:6px solid transparent; border-top:6px solid #333;}
+.sub_group{width:100%; background-color:#fff; margin-top:30px; }
+.sub_group_cont{width:80%; margin:10px auto; border-top:1px solid #cecece;}
+.sub_group_cont>lable{margin-top:20px; width:31%;}
+.selector_group_btn{float: right;}
+.selector_group_btn>button{margin-right:30px;}
+/* 房间列表 */
+.home_list>li{float:left; width:48%; margin:0 20px 20px 0;}
+.home_list>li:nth-child(even){width:47%; margin-right:0;}
+.home_list>li:hover{cursor:pointer;}
+.home_list2>li{width:24%;}
+.home_list2>li:nth-child(even){width:22%; margin:0 20px 20px 0;}
+.home_list2 .slides>li>a{display:block; width:100%; height:180px;}
+.bg_opc{position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,.4);}
+.zIndex{position:relative; z-index:99;}
+/*.icon_heart{display:inline-block;*display:inline; zoom:1; width:30px; height:30px;}
+.icon_heart:before{content:'\f187'; color:#fff; font-family: Airglyphs, sans-serif;}*/
+.home_price{position:absolute; bottom:100px; display:inline-block;*display:inline; zoom:1; padding:10px 15px; font-size:22px; color:#fff; background:rgba(0,0,0,.7);}
+.home_price>strong{font-size:19px;}
+.home_pepole{position:absolute; right:20px;  bottom:-25px; display:inline-block;*display:inline; zoom:1; width:50px; height:50px; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; background:#000; overflow: hidden;}
+.link_name{display:block; width:88%; color:#444; line-height:60px; font-size:16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.link_name:hover{color:#333; text-decoration:underline;}
+.flex-control-nav{text-align: center;}
+.mark_intro>span{padding-right:5px; padding-left:5px;font-size:15px;}
+.icon_star{display:inline-block; width:18px; height:20px; background:url("../img/star.png") no-repeat 0 4px;}
+.icon_star_half{display:inline-block;width:15px; height:21px; background:url("../img/starHalf.png") no-repeat 0 4px;}
+.pagination > li > a{color: #ff5a5f; margin-left:10px;}
+.pagination > li > a:hover{color: #ff5a5f;}
+.home_count{font:normal 15px/20px "Microsoft YaHei";color:#333; margin-top:20px;}
+.home_count>span{margin:0 5px;}
+/* 左边下部分 */
+.left_bot{padding:20px 0; border-top:1px solid #cecece; margin-top:30px; }
+.bot_intro{font-size:14px; color:#333; margin:10px 0;}
+.bot_intro>a,.bot_intro>span{margin:0 5px; color:#666; font-family:"Microsoft YaHei";}
+.bot_intro>.people_name{color:#333;}
+.bot_intro>a:hover{text-decoration:underline;}
+/*  房间信息详情 */
+.home_desc_top{padding-bottom:20px; background-color:#fff; border-bottom:1px solid #cecece;}
+.home_desc_banner{width:100%; height:650px;}
+.people_desc{width:200px;}
+.home_desc_tit{width:450px; margin-left:50px;}
+.people_cirle{display:block; width:90px;height:90px;border:1px solid #cecece; overflow: hidden; margin:20px auto;-webkit-border-radius:50%;-moz-border-radius: 50%;border-radius: 50%;}
+.peop_name{width:90%; color:#333; text-align: center; font:normal 16px/20px "Microsoft YaHei"; margin:0 auto; }
+.home_desc_tit>h4{font-size:20px; color:#333; margin:20px auto 10px;}
+.homeStyle_desc{width:100%;}
+.homeStyle_desc>li{float: left; width:25%;padding:10px;}
+.bed_name{display:block; width:100%; text-align: center; line-height:20px;}
+.bigBed_icon{display:block; width:50px; height:50px; margin:0 auto; background:url("../img/bigBed.png");}
+.peopleNum_icon{display:block; width:50px; height:50px; margin:0 auto; background:url("../img/people_num.png");}
+.smartBed_icon{display:block; width:50px; height:50px; margin:0 auto; background:url("../img/people_num.png");}
+.home_desc_middle{border-bottom:1px solid #cecece; padding:20px 0;}
+.roomer_intro_tit{margin-top:30px; color:#333; font-weight:bold;}
+.list_tag{margin:10px 0;}
+.list_tag>li{ float: left; padding:6px 8px; background: #dcedec;color: #007a87; font-size: 14px; margin: 8px 8px 0 0;}
+.roomer_intro_tit2{margin-top:100px;}
+.home_desc_intro{width:60%; margin-top:20px; font-size:14px; line-height:25px;}
+.connect_hommer{color: #ff5a5f; margin-top:30px; font-size:17px;font-weight:bold;}
+.house_intro{width:60%; padding:20px 0; border-top:1px solid #cecece; margin:20px 0;}
+.house_tit{display:inline-block;width:20%; font-size:15px; color:#555;}
+.hosing{width:80%;}
+.hosing_list>dd{float: left; display:inline-block;width:50%; line-height:20px; font-size:14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.hosing_list2>dd{width:25%; height:25px; line-height:25px;}
+.home_ruler,.look_more{color: #ff5a5f; line-height:30px; font-size:16px;}
+.home_ruler:hover,.look_more:hover{color: #ff5a5f;text-decoration: underline;}
+.underlin{ color:#666;text-decoration:line-through;}
+.describe_bed{line-height:30px; font-size:17px;}
+.one_bed{display: inline-block; *display:inline; zoom:1; width:30px; height:40px; background:url("../img/oneBed.png") no-repeat 0 0;}
+.bed_order>span,.bed_order>strong{display: block;}
+.husing_cont_tit{display:block; font-size:16px; padding-top:30px; line-height:30px;}
+.husing_cont{font-size:15px; line-height:25px; text-indent:2em; margin-bottom:10px; color:#666;}
+.homeImg_desc{width:60%;}
+.img200{display:inline-block; *display:inline; zoom:1; width:200px; height:150px;}
+.img300{display:inline-block; *display:inline; zoom:1; width:400px; height:300px;}
+/* 房屋评论 */
+.home_remark{width:100%; background-color: #fff; border-top:1px solid #cecece;border-bottom:1px solid #cecece; padding:30px 0 0;}
+.remark_tit{width:18%;}
+.remark_tit2{width:100%;}
+.scale_icon{display:inline-block;*display:inline; zoom:1;border-left:6px solid transparent; border-right:6px solid transparent;border-top:6px solid #ccc;border-bottom:6px solid transparent; }
+.homeRemark_child{position:absolute; border:1px solid #ccc;background-color:#fff; width:300px; padding:20px;}
+.prog{display:inline-block;*display:inline; zoom:1; width:80%; height:15px; margin:0 0 0 10px;-webkit-border-radius:10px;-moz-border-radius: 10px;border-radius: 10px;}
+.prog_org{border:1px solid #FFB402;background-color:#FFB402;}
+.prog_grey{border:1px solid #cecece;background-color:#fff;}
+.remark_tit:hover .homeRemark_child{display: block;}
+/* 评论内容详情 */
+.remark_desc_area{width:60%; padding:20px 0;}
+.remark_left{width:20%;}
+.remark_right{width:80%; padding-bottom:30px; border-bottom:1px solid #cecece;}
+.remark_img{display:block; width:50px; height:50px; margin:10px auto; overflow: hidden; -webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+.remark_left>p{text-align: center; line-height:20px; font-size:16px; }
+.remark_right>p{line-height:20px; font-size:15px; }
+.remark_opr{height:30px; margin-top:10px;}
+.datetime{color:#666; line-height:30px;}
+.click_good{display:block; width:70px; height:30px; line-height:25px; padding-left:40px; background:url("../img/good.png") no-repeat 15px center; border:1px solid #cecece; color:#333;}
+.more_remark{display:block; width:120px; height:35px; text-align:center; line-height:35px; font-size:15px; border:1px solid #cecece; color:#333; margin-top:10px; font-weight:bold;}
+/*您的房东*/
+.yourRoomer{padding:30px 0 30px;}
+.yourRoomer_tit{width:60%;padding-bottom:10px; margin-bottom:10px; border-bottom:1px solid #ccc;}
+.gpsMap{margin-top:50px;}
+.like_hommer{margin:30px 0;}
+/*右边固定选项卡*/
+.right_fixed{position:fixed;top:10%;left:50%; width:350px; z-index: 99;}
+.price_tit{display:block; width:100%; height:53px; line-height:53px; padding-left:10px; box-sizing: border-box; font-size:22px; color:#fff; background:rgba(0,0,0,.7);}
+.price_tit>strong{font-size:19px;}
+.evenings{font-size:17px; color:#fff; padding-right:10px; line-height:53px; font-weight: 200;}
+.price_desc_area{width:100%; padding-bottom:20px; border:1px solid #cecece; border-top:none; background-color:#fff;}
+.datetime_list_desc>li{float: left; width:45%; margin:10px 8px 0 8px; height:100px; }
+.datetime_txt{display: block; width:100%;color:#666; font-size:15px; line-height:30px;}
+.datatime_input{width:100%; height:35px; font-size:15px; padding-left:10px; border:1px solid #cecece;-webkit-border-radius:3px;-moz-border-radius: 3px;border-radius: 3px;}
+.price_desc{width:80%; padding:0 0 15px 10px; height:30px; border-bottom:1px solid #cecece; margin:10px auto 0;}
+.price_desc>strong{float:left; font-size:15px;}
+.price_desc>span{float:right; font-size:15px; padding-right:30px;}
+.order{width:100%; height:40px; margin:20px auto; text-align: center;}
+.order_btn{width:80%; padding:10px 8px; font-size:16px;}
+.promt_order{display: block; width:100%; text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

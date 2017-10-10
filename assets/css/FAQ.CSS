@@ -1,0 +1,42 @@
+.intro_content{
+	width: 80%;
+    margin: 0 10%;
+    background-color: #fff;
+}
+.intro_content .row{
+	margin:0;
+	margin-bottom: 100px;
+}
+.intro_content p{
+	text-align: left;
+}
+.hd_img{
+	display: block;
+    width: 100%;
+}
+.hd_img>img{
+	width: 100%;
+}
+hr.default{
+	height: 1px;
+    border: 0;
+    border-top: 1px solid #4d4d4d;
+}
+.menu{
+	background-color: #f5f5f5;
+}
+.menu p{
+	padding: 5px 10px;
+}
+a{
+	color: #23527c;
+}
+a:hover,a:focus{
+	color: #337ab7;
+}
+.solve p{
+	line-height: 30px;
+}
+.solve img{
+	width: 700px;
+}

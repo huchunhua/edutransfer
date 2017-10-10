@@ -1,0 +1,215 @@
+body{
+	background-color: #fff;
+}
+form{
+	width: 64%;
+	margin: 0 auto;
+	min-width: 900px;
+	text-align: center;
+	padding:100px 100px 20px;
+	background-color: #f5f5f5;
+}
+form .form-group {
+	text-align: left;
+}
+/*.form-group div{
+	margin-top: 20px;
+}*/
+form .btn{
+	padding: 9px 27px;
+	color: #fff;
+	font-size: 16px;
+	margin-top: 40px;
+}
+.btn-r{
+	background-color: #dc2b2b;
+    border: 1px solid #dc2b2b;
+}
+/*.btn-g{
+	border-color:#2ba86b;
+	background-color:#2ba86b;
+}*/
+.btn-b{
+	background-color: #3879d9;
+	border-color: #3879d9;
+}
+ .btn-r:hover{
+	border-color: #ff4c4c;
+	background-color: #ff4c4c;
+	color: #fff;
+}
+.btn-b:hover{
+	background-color: #589afc;
+	border-color: #589afc;
+	color: #fff;
+}
+/* .btn-g:hover{
+	border-color:#04e075;
+	background-color: #04e075;
+	color: #fff;
+}*/
+.form-group .col-sm-10{
+	position: relative;
+	width: 430px;
+}
+.form-group input{
+	padding-left: 40px;
+}
+.name input{
+	float: left;
+	width: 200px;
+}
+.col-sm-10>span{
+	display: none;
+}
+.form-control{
+	height: 34px;
+}
+.col-sm-10>i{
+	display: inline-block;
+	width: 40px;
+	height: 34px;
+	position: absolute;
+}
+span .icons{
+	background-image: url("../img/icon.png");
+	background-position: 0 -296px;
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	margin-right: 5px;
+	overflow: hidden;
+	vertical-align: -3px;
+}
+.att{
+	display: inline-block;
+	background-image: url("../img/icon.png");
+	width: 17px;
+	height: 17px;
+	background-position: 0 -453px;
+}
+.form-group span.atttext{
+	display: inline-block;
+	margin-top: 10px;
+}
+.chinesename>i,.relation>i{
+	background-image: url("../img/tubiao01.png");
+}
+.name i.lastname{
+	background-image: url("../img/tubiao02.png");
+}
+.name i.firstname{
+	background-image: url("../img/tubiao03.png");
+}
+.phone>i{
+	background-image: url("../img/tubiao05.png");
+}
+.id_number>i{
+	background-image: url("../img/tubiao04.png");
+}
+.address>i{
+	background-image: url("../img/tubiao12.png");
+}
+.email>i{
+	background-image: url("../img/tubiao08.png");
+}
+.passport>i{
+	background-image: url("../img/tubiao23.png");
+}
+.form-group span{
+	display: none;
+}
+.form-group span.error{
+	display: block;
+}
+.country,.nationnality{
+	position: relative;
+}
+.country select,.nationnality select,.relation select{
+	position: absolute;
+	top:0;
+	left:54px;
+	width: 360px;
+	height: 35px;
+	border-radius: 4px;
+	display: none;
+}
+.country select option,.country select input,.nationnality select option,.nationnality select input,.relation select input,.relation select option{
+	height: 34px;
+}
+.form-horizontal>p{
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: left;
+	border-bottom: 1px solid;
+	padding-bottom:10px;
+}
+.cardinfo{
+	padding:20px 100px;
+	text-align: left;
+}
+.bankcard{
+	margin:0 auto 20px;
+}
+.cardinfo span.bank{
+	margin-left: 100px;
+}
+.cardinfo span.cardnum{
+	margin-left: 40px;
+}
+.bankphoto{
+	background-image: url("../img/bankphoto.png");
+}
+button.add{
+	display: block;
+	margin: 10px auto;
+}
+.certiwrap{
+	display: none;
+}
+img.certi{
+	width: 100px;
+	height: 100px;
+}
+.pho{
+	width: 80px;
+	height: 80px;
+	background-image: url('../img/pho.png');
+	background-size: cover;
+}
+.new-photo{
+	position: relative;
+}
+input[type=file]{
+	position: absolute;
+	top:50px;
+	opacity: 0;
+	cursor: pointer;
+}
+.new-photo .np{
+	position: absolute;
+	top:40px;
+	margin-left:40px;
+	padding:10px 40px;
+    border-radius: 6px;
+    color:#fff;
+    cursor: pointer;
+}
+.ps{
+	width: 400px;
+	color: rgb(240,90,36);
+	margin:0 auto;
+}
+.bgimg-wrap{
+	text-align: center;
+}
+.bgimg{
+	display: inline-block;
+	width: 64%;
+	min-width: 900px;
+    height: 279px;
+    background-image: url("../img/banner-infermation.png");
+    display: inline-block;
+    background-size: cover;
+}

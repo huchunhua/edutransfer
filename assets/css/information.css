@@ -1,0 +1,97 @@
+﻿
+.bg{width:1920px; height:1021px;position:relative; }
+.contentwrap{
+	width:100%;
+	height:1020px;
+	background-image: url('../img/bg_img.png');
+	background-size:cover;
+}
+.content{ width:924px; height:1000px; margin:0 auto;padding-top:200px;}
+.content01{ width:80%; height:600px;
+			margin:0 auto;
+			padding-top: 200px;
+}
+.content_words{ background-color:#fff; opacity:0.8; margin-top:70px; }
+
+label{ font-weight:normal; font-size:26px; color:#fff;float:left; margin-top:14px;width: 200px;text-align: right;}
+.tubiao{ float:left; margin-left:20px;}
+
+#nation{ width:620px; height:60px; float:left; background-color:#fff; font-size:16px; }
+#school{ width:620px; height:60px; float:left;font-size:16px;}
+
+.space{ margin-top:50px; margin-bottom:50px;}
+
+.school_w{ background-color:#248624; padding:0 20px; line-height:60px; text-align:center; font-size:26px; color:#fff; border-radius:4px; border:none;float: right;margin-top: 40px;margin-left: 20px; }
+.website{ background-color:#be4949;}
+.website:hover{ background-color:#f00;}
+.details:hover{ background-color:#13b713;}
+/*.reture{ position:relative; bottom:-100px; margin-left:300px;}*/
+.reture:hover{ background-color:#13b713;}
+
+h3{ color:#333; float:left;}
+
+.list_line{ float:left; }
+.text_content{float:left; position:relative;}
+.text_content p{ position:absolute; bottom:0; right:0; margin-right:20px;}
+.text_content a.most_notice{ color:#a81717; font-size:14px;}
+.text_content01 p{  position:absolute; bottom:0; right:0; margin-right:20px;}
+
+.clearfix{ clear:both;}
+.listwrap{
+	height:340px;
+	margin: 30px auto;
+	padding-right: 40px;
+	border-right:1px dashed #a81717;
+}
+.text_content01 .listwrap{
+	border-right: none;
+}
+.listwrap li{
+	overflow: hidden;
+	overflow:hidden;
+	text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    white-space:nowrap;
+}
+.affiche_list{
+	height:340px;
+	width:80%;
+	margin:10px auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	list-style: none;
+}
+.affiche_list li{
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+.affitem{
+	font-size: 14px;
+	color:black;
+	width:100%;
+	margin-top: 0;
+}
+span.affmore{
+	float:right;
+
+}
+.intro{
+	width:924px;
+	height: 300px;
+}
+.intro div{
+	float: left;
+}
+.intro .inti{
+	width:200px;
+}
+.intro .inte{
+	font-size: 14px;
+	font-weight: normal;
+	vertical-align: bottom;
+	margin-top: 14px;
+	margin-left: 30px;
+}
+.content01 h3{
+	font-size:20px;
+}

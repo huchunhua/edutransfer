@@ -1,0 +1,505 @@
+/*轮播图*/
+#main {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+#main .box{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 5px #ddd;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+#main .box .banner{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    color: #fff;
+    background-size: cover;
+    cursor: pointer
+}
+#home {
+    background: url(../img/cover/banner5.jpg) no-repeat center center
+}
+#home2 {
+    background: url(../img/cover/banner2.jpg) no-repeat 0 0
+}
+
+#home3 {
+    background: url(../img/cover/banner3.jpg) no-repeat center center;
+}
+
+#home4 {
+    background: url(../img/cover/banner4.jpg) no-repeat 0 0
+}
+
+#home5 {
+    background: url(../img/cover/banner1.jpg) no-repeat center center
+}
+#transfer{
+    width: 100%;
+    position: absolute;
+    top: 530px;
+    background-color: rgba(95,79,102,0.4);
+}
+.page h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+.tit_txt h1{
+    font-family: "Microsoft YaHei";
+}
+a.find_more{
+    font: normal 50px/40px "sans-serif";
+    color: #fff;
+}
+.bor{
+    border-bottom: 1px solid #fff;
+    width: 60%;
+    margin: 100px auto 0;
+}
+.banner_tit{
+    font-size: 25px;
+    line-height: 40px;
+    color: #fff;
+}
+.banner_tit>span{
+    margin-right: 10px;
+    font-family: "Microsoft YaHei";
+}
+/*支付搜索框*/
+form.search_area{
+    width: 770px;
+    margin: 0 auto;
+}
+.select_row{
+    width: 800px;
+}
+.form-control{
+    padding: 8px 12px;
+    height: 40px;
+}
+.input-group .searchSchool{
+    width: 380px;
+    margin-left: 30px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+.input-group .searchSchool:focus{
+   box-shadow: none;
+}
+.pay_btn{
+    height: 40px;
+    border-radius: 0 3px 3px 0;
+}
+.noFind {
+    font: lighter 14px/30px "sans-serif"
+}
+
+.noFind_obj {
+    color: #0084c0;
+    font-style: normal;
+    margin-left: 10px
+}
+
+.noFind_obj:hover {
+    text-decoration: underline;
+    color: #0084c0
+}
+/*我们的服务*/
+#services{
+    background-color: #f5f5f5;
+    border-bottom: solid 1px #e7e7e7;
+}
+#services .content{
+    padding-bottom: 20px;
+}
+#services h2, #advantage h2{
+    color: #2d2d2d;
+    margin-top: 10px;
+}
+.mainserve p{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.page .border{
+    width: 80px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #fd5a60;
+}
+.icon_img_row{
+    margin: 50px auto 30px; 
+}
+.icon_img_row .mainserve{
+    width: 30%;
+    float: left;
+}
+.mainserve.abord{
+    margin-left: 5%;
+}
+.mainserve.more{
+    margin-right: 5%;
+}
+.moreserveitem{
+    display: none;
+}
+#services h3, #advantage h3{
+    color: #2d2d2d;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px; 
+    padding-left: 20px;
+}
+.icon_img{
+    height: 200px;
+    margin: 30px auto;
+}
+.page a{
+    margin: 10px 5px;
+    font: normal 17px/30px "Microsoft YaHei";
+}
+#services p, #advantage p{
+    color: #444;
+    margin-top: 10px;
+}
+.icon_img>a>img{
+    width:70%;
+}
+/*关于我们*/
+.page{
+    padding: 0;
+    color: #fff;
+}
+#clients{
+    color: #fff;
+    background-image:  url('../img/cover/about.png') ;
+    background-repeat: no-repeat;
+}
+#clients .content{
+    padding: 0 10px;
+}
+#clients .heading{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 100px 0;
+}
+.page .heading h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.page .heading p{
+    margin: 20px auto 0;
+}
+/*我们的优势*/
+#advantage .container{
+    border-bottom: 1px solid black;
+}
+#advantage .content, #partner .content{
+    padding: 60px 0 30px;
+}
+.content .icon_row{
+    margin: 30px auto;
+}
+.content .icon_row div{
+    float:left;
+}
+#advantage .icon_img{
+    height: 340px;
+    margin: 0 auto;
+}
+#advantage img{
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+}
+#advantage ul{
+    color: #444;
+    text-align: left;
+    width: 236px;
+    margin: 0 auto;
+}
+#advantage ul li{
+    margin-top:10px;
+}
+.partner {
+    margin: 30px 0
+}
+.partner>a{
+    display: inline-block;
+    zoom: 1;
+    width: 190px;
+    height: 70px;
+}
+.partner>a>img{
+    width: 100%;
+    height: 100%;
+}
+/*联系我们*/
+#contact{
+    background: url(../img/cover/contact.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover
+}
+#contact, #contact a, #contact a:hover, #contact a:focus{
+    color: #fff;
+}
+#contact{
+    height: 500px;
+}
+#contact .heading .border{
+    background-color: #fff;
+}
+i.address, i.phonem, i.mail{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+#contact i{
+    margin: 60px 0 15px;
+}
+i.address{
+    background-image: url("../img/address.png");
+}
+i.phone{
+    background-image: url("../img/phone.png");
+}i.phonem{
+    background-image: url("../img/phonem.png");
+}
+i.mail{
+    background-image: url("../img/mail.png");
+}
+/*页脚*/
+#footer{
+    padding: 56px 0;
+    background-color: #2b2d2e;
+    color: #fff;
+    text-align: center;
+}
+.foot_bor{
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 50px;
+}
+.selector>select{
+    width: 200px;
+    height: 40px;
+    background-color: #484848;
+    border: 0;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.foot_about {
+    text-align: left;
+    margin: 20px auto 30px;
+    line-height: 25px;
+    }
+.foot_about a{
+    display: block;
+}
+.col-sm-2, .col-sm-3{
+    margin-top: 20px;
+}
+#footer a, #footer a:hover, #footer a:focus{
+    color:#fff;
+}
+#footer .social{
+    margin-top: 40px;
+    margin-bottom: 14px;
+}
+#footer .copyright{ 
+    margin-bottom:0;
+}
+
+@media screen and (max-width: 1440px){
+    .select_language {
+        width:35%;
+    }
+}
+@media screen and (max-width: 1340px) {
+    .select_language {
+        width:30%;
+    }
+}
+@media screen and (max-width: 1260px) {
+    .select_language {
+        width:25%;
+    }
+}
+@media (max-width: 1030px){
+    .content .icon_row{
+        width: 500px;
+    }
+}
+@media(min-width: 1030px){
+    .content .icon_row{
+        width: 1000px;
+    }
+}
+@media(max-width: 678px){
+    .input-group .searchSchool{
+        width: 300px;
+    }
+}
+@media(min-width: 774px){
+    .page .containers{
+    width: 774px;
+    margin: 0 auto;
+    }
+}
+@media(max-width: 767px) {
+
+    #testimonials .quote {
+        padding: 0 50px
+    }
+
+    .selector select {
+        width: 100%;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+        padding-left: 10px
+    }
+
+    .foot_about {
+        text-align: center;
+        margin: 20px auto 30px
+    }
+
+    .foot_about>a {
+        display: inline-block;
+        width: 100%;
+        padding-right: 3px
+    }
+
+    .bor {
+        width: 80%;
+        margin-top: 80px
+    }
+
+    #main {
+        height: 450px
+    }
+    #transfer{
+        top:342px;
+    }
+    .page .content.cover {
+        padding: 80px 0
+    }
+
+    .icon_img {
+        margin: 0 auto 40px
+    }
+    .input-group .searchSchool{
+    margin-left: 0;
+   }
+}
+@media(max-width: 570px) {
+    .icon_img {
+        margin:0 auto 60px
+    }
+}
+@media (max-width: 480px){
+    body{
+        min-width: 100%;
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    
+    .navbar .navbar-collapse{
+        height: 420px !important;
+    }
+    #transfer{
+        height: auto;
+        position: static;
+    }
+    .page .containers{
+        width: 100%;
+    }
+    form.search_area{
+        width: 100%;
+    }
+    .select_row{
+        width: 100%;
+    }
+    .select_row>div{
+        width: 315px;
+        margin: 0 auto;
+    }
+    .input-group .form-control.searchSchool{
+        margin-left: 0;
+        border-radius: 4px;
+        width: 295px;
+    }
+    .search_area button{
+        width: 295px;
+    }
+    .form-control{
+        font-size: 20px;
+        padding: 0;
+    }
+    #services .row>div{
+        width: 100%;
+    }
+    #services h3 a,.services h3,#advantage h3{
+        font-size: 24px;
+    }
+    .services p{
+        font-size: 20px;
+    }
+    .icon_img{
+        height: auto;
+    }
+    .icon_img_row{
+        margin: 0 auto;
+    }
+    .icon_img_row .mainserve{
+        margin: 10px auto;
+    }
+    #clients .content{
+        padding:0;
+    }
+    #clients .heading{
+        margin: 10px 0;
+    }
+    #clients p{
+        font-size: 16px;
+    }
+    .content .icon_row{
+        width: 100%;
+    }
+    .icon_row .service{
+        margin: 0 auto;
+    }
+    #advantage .icon_img{
+        float: none;
+        height: auto;
+        margin: 10px auto;
+    }
+    #contact{
+        display: none;
+    }
+    .foot_about,footer .foot_ewm{
+        text-align: left;
+    }
+    .selector>select{
+        height: auto;
+    }
+    .partner>a{
+        width: 40%;
+        height: 46px;
+    }
+}
